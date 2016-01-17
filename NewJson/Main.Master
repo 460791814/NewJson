@@ -1,0 +1,79 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="NewJson.Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <script type='text/javascript' src='/Js/jquery.min.js'></script>
+     <script type='text/javascript' src='/js/crayon.min.js'></script>
+    <script type="text/javascript">        (function () { mod_txt = '#'; adminBar = "" || 0 })();</script>
+    <script type="text/javascript" src="/js/frontopen.js"></script>
+    <link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/mobile.css" />
+    <!--[if lt IE 9]><script src="/js/html5.js"></script><![endif]-->
+    <!--[if IE 7]>
+<link rel="stylesheet" href="/css/font-awesome-ie7.min.css">
+<![endif]-->
+    <link href="/Css/bootstrap.min.css" rel="stylesheet">
+    <script src="/Js/bootstrap.min.js"></script>
+    <script type='text/javascript'>
+/* <![CDATA[ */
+var CrayonSyntaxSettings = {"version":"2.7.1","is_admin":"0","ajaxurl":"","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxStrings = {"copy":"\u4f7f\u7528 %s \u590d\u5236\uff0c\u4f7f\u7528 %s \u7c98\u8d34\u3002","minimize":"\u70b9\u51fb\u5c55\u5f00\u4ee3\u7801"};
+/* ]]> */
+</script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="archive category category-unity category-195">
+   <div class="loading">
+    </div>
+        <div class="web_bod">
+        <!-- #include file="/Template/header.htm" -->
+        <section class="conter marauto">
+        <script type="text/javascript">            loading('33%', 1000)</script>
+<div class="mbx">
+ <i class="icon-home icon-large" style="font-size:14px;"></i>
+ </div>
+    <!-- #json_input -->
+  <div style="float:left; width:74%" >
+    <div  role="main">
+        </div>
+     
+        <div class="aw-container-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="aw-json_input-wrap clearfix">
+                    <div class=" aw-main-json_input" style="min-height: 700px; max-height: 2000px">
+                        <div style="clear: both"></div>
+  
+                            <asp:ContentPlaceHolder ID="Content" runat="server">
+        
+                            </asp:ContentPlaceHolder>
+           
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- #container -->
+<script type="text/javascript">    loading('55%', 1000)</script>
+    <aside id="primary" class="side" role="complementary">
+      <asp:ContentPlaceHolder ID="Right" runat="server">
+        
+       </asp:ContentPlaceHolder>
+           
+       <%--右侧栏--%>
+    </aside><!-- #primary .widget-area -->
+
+<script type="text/javascript">    loading('78%', 1000)</script>
+<div class="cls"></div>
+</section>
+        <!-- #main -->
+        <div class="cls">
+        </div>
+            <!-- #include file="/Template/footer.htm" -->
+        <script type="text/javascript">            loading('100%', 1000)</script>
+</body>
+</html>
