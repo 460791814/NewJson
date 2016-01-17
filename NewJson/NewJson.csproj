@@ -83,6 +83,7 @@
     <Content Include="Css\style.css" />
     <Content Include="EncDec\Base64.aspx" />
     <Content Include="EncDec\Escape.aspx" />
+    <Content Include="EncDec\JsConfusion.aspx" />
     <Content Include="EncDec\JsEval.aspx" />
     <Content Include="EncDec\MD5.aspx" />
     <Content Include="EncDec\SHA.aspx" />
@@ -250,6 +251,13 @@
     </Compile>
     <Compile Include="EncDec\Escape.aspx.designer.cs">
       <DependentUpon>Escape.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EncDec\JsConfusion.aspx.cs">
+      <DependentUpon>JsConfusion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EncDec\JsConfusion.aspx.designer.cs">
+      <DependentUpon>JsConfusion.aspx</DependentUpon>
     </Compile>
     <Compile Include="EncDec\JsEval.aspx.cs">
       <DependentUpon>JsEval.aspx</DependentUpon>

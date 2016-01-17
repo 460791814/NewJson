@@ -1,8 +1,8 @@
-﻿<%@ Page  Title="Base64加密解密" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="Base64.aspx.cs" Inherits="NewJson.EncDec.Base64" %>
+﻿<%@ Page  Title="Base64加密解密-base64在线解码" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="Base64.aspx.cs" Inherits="NewJson.EncDec.Base64" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
-<meta name="keywords" content="Base64加密,Base64解密,Base64加密解密">
-<meta name="description" content="Base64在线加密解密">
+<meta name="keywords" content="Base64加密,Base64解密,Base64加密解密,base64在线解码">
+<meta name="description" content="Base64在线加密解密,base64在线解码">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
 
