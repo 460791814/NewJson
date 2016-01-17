@@ -130,6 +130,7 @@
     <Content Include="Json\JsonCheck.aspx" />
     <Content Include="Json\JsonEditor.aspx" />
     <Content Include="Json\JsonHandle.aspx" />
+    <Content Include="Json\JsonModel.aspx" />
     <Content Include="Json\Xml2Json.aspx" />
     <Content Include="Js\convert\unix_time.js" />
     <Content Include="Js\encdec\base64.js" />
@@ -350,6 +351,13 @@
     <Compile Include="Json\JsonHandle.aspx.designer.cs">
       <DependentUpon>JsonHandle.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Json\JsonModel.aspx.cs">
+      <DependentUpon>JsonModel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Json\JsonModel.aspx.designer.cs">
+      <DependentUpon>JsonModel.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Json\Xml2Json.aspx.cs">
       <DependentUpon>Xml2Json.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -382,6 +390,10 @@
     <ProjectReference Include="..\CommonTool\CommonTool.csproj">
       <Project>{882618C5-C2F1-4BEE-9EB3-A04B2A8D434D}</Project>
       <Name>CommonTool</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JsonCSharpClassGeneratorLib\JsonClassGeneratorLib.csproj">
+      <Project>{7BEF7EAA-DE37-40FB-BD33-3DEF0685031F}</Project>
+      <Name>JsonClassGeneratorLib</Name>
     </ProjectReference>
     <ProjectReference Include="..\URLRewriter\URLRewriter.csproj">
       <Project>{93BC01A3-A42C-44D9-83CB-6A249A284A96}</Project>

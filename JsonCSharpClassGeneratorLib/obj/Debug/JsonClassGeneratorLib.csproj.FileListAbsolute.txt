@@ -1,0 +1,16 @@
+C:\Users\carl110\Desktop\jsonclassgenerator-4a0b570f6c44\jsonclassgenerator_4a0b570f6c44\JsonCSharpClassGeneratorLib\bin\Debug\Xamasoft.JsonClassGenerator.dll
+C:\Users\carl110\Desktop\jsonclassgenerator-4a0b570f6c44\jsonclassgenerator_4a0b570f6c44\JsonCSharpClassGeneratorLib\bin\Debug\Xamasoft.JsonClassGenerator.pdb
+C:\Users\carl110\Desktop\jsonclassgenerator-4a0b570f6c44\jsonclassgenerator_4a0b570f6c44\JsonCSharpClassGeneratorLib\bin\Debug\Newtonsoft.Json.dll
+C:\Users\carl110\Desktop\jsonclassgenerator-4a0b570f6c44\jsonclassgenerator_4a0b570f6c44\JsonCSharpClassGeneratorLib\bin\Debug\System.Data.Entity.Design.PluralizationServices.dll
+C:\Users\carl110\Desktop\jsonclassgenerator-4a0b570f6c44\jsonclassgenerator_4a0b570f6c44\JsonCSharpClassGeneratorLib\obj\Debug\JsonClassGeneratorLib.csprojResolveAssemblyReference.cache
+C:\Users\carl110\Desktop\jsonclassgenerator-4a0b570f6c44\jsonclassgenerator_4a0b570f6c44\JsonCSharpClassGeneratorLib\obj\Debug\Xamasoft.JsonClassGenerator.Properties.Resources.resources
+C:\Users\carl110\Desktop\jsonclassgenerator-4a0b570f6c44\jsonclassgenerator_4a0b570f6c44\JsonCSharpClassGeneratorLib\obj\Debug\JsonClassGeneratorLib.csproj.GenerateResource.Cache
+C:\Users\carl110\Desktop\jsonclassgenerator-4a0b570f6c44\jsonclassgenerator_4a0b570f6c44\JsonCSharpClassGeneratorLib\obj\Debug\Xamasoft.JsonClassGenerator.dll
+C:\Users\carl110\Desktop\jsonclassgenerator-4a0b570f6c44\jsonclassgenerator_4a0b570f6c44\JsonCSharpClassGeneratorLib\obj\Debug\Xamasoft.JsonClassGenerator.pdb
+D:\Code\Web\NewJson\JsonCSharpClassGeneratorLib\bin\Debug\Xamasoft.JsonClassGenerator.dll
+D:\Code\Web\NewJson\JsonCSharpClassGeneratorLib\bin\Debug\Xamasoft.JsonClassGenerator.pdb
+D:\Code\Web\NewJson\JsonCSharpClassGeneratorLib\bin\Debug\Newtonsoft.Json.dll
+D:\Code\Web\NewJson\JsonCSharpClassGeneratorLib\obj\Debug\Xamasoft.JsonClassGenerator.Properties.Resources.resources
+D:\Code\Web\NewJson\JsonCSharpClassGeneratorLib\obj\Debug\JsonClassGeneratorLib.csproj.GenerateResource.Cache
+D:\Code\Web\NewJson\JsonCSharpClassGeneratorLib\obj\Debug\Xamasoft.JsonClassGenerator.dll
+D:\Code\Web\NewJson\JsonCSharpClassGeneratorLib\obj\Debug\Xamasoft.JsonClassGenerator.pdb

@@ -45,7 +45,7 @@ namespace NewJson
 //                            </root>";
           XmlDocument doc = new XmlDocument();
            doc.LoadXml(xml);
-            string json4444 = Newtonsoft.Json.JsonConvert.SerializeXmlNode(doc);
+           // string json4444 = Newtonsoft.Json.JsonConvert.SerializeXmlNode(doc);
            //  XmlDocument doc = JsonConvert.DeserializeXmlNode(json_str, "root");
          //    XmlDocument doc1 = JsonConvert.DeserializeXmlNode(json_str);
 
