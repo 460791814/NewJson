@@ -186,6 +186,21 @@ namespace Xamasoft.JsonClassGenerator.CodeWriters
             {
                 if (config.UsePascalCase || config.ExamplesInDocumentation) sw.WriteLine();
 
+                if (config.UsePascalCase)
+                {
+
+                    // sw.WriteLine(prefix + "[JsonProperty(\"{0}\")]", field.JsonMemberName);
+                }
+
+
+                sw.WriteLine(prefix + "private {0} {1};", field.Type.GetTypeName(), field.MemberName.Substring(0, 1).ToLower() + field.MemberName.Substring(1));
+
+            }
+
+            foreach (var field in type.Fields)
+            {
+                if (config.UsePascalCase || config.ExamplesInDocumentation) sw.WriteLine();
+
                 if (config.ExamplesInDocumentation)
                 {
                     sw.WriteLine(prefix + "/// <summary>");
@@ -201,7 +216,14 @@ namespace Xamasoft.JsonClassGenerator.CodeWriters
 
                 if (config.UseProperties)
                 {
-                    sw.WriteLine(prefix + "public {0} {1} {{ get; set; }}", field.Type.GetTypeName(), field.MemberName);
+                   // sw.WriteLine(prefix + "public {0} {1} {{ get; set; }}", field.Type.GetTypeName(), field.MemberName);
+
+                    sw.WriteLine(prefix + "public {0} {1} ", field.Type.GetTypeName(), field.MemberName);
+                    sw.WriteLine(prefix + "{");
+                    string privateName=field.MemberName.Substring(0, 1).ToLower() + field.MemberName.Substring(1);
+                    sw.WriteLine(prefix + "    get { return this."+privateName+"; }");
+                    sw.WriteLine(prefix + "    set { this." + privateName + " = value; }");
+                    sw.WriteLine(prefix + "}");
                 }
                 else
                 {

@@ -39,3 +39,7 @@ D:\Code\Web\NewJson\URLRewriter\bin\Debug\URLRewriter.dll
 D:\Code\Web\NewJson\URLRewriter\bin\Debug\URLRewriter.pdb
 D:\Code\Web\NewJson\URLRewriter\obj\Debug\URLRewriter.dll
 D:\Code\Web\NewJson\URLRewriter\obj\Debug\URLRewriter.pdb
+F:\Code\Web\NewJson\URLRewriter\bin\Debug\URLRewriter.dll
+F:\Code\Web\NewJson\URLRewriter\bin\Debug\URLRewriter.pdb
+F:\Code\Web\NewJson\URLRewriter\obj\Debug\URLRewriter.dll
+F:\Code\Web\NewJson\URLRewriter\obj\Debug\URLRewriter.pdb
