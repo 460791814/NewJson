@@ -21,8 +21,8 @@
                 clip.setHandCursor(true);
                 clip.setText($("#result_input").val());
                 clip.glue("copy-button");
-                clip.addEventListener("complete", function () {
-                    alert("生成的代码已经复制到粘贴板，你可以使用Ctrl+V 贴到需要的地方去了哦！");
+                clip.addEventListener("mouseOver", function () {
+                    clip.setText($("#result_input").val());
                 });
             })
             function copy() {

@@ -98,26 +98,28 @@
                             生成实体</button>
                               <button type="button" class="btn btn-primary" onclick="demo()">
                             来个demo</button>
-                        <button type="button" class="btn btn-primary" id="btn_copy" onclick="copy()">复制结果</button>
+                        <button type="button" class="btn btn-primary" id="btn_copy"  onclick="copy()">复制结果</button>
                          <script type="text/javascript" src="/Js/zeroclipboard.js?v=1288490188066.7"></script>
                                 <script>
                                     var clip = null;
                                     ZeroClipboard.setMoviePath("/Js/ZeroClipboard.swf");
-                                    $(document).ready(function () {
+                                    $(function () {
                                         clip = new ZeroClipboard.Client();
                                         clip.setHandCursor(true);
-                                        clip.setText($("#result_input").text());
+                                        clip.setText($("#result_input").val());
                                         clip.glue("btn_copy");
-                                        clip.addEventListener("complete", function () {
-                                            alert("生成的代码已经复制到粘贴板，你可以使用Ctrl+V 贴到需要的地方去了哦！");
+                                        clip.addEventListener("mouseOver", function () {
+                                            clip.setText($("#result_input").val());
                                         });
+                                    })
+                                    $(window).resize(function () {
+                                        clip.reposition();
                                     });
-
                           
 
 	                    </script>
                         <button type="button" class="btn btn-danger" onclick="empty()">
-                            清空结果</button>
+                            全部清空</button>
                     </div>
                     <div>
                     </div>
@@ -153,7 +155,11 @@
             $("#hid_mm").val(i);
             $("#btn_mm").text($(t).text());
         }
-
+        function empty() {
+            document.getElementById('text_input').value = '';
+            document.getElementById('result_input').value = '';
+            document.getElementById('text_input').select();
+        }
         function cteate() {
             var param = "method=model";
             param += "&namespacestr=" + $("#namespace_input").val();
@@ -165,7 +171,7 @@
             param += "&jsonstr=" + $("#text_input").val();
             $.ajax({
                 type: 'POST',
-                url: "JsonModel.aspx",
+                url: "/Json/JsonModel.aspx",
                 data: param,
                 success: function (data) {
                   
@@ -179,7 +185,7 @@
 
         }
         function demo() {
-            $("#text_input").html('{\r\n\t"animals":{\r\n\t"dog":[\r\n\t\t{"name":"Rufus","breed":"labrador","count":1,"twoFeet":false},\r\n\t\t{"name":"Marty","breed":"whippet","count":1,"twoFeet":false}\r\n\t],\r\n\t"cat":{"name":"Matilda"}\r\n}\r\n}');
+            $("#text_input").val('{\r\n\t"animals":{\r\n\t"dog":[\r\n\t\t{"name":"Rufus","breed":"labrador","count":1,"twoFeet":false},\r\n\t\t{"name":"Marty","breed":"whippet","count":1,"twoFeet":false}\r\n\t],\r\n\t"cat":{"name":"Matilda"}\r\n}\r\n}');
         }
 
     

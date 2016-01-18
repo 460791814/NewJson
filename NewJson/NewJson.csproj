@@ -56,7 +56,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\rmb.htm" />
+    <Content Include="Convert\FileSize.aspx" />
+    <Content Include="Convert\Hex2Str.aspx" />
     <Content Include="Convert\HexConvert.aspx" />
+    <Content Include="Convert\Image2Base64.aspx" />
     <Content Include="Convert\NativeAscii.aspx" />
     <Content Include="Convert\NumToRMB.aspx" />
     <Content Include="Convert\RgbHex.aspx" />
@@ -149,6 +152,42 @@
     <Content Include="Js\format\htmlformat.js" />
     <Content Include="Js\jkl-dumper.js" />
     <Content Include="Js\format\jsformat.js" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\angularjs.html" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\basic-plus.html" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\basic.html" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\cors\postmessage.html" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\cors\result.html" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\css\demo-ie8.css" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\css\demo.css" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\css\jquery.fileupload-ui-noscript.css" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\css\jquery.fileupload-ui.css" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\css\style.css" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\img\loading.gif" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\img\progressbar.gif" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\index.html" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\jquery-ui.html" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\js\app.js" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\js\cors\jquery.postmessage-transport.js" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\js\cors\jquery.xdr-transport.js" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\js\jquery.fileupload-angular.js" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\js\jquery.fileupload-audio.js" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\js\jquery.fileupload-image.js" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\js\jquery.fileupload-jquery-ui.js" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\js\jquery.fileupload-process.js" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\js\jquery.fileupload-ui.js" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\js\jquery.fileupload-validate.js" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\js\jquery.fileupload-video.js" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\js\jquery.fileupload.js" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\js\jquery.iframe-transport.js" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\js\main.js" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\js\vendor\jquery.ui.widget.js" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\server\gae-go\static\favicon.ico" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\server\gae-go\static\robots.txt" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\server\gae-python\static\favicon.ico" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\server\gae-python\static\robots.txt" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\server\node\server.js" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\test\index.html" />
+    <Content Include="Js\jQuery-File-Upload-8.8.5\test\test.js" />
     <Content Include="Js\jsoncolor.js" />
     <Content Include="Js\jsl.interactions.js" />
     <Content Include="Js\jsoncheck.js" />
@@ -169,6 +208,15 @@
     <Content Include="Js\lightbox-2.6.min.js" />
     <Content Include="Js\linetextself.js" />
     <Content Include="Js\objtree.js" />
+    <Content Include="Js\uploadify\Change Log.txt" />
+    <Content Include="Js\uploadify\jquery.uploadify.js" />
+    <Content Include="Js\uploadify\jquery.uploadify.min.js" />
+    <Content Include="Js\uploadify\license.txt" />
+    <Content Include="Js\uploadify\uploadify-cancel.png" />
+    <Content Include="Js\uploadify\uploadify.css" />
+    <Content Include="Js\uploadify\uploadify.swf" />
+    <Content Include="Js\uploadify\__MACOSX\._Change Log.txt" />
+    <Content Include="Js\uploadify\__MACOSX\._uploadify.swf" />
     <Content Include="Js\zeroclipboard.js" />
     <Content Include="Js\ZeroClipboard.swf" />
     <Content Include="Lib\Newtonsoft.Json.dll" />
@@ -184,12 +232,33 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Convert\FileSize.aspx.cs">
+      <DependentUpon>FileSize.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Convert\FileSize.aspx.designer.cs">
+      <DependentUpon>FileSize.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Convert\Hex2Str.aspx.cs">
+      <DependentUpon>Hex2Str.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Convert\Hex2Str.aspx.designer.cs">
+      <DependentUpon>Hex2Str.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Convert\HexConvert.aspx.cs">
       <DependentUpon>HexConvert.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Convert\HexConvert.aspx.designer.cs">
       <DependentUpon>HexConvert.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Convert\Image2Base64.aspx.cs">
+      <DependentUpon>Image2Base64.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Convert\Image2Base64.aspx.designer.cs">
+      <DependentUpon>Image2Base64.aspx</DependentUpon>
     </Compile>
     <Compile Include="Convert\NativeAscii.aspx.cs">
       <DependentUpon>NativeAscii.aspx</DependentUpon>
@@ -377,8 +446,30 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <None Include="Js\jQuery-File-Upload-8.8.5\.gitignore" />
+    <None Include="Js\jQuery-File-Upload-8.8.5\blueimp-file-upload.jquery.json" />
+    <None Include="Js\jQuery-File-Upload-8.8.5\bower.json" />
+    <None Include="Js\jQuery-File-Upload-8.8.5\CONTRIBUTING.md" />
+    <None Include="Js\jQuery-File-Upload-8.8.5\package.json" />
+    <None Include="Js\jQuery-File-Upload-8.8.5\README.md" />
+    <None Include="Js\jQuery-File-Upload-8.8.5\server\gae-go\app.yaml" />
+    <None Include="Js\jQuery-File-Upload-8.8.5\server\gae-go\app\main.go" />
+    <None Include="Js\jQuery-File-Upload-8.8.5\server\gae-python\app.yaml" />
+    <None Include="Js\jQuery-File-Upload-8.8.5\server\gae-python\main.py" />
+    <None Include="Js\jQuery-File-Upload-8.8.5\server\node\.gitignore" />
+    <None Include="Js\jQuery-File-Upload-8.8.5\server\node\package.json" />
+    <None Include="Js\jQuery-File-Upload-8.8.5\server\node\public\files\.gitignore" />
+    <None Include="Js\jQuery-File-Upload-8.8.5\server\node\public\files\thumbnail\.gitignore" />
+    <None Include="Js\jQuery-File-Upload-8.8.5\server\node\tmp\.gitignore" />
+    <None Include="Js\jQuery-File-Upload-8.8.5\server\php\files\.gitignore" />
+    <None Include="Js\jQuery-File-Upload-8.8.5\server\php\files\.htaccess" />
+    <None Include="Js\jQuery-File-Upload-8.8.5\server\php\index.php" />
+    <None Include="Js\jQuery-File-Upload-8.8.5\server\php\UploadHandler.php" />
     <None Include="Js\jsoneditor\stat.php" />
     <Content Include="Main.Master" />
+    <None Include="Js\uploadify\check-exists.php" />
+    <None Include="Js\uploadify\index.php" />
+    <None Include="Js\uploadify\uploadify.php" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CommonTool\CommonTool.csproj">
