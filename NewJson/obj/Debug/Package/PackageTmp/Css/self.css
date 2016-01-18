@@ -1,0 +1,152 @@
+﻿
+.list-group-item a{padding-right:20px}
+#links a{font-size:13px}
+#desc1{font-size: 13px;}
+.newFeatureTip{
+		width: 13px;
+		height: 13px;
+		background-repeat: no-repeat;
+	position: absolute;
+		top: 5px;color: red;
+		right: 10px;}
+				  
+	.newItem{
+			float: left;
+			color: red;
+			position: absolute;
+			margin-top: 2px;
+			margin-left: 8px;
+	}
+	.announce{
+		color:red;
+	}
+	.nav > {z-index: 99999999;}
+	.nav > li:hover .dropdown-menu {display: block;z-index: 99999999;}
+				
+#nav22{
+	    position: fixed;
+    right: 4px;
+    top: 200px;
+}
+
+#nav22 span{
+	margin-left:0px;
+	cursor: pointer;
+}
+
+#nav22 a{
+	   color: #333;
+}
+#nav_div ul>li{
+	list-style: none;
+	float:left;
+	margin-left: 10px;
+}
+
+#nav_div ul>li>span{
+	font-family: "微软雅黑";
+	color:blue;
+	width:72px;
+}
+
+#nav_div ul>li>a{
+	color: #666;
+}
+
+#nav_div ul>li>a:hover{
+	color: red;
+}
+
+.linedwrap
+{
+    width: 100%;
+}
+.linedwrap .codelines .lineno
+{
+    font-size: 11pt;
+}
+#json_input
+{
+    padding: 0px;
+    width: 100%;
+    border-radius: 4px;
+}
+JSONValidate
+{
+    border-radius: 4px;
+}
+.error
+{
+    background: #FBE3E4;
+    color: #D12F19;
+    border-color: #FBC2C4;
+}
+.success
+{
+    background: green;
+    color: white;
+    border-color: #FBC2C4;
+}
+.error, .notice, .success
+{
+    margin-bottom: 1em;
+    border: 2px solid #ddd;
+    padding: .8em;
+}
+.hide
+{
+    display: none;
+}
+.ab
+{
+    width: 284px;
+    height: 34px;
+    font-family: 华文细黑;
+    color: white;
+    font-size: 17px;
+    line-height: 40px;
+    margin-left: 30%;
+    text-align: center;
+}
+a
+{
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: none;
+}
+#attention
+{
+    margin-top: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-box-shadow: none;
+    font-size: 12px;
+    box-shadow: none;
+}
+#attention li
+{
+    font-size: 12px;
+}
+.panel-footer a
+{
+    color: gray;
+    font-size: 13px;
+    text-decoration: none;
+}
+                 
+.a2016
+{
+    color: white;
+    font-family: "Microsoft YaHei" ,微软雅黑, "MicrosoftJhengHei" ,华文细黑,STHeiti,MingLiu;
+    text-align: center;
+    background: red;
+    border-radius: 2px;
+}
+.top10
+{
+        margin-top:10px;
+    }
+ 

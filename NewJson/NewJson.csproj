@@ -63,7 +63,6 @@
     <Content Include="Convert\ToUpperToLower.aspx" />
     <Content Include="Convert\UnicodeToChinese.aspx" />
     <Content Include="Convert\Unix.aspx" />
-    <Content Include="Convert\WebForm1.aspx" />
     <Content Include="Css\app.css" />
     <Content Include="Css\bootstrap.min.css" />
     <Content Include="Css\classic.css" />
@@ -92,7 +91,6 @@
     <Content Include="Format\JsHtmlFormat.aspx" />
     <Content Include="Format\SqlFormat.aspx" />
     <Content Include="Format\XmlFormat.aspx" />
-    <Content Include="HTMLPage1.htm" />
     <Content Include="Images\1416063.gif" />
     <Content Include="Images\buttons.png" />
     <Content Include="Images\checklist.png" />
@@ -133,6 +131,7 @@
     <Content Include="Json\JsonModel.aspx" />
     <Content Include="Json\Xml2Json.aspx" />
     <Content Include="Js\convert\unix_time.js" />
+    <Content Include="Js\copy.js" />
     <Content Include="Js\encdec\base64.js" />
     <Content Include="Js\encdec\md5.js" />
     <Content Include="Js\encdec\sha1.js" />
@@ -170,6 +169,8 @@
     <Content Include="Js\lightbox-2.6.min.js" />
     <Content Include="Js\linetextself.js" />
     <Content Include="Js\objtree.js" />
+    <Content Include="Js\zeroclipboard.js" />
+    <Content Include="Js\ZeroClipboard.swf" />
     <Content Include="Lib\Newtonsoft.Json.dll" />
     <Content Include="Template\footer.htm" />
     <Content Include="Template\header.htm" />
@@ -231,13 +232,6 @@
     </Compile>
     <Compile Include="Convert\Unix.aspx.designer.cs">
       <DependentUpon>Unix.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Convert\WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Convert\WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
     <Compile Include="EncDec\Base64.aspx.cs">
       <DependentUpon>Base64.aspx</DependentUpon>
