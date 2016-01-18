@@ -1,4 +1,4 @@
-﻿<%@ Page Title="在线Json生成实体类,Java,C#,VB.net,TypeScript" Language="C#" MasterPageFile="~/Main.Master"
+﻿<%@ Page Title="在线Json生成实体类,支持Java,C#,VB.net,TypeScript" Language="C#" MasterPageFile="~/Main.Master"
     AutoEventWireup="true" CodeBehind="JsonModel.aspx.cs" Inherits="NewJson.Json.JsonModel" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
@@ -21,7 +21,7 @@
             <div class="media">
                 <div class="media-body">
                     <h4 class="media-heading">
-                        Json生成Model实体</h4>
+                        Json生成Model实体,支持Java,C#,VB.net,TypeScript</h4>
                 </div>
             </div>
         </div>
