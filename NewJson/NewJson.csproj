@@ -55,7 +55,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\rmb.htm" />
     <Content Include="Conversion\ConvertTools.aspx" />
     <Content Include="Conversion\FileSize.aspx" />
     <Content Include="Conversion\Hex2Str.aspx" />
@@ -75,6 +74,7 @@
     <Content Include="Css\font-awesome-ie7.min.css" />
     <Content Include="Css\font-awesome.min.css" />
     <Content Include="Css\ie.css" />
+    <Content Include="Css\toolstyle.css" />
     <Content Include="Css\ui\placeholder.almost-flat.min.css" />
     <Content Include="Css\ui\progress.almost-flat.min.css" />
     <Content Include="Css\ui\uikit.almost-flat.min.css" />
@@ -88,6 +88,9 @@
     <Content Include="Css\self.css" />
     <Content Include="Css\style.css" />
     <Content Include="Css\tools_safecolor.css" />
+    <Content Include="Css\validate\all-base.css" />
+    <Content Include="Css\validate\publicstyle.css" />
+    <Content Include="Css\validate\toolstyle.css" />
     <Content Include="EncDec\Base64.aspx" />
     <Content Include="EncDec\Escape.aspx" />
     <Content Include="EncDec\JsConfusion.aspx" />
@@ -282,6 +285,7 @@
     <Content Include="UI\ImageResize.aspx" />
     <Content Include="UI\PhoneSize.aspx" />
     <Content Include="UI\SafeColor.aspx" />
+    <Content Include="Validate\Regex.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -539,6 +543,13 @@
     </Compile>
     <Compile Include="UI\SafeColor.aspx.designer.cs">
       <DependentUpon>SafeColor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Validate\Regex.aspx.cs">
+      <DependentUpon>Regex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Validate\Regex.aspx.designer.cs">
+      <DependentUpon>Regex.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebTools\ClientInfo.aspx.cs">
       <DependentUpon>ClientInfo.aspx</DependentUpon>
