@@ -56,16 +56,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\rmb.htm" />
-    <Content Include="Convert\FileSize.aspx" />
-    <Content Include="Convert\Hex2Str.aspx" />
-    <Content Include="Convert\HexConvert.aspx" />
-    <Content Include="Convert\Image2Base64.aspx" />
-    <Content Include="Convert\NativeAscii.aspx" />
-    <Content Include="Convert\NumToRMB.aspx" />
-    <Content Include="Convert\RgbHex.aspx" />
-    <Content Include="Convert\ToUpperToLower.aspx" />
-    <Content Include="Convert\UnicodeToChinese.aspx" />
-    <Content Include="Convert\Unix.aspx" />
+    <Content Include="Conversion\ConvertTools.aspx" />
+    <Content Include="Conversion\FileSize.aspx" />
+    <Content Include="Conversion\Hex2Str.aspx" />
+    <Content Include="Conversion\HexConvert.aspx" />
+    <Content Include="Conversion\Image2Base64.aspx" />
+    <Content Include="Conversion\NativeAscii.aspx" />
+    <Content Include="Conversion\NumToRMB.aspx" />
+    <Content Include="Conversion\RgbHex.aspx" />
+    <Content Include="Conversion\ToUpperToLower.aspx" />
+    <Content Include="Conversion\UnicodeToChinese.aspx" />
+    <Content Include="Conversion\Unix.aspx" />
     <Content Include="Css\app.css" />
     <Content Include="Css\bootstrap.min.css" />
     <Content Include="Css\classic.css" />
@@ -74,6 +75,9 @@
     <Content Include="Css\font-awesome-ie7.min.css" />
     <Content Include="Css\font-awesome.min.css" />
     <Content Include="Css\ie.css" />
+    <Content Include="Css\ui\placeholder.almost-flat.min.css" />
+    <Content Include="Css\ui\progress.almost-flat.min.css" />
+    <Content Include="Css\ui\uikit.almost-flat.min.css" />
     <Content Include="Css\jquery-linedtextarea.css" />
     <Content Include="Css\jquery.reject.css" />
     <Content Include="Css\jsoneditor.css" />
@@ -83,6 +87,7 @@
     <Content Include="Css\screen.css" />
     <Content Include="Css\self.css" />
     <Content Include="Css\style.css" />
+    <Content Include="Css\tools_safecolor.css" />
     <Content Include="EncDec\Base64.aspx" />
     <Content Include="EncDec\Escape.aspx" />
     <Content Include="EncDec\JsConfusion.aspx" />
@@ -133,6 +138,7 @@
     <Content Include="Json\JsonHandle.aspx" />
     <Content Include="Json\JsonModel.aspx" />
     <Content Include="Json\Xml2Json.aspx" />
+    <Content Include="Js\chosen.jquery.min.js" />
     <Content Include="Js\convert\unix_time.js" />
     <Content Include="Js\copy.js" />
     <Content Include="Js\encdec\base64.js" />
@@ -208,6 +214,12 @@
     <Content Include="Js\lightbox-2.6.min.js" />
     <Content Include="Js\linetextself.js" />
     <Content Include="Js\objtree.js" />
+    <Content Include="Js\scripts.js" />
+    <Content Include="Js\ui\blob.js" />
+    <Content Include="Js\ui\canvas-toblob.js" />
+    <Content Include="Js\ui\filesaver.js" />
+    <Content Include="Js\ui\libcanvas.js" />
+    <Content Include="Js\ui\qiniu.min.js" />
     <Content Include="Js\uploadify\Change Log.txt" />
     <Content Include="Js\uploadify\jquery.uploadify.js" />
     <Content Include="Js\uploadify\jquery.uploadify.min.js" />
@@ -220,9 +232,56 @@
     <Content Include="Js\zeroclipboard.js" />
     <Content Include="Js\ZeroClipboard.swf" />
     <Content Include="Lib\Newtonsoft.Json.dll" />
+    <Content Include="Picture\1443430414000418.jpg" />
+    <Content Include="Picture\360.png" />
+    <Content Include="Picture\android_h1.png" />
+    <Content Include="Picture\android_h2.png" />
+    <Content Include="Picture\android_h6.png" />
+    <Content Include="Picture\android_l1.png" />
+    <Content Include="Picture\android_l36h.png" />
+    <Content Include="Picture\android_m1.png" />
+    <Content Include="Picture\android_m2s.png" />
+    <Content Include="Picture\android_m3.png" />
+    <Content Include="Picture\android_m3s.png" />
+    <Content Include="Picture\android_m4.png" />
+    <Content Include="Picture\android_m4n.png" />
+    <Content Include="Picture\android_mx2.png" />
+    <Content Include="Picture\android_mx3.png" />
+    <Content Include="Picture\android_mx4.png" />
+    <Content Include="Picture\android_mx4p.png" />
+    <Content Include="Picture\android_o1.png" />
+    <Content Include="Picture\android_o2.png" />
+    <Content Include="Picture\android_o3.png" />
+    <Content Include="Picture\android_s2.png" />
+    <Content Include="Picture\android_s3.png" />
+    <Content Include="Picture\android_s4.png" />
+    <Content Include="Picture\android_s5.png" />
+    <Content Include="Picture\android_s6.png" />
+    <Content Include="Picture\android_t1.png" />
+    <Content Include="Picture\android_t2.png" />
+    <Content Include="Picture\android_v1.png" />
+    <Content Include="Picture\aoyou.png" />
+    <Content Include="Picture\google.png" />
+    <Content Include="Picture\huofu.png" />
+    <Content Include="Picture\ie9.png" />
+    <Content Include="Picture\ipa-ico.png" />
+    <Content Include="Picture\ipa.png" />
+    <Content Include="Picture\ipad_s.png" />
+    <Content Include="Picture\iph-ico.png" />
+    <Content Include="Picture\iph.png" />
+    <Content Include="Picture\iphone_3.png" />
+    <Content Include="Picture\iphone_4.png" />
+    <Content Include="Picture\iphone_5.png" />
+    <Content Include="Picture\iphone_6.png" />
+    <Content Include="Picture\iphone_6p.png" />
+    <Content Include="Picture\sougou.png" />
     <Content Include="Template\footer.htm" />
     <Content Include="Template\header.htm" />
     <Content Include="Test.aspx" />
+    <Content Include="UI\BorderRadius.aspx" />
+    <Content Include="UI\ImageResize.aspx" />
+    <Content Include="UI\PhoneSize.aspx" />
+    <Content Include="UI\SafeColor.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -230,76 +289,86 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
+    <Content Include="WebTools\ClientInfo.aspx" />
+    <Content Include="WebTools\GetIP.aspx" />
+    <Content Include="WebTools\UserAgent.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Convert\FileSize.aspx.cs">
+    <Compile Include="Conversion\ConvertTools.aspx.cs">
+      <DependentUpon>ConvertTools.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Conversion\ConvertTools.aspx.designer.cs">
+      <DependentUpon>ConvertTools.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Conversion\FileSize.aspx.cs">
       <DependentUpon>FileSize.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Convert\FileSize.aspx.designer.cs">
+    <Compile Include="Conversion\FileSize.aspx.designer.cs">
       <DependentUpon>FileSize.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Convert\Hex2Str.aspx.cs">
+    <Compile Include="Conversion\Hex2Str.aspx.cs">
       <DependentUpon>Hex2Str.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Convert\Hex2Str.aspx.designer.cs">
+    <Compile Include="Conversion\Hex2Str.aspx.designer.cs">
       <DependentUpon>Hex2Str.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Convert\HexConvert.aspx.cs">
+    <Compile Include="Conversion\HexConvert.aspx.cs">
       <DependentUpon>HexConvert.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Convert\HexConvert.aspx.designer.cs">
+    <Compile Include="Conversion\HexConvert.aspx.designer.cs">
       <DependentUpon>HexConvert.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Convert\Image2Base64.aspx.cs">
+    <Compile Include="Conversion\Image2Base64.aspx.cs">
       <DependentUpon>Image2Base64.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Convert\Image2Base64.aspx.designer.cs">
+    <Compile Include="Conversion\Image2Base64.aspx.designer.cs">
       <DependentUpon>Image2Base64.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Convert\NativeAscii.aspx.cs">
+    <Compile Include="Conversion\NativeAscii.aspx.cs">
       <DependentUpon>NativeAscii.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Convert\NativeAscii.aspx.designer.cs">
+    <Compile Include="Conversion\NativeAscii.aspx.designer.cs">
       <DependentUpon>NativeAscii.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Convert\NumToRMB.aspx.cs">
+    <Compile Include="Conversion\NumToRMB.aspx.cs">
       <DependentUpon>NumToRMB.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Convert\NumToRMB.aspx.designer.cs">
+    <Compile Include="Conversion\NumToRMB.aspx.designer.cs">
       <DependentUpon>NumToRMB.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Convert\RgbHex.aspx.cs">
+    <Compile Include="Conversion\RgbHex.aspx.cs">
       <DependentUpon>RgbHex.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Convert\RgbHex.aspx.designer.cs">
+    <Compile Include="Conversion\RgbHex.aspx.designer.cs">
       <DependentUpon>RgbHex.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Convert\ToUpperToLower.aspx.cs">
+    <Compile Include="Conversion\ToUpperToLower.aspx.cs">
       <DependentUpon>ToUpperToLower.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Convert\ToUpperToLower.aspx.designer.cs">
+    <Compile Include="Conversion\ToUpperToLower.aspx.designer.cs">
       <DependentUpon>ToUpperToLower.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Convert\UnicodeToChinese.aspx.cs">
+    <Compile Include="Conversion\UnicodeToChinese.aspx.cs">
       <DependentUpon>UnicodeToChinese.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Convert\UnicodeToChinese.aspx.designer.cs">
+    <Compile Include="Conversion\UnicodeToChinese.aspx.designer.cs">
       <DependentUpon>UnicodeToChinese.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Convert\Unix.aspx.cs">
+    <Compile Include="Conversion\Unix.aspx.cs">
       <DependentUpon>Unix.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Convert\Unix.aspx.designer.cs">
+    <Compile Include="Conversion\Unix.aspx.designer.cs">
       <DependentUpon>Unix.aspx</DependentUpon>
     </Compile>
     <Compile Include="EncDec\Base64.aspx.cs">
@@ -442,6 +511,55 @@
     </Compile>
     <Compile Include="Test.aspx.designer.cs">
       <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BorderRadius.aspx.cs">
+      <DependentUpon>BorderRadius.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\BorderRadius.aspx.designer.cs">
+      <DependentUpon>BorderRadius.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ImageResize.aspx.cs">
+      <DependentUpon>ImageResize.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\ImageResize.aspx.designer.cs">
+      <DependentUpon>ImageResize.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PhoneSize.aspx.cs">
+      <DependentUpon>PhoneSize.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\PhoneSize.aspx.designer.cs">
+      <DependentUpon>PhoneSize.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SafeColor.aspx.cs">
+      <DependentUpon>SafeColor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\SafeColor.aspx.designer.cs">
+      <DependentUpon>SafeColor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebTools\ClientInfo.aspx.cs">
+      <DependentUpon>ClientInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebTools\ClientInfo.aspx.designer.cs">
+      <DependentUpon>ClientInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebTools\GetIP.aspx.cs">
+      <DependentUpon>GetIP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebTools\GetIP.aspx.designer.cs">
+      <DependentUpon>GetIP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebTools\UserAgent.aspx.cs">
+      <DependentUpon>UserAgent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebTools\UserAgent.aspx.designer.cs">
+      <DependentUpon>UserAgent.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />

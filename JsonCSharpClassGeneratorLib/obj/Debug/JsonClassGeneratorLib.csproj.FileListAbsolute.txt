@@ -22,3 +22,4 @@ F:\Code\Web\NewJson\JsonCSharpClassGeneratorLib\obj\Debug\JsonClassGeneratorLib.
 F:\Code\Web\NewJson\JsonCSharpClassGeneratorLib\obj\Debug\Xamasoft.JsonClassGenerator.dll
 F:\Code\Web\NewJson\JsonCSharpClassGeneratorLib\obj\Debug\Xamasoft.JsonClassGenerator.pdb
 D:\Code\Web\NewJson\JsonCSharpClassGeneratorLib\obj\Debug\JsonClassGeneratorLib.csprojResolveAssemblyReference.cache
+F:\Code\Web\NewJson\JsonCSharpClassGeneratorLib\obj\Debug\JsonClassGeneratorLib.csprojResolveAssemblyReference.cache
