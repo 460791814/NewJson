@@ -32,9 +32,7 @@ var CrayonSyntaxStrings = {"copy":"\u4f7f\u7528 %s \u590d\u5236\uff0c\u4f7f\u752
         <!-- #include file="/Template/header.htm" -->
         <section class="conter marauto">
         <script type="text/javascript">            loading('33%', 1000)</script>
-<div class="mbx">
- <i class="icon-home icon-large" style="font-size:14px;"></i>
- </div>
+
     <!-- #json_input -->
   <div style="float:left; width:74%" >
     <div  role="main">

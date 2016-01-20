@@ -57,6 +57,7 @@
   <ItemGroup>
     <Content Include="Conversion\ConvertTools.aspx" />
     <Content Include="Conversion\FileSize.aspx" />
+    <Content Include="Conversion\Fuli.aspx" />
     <Content Include="Conversion\Hex2Str.aspx" />
     <Content Include="Conversion\HexConvert.aspx" />
     <Content Include="Conversion\Image2Base64.aspx" />
@@ -142,8 +143,9 @@
     <Content Include="Json\JsonModel.aspx" />
     <Content Include="Json\Xml2Json.aspx" />
     <Content Include="Js\chosen.jquery.min.js" />
+    <Content Include="Js\convert\checkdata.js" />
+    <Content Include="Js\convert\numeral.min.js" />
     <Content Include="Js\convert\unix_time.js" />
-    <Content Include="Js\copy.js" />
     <Content Include="Js\encdec\base64.js" />
     <Content Include="Js\encdec\md5.js" />
     <Content Include="Js\encdec\sha1.js" />
@@ -280,6 +282,7 @@
     <Content Include="Picture\sougou.png" />
     <Content Include="Template\footer.htm" />
     <Content Include="Template\header.htm" />
+    <Content Include="Template\menu.htm" />
     <Content Include="Test.aspx" />
     <Content Include="UI\BorderRadius.aspx" />
     <Content Include="UI\ImageResize.aspx" />
@@ -311,6 +314,13 @@
     </Compile>
     <Compile Include="Conversion\FileSize.aspx.designer.cs">
       <DependentUpon>FileSize.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Conversion\Fuli.aspx.cs">
+      <DependentUpon>Fuli.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Conversion\Fuli.aspx.designer.cs">
+      <DependentUpon>Fuli.aspx</DependentUpon>
     </Compile>
     <Compile Include="Conversion\Hex2Str.aspx.cs">
       <DependentUpon>Hex2Str.aspx</DependentUpon>
