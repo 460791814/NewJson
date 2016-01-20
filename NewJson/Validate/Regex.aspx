@@ -61,7 +61,7 @@ b,i,u{font-style:normal;font-weight:normal;text-decoration:none;}#input b{backgr
                     <form class="well form-inline">
                     <div class="input-group input-group-sm">
                         <span class="input-group-addon" id="basic-addon1">正则表达式</span>
-                        <input type="text" style="width: 400px;" class="form-control" id="textPattern" placeholder="在此输入正则表达式">
+                        <input type="text" style="width: 500px;" class="form-control" id="textPattern" placeholder="在此输入正则表达式">
                         <div class="input-group-btn">
                             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false">

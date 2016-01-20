@@ -144,7 +144,10 @@
     <Content Include="Json\Xml2Json.aspx" />
     <Content Include="Js\chosen.jquery.min.js" />
     <Content Include="Js\convert\checkdata.js" />
+    <Content Include="Js\convert\dropdown21.js" />
     <Content Include="Js\convert\numeral.min.js" />
+    <Content Include="Js\convert\tabs5.js" />
+    <Content Include="Js\convert\unit_hot_order.js" />
     <Content Include="Js\convert\unix_time.js" />
     <Content Include="Js\encdec\base64.js" />
     <Content Include="Js\encdec\md5.js" />
@@ -284,6 +287,7 @@
     <Content Include="Template\header.htm" />
     <Content Include="Template\menu.htm" />
     <Content Include="Test.aspx" />
+    <Content Include="test.html" />
     <Content Include="UI\BorderRadius.aspx" />
     <Content Include="UI\ImageResize.aspx" />
     <Content Include="UI\PhoneSize.aspx" />
