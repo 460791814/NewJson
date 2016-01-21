@@ -13,6 +13,7 @@ namespace NewJson
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            return;
             string xml = @"<?xml version=""1.0"" encoding=""UTF-8"" ?>
 	<layout>3</layout>
 	<cls>qypage-1680</cls>

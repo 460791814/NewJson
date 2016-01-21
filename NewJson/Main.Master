@@ -8,8 +8,8 @@
      <script type='text/javascript' src='/js/crayon.min.js'></script>
     <script type="text/javascript">        (function () { mod_txt = '#'; adminBar = "" || 0 })();</script>
     <script type="text/javascript" src="/js/frontopen.js"></script>
-<%--    <link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
-    <link rel="stylesheet" type="text/css" media="all" href="/css/mobile.css" />--%>
+   <link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/mobile.css" />
     <!--[if lt IE 9]><script src="/js/html5.js"></script><![endif]-->
     <!--[if IE 7]>
 <link rel="stylesheet" href="/css/font-awesome-ie7.min.css">
@@ -29,7 +29,7 @@ var CrayonSyntaxStrings = {"copy":"\u4f7f\u7528 %s \u590d\u5236\uff0c\u4f7f\u752
    <div class="loading">
     </div>
         <div class="web_bod">
-        <!-- #include file="/Template/menu.htm" -->
+        <!-- #include file="/Template/header.htm" -->
         <section class="conter marauto">
         <script type="text/javascript">            loading('33%', 1000)</script>
 

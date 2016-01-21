@@ -60,6 +60,7 @@
     <Content Include="Conversion\Fuli.aspx" />
     <Content Include="Conversion\Hex2Str.aspx" />
     <Content Include="Conversion\HexConvert.aspx" />
+    <Content Include="Conversion\HttpTest.aspx" />
     <Content Include="Conversion\Image2Base64.aspx" />
     <Content Include="Conversion\NativeAscii.aspx" />
     <Content Include="Conversion\NumToRMB.aspx" />
@@ -69,6 +70,9 @@
     <Content Include="Conversion\Unix.aspx" />
     <Content Include="Css\app.css" />
     <Content Include="Css\bootstrap.min.css" />
+    <Content Include="Css\change\all-base.css" />
+    <Content Include="Css\change\publicstyle.css" />
+    <Content Include="Css\change\toolstyle.css" />
     <Content Include="Css\classic.css" />
     <Content Include="Css\core.css" />
     <Content Include="Css\crayon.min.css" />
@@ -339,6 +343,13 @@
     </Compile>
     <Compile Include="Conversion\HexConvert.aspx.designer.cs">
       <DependentUpon>HexConvert.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Conversion\HttpTest.aspx.cs">
+      <DependentUpon>HttpTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Conversion\HttpTest.aspx.designer.cs">
+      <DependentUpon>HttpTest.aspx</DependentUpon>
     </Compile>
     <Compile Include="Conversion\Image2Base64.aspx.cs">
       <DependentUpon>Image2Base64.aspx</DependentUpon>
