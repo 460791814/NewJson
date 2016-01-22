@@ -6,6 +6,10 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Xml;
 using Newtonsoft.Json;
+using CommonTool;
+using System.Net;
+using System.Text;
+using System.IO;
 
 namespace NewJson
 {
@@ -13,6 +17,16 @@ namespace NewJson
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+              var body = "我是中文的";
+            var base64 = Convert.ToBase64String(Encoding.UTF8.GetBytes(body));
+ string url = HttpGetUrl("http://www.ip138.com/ips138.asp?ip=124.207.33.6") ;//body中包含中文
+
+
+
+string str=  Utils.SendWebRequest("http://www.ip138.com/ips138.asp?ip=124.207.33.6");
+
+            string str1 = HttpTool.GetHtml("http://www.ip138.com/ips138.asp?ip=124.207.33.6", new System.Net.CookieContainer());
+
             string xml = @"<?xml version=""1.0"" encoding=""UTF-8"" ?>
 	<layout>3</layout>
 	<cls>qypage-1680</cls>
@@ -53,7 +67,37 @@ namespace NewJson
          //   Console.ReadLine();
     //         Response.Write(doc);
         }
+        public static String HttpGetUrl(String url)
+        {
+            string strReturn = string.Empty;
+            String urlEsc = url;
+            HttpWebRequest req = (HttpWebRequest)HttpWebRequest.Create(urlEsc);
+            req.Method = "GET";
+            try
+            {
+                using (WebResponse wr = req.GetResponse())
+                {
+                    Stream stream = wr.GetResponseStream();
+                    byte[] buf = new byte[1024];
+                    while (true)
+                    {
+                        int len = stream.Read(buf, 0, buf.Length);
+                        if (len <= 0)//[2011-8-22]  修改len < 0 =》 len <= 0 解决死循环
+                            break;
+                        strReturn += System.Text.Encoding.GetEncoding("utf-8").GetString(buf, 0, len);
 
+                    }
+
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+                //LogFile.WriteLine("HttpSend.HttpGetUrl exception url=" + url);
+                //LogFile.WriteLine("HttpSend.HttpGetUrl exception " + ex.Message);
+            }
+            return strReturn;
+        }
 
     }
 }

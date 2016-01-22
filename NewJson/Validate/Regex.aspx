@@ -118,9 +118,27 @@ b,i,u{font-style:normal;font-weight:normal;text-decoration:none;}#input b{backgr
             <div class="RegbuttonBarWrap bg-list">
         	 
         	<p class="RegBtnBar clearfix" id="regCommon">
-            	<a href="javascript:" t="chines">中文字符</a><a href="javascript:" t="doubleByte">双字节字符</a><a href="javascript:" t="nullLine">空白行</a><a href="javascript:" t="email">Email地址</a><a href="javascript:" t="url">网址URL</a><a href="javascript:" t="phone">手机（国内）</a><a href="javascript:" t="tel">电话号码（国内）</a><a href="javascript:" t="nFloat">负浮点数</a>
-                <a href="javascript:" t="interger">匹配整数</a><a href="javascript:" t="pFloat">正浮点数</a><a href="javascript:" t="qq">腾讯QQ号</a>
-                <a href="javascript:" t="postal">邮政编码</a><a href="javascript:" t="ip4">IP</a><a href="javascript:" t="cardId">身份证号</a><a href="javascript:" t="date">格式日期</a><a href="javascript:" t="pInterger">正整数</a><a href="javascript:" t="nInterger">负整数</a><a href="javascript:" t="userName">用户名</a>
+            <a href="javascript:;" title="[\u4e00-\u9fa5]">匹配中文字符</a>
+            	 <a href="javascript:;" title="[^\x00-\xff]">匹配双字节字符(包括汉字在内)</a> 
+                                <a href="javascript:;" title="\n\s*\r">匹配空白行</a>
+                                <a href="javascript:;" title="[\w!#$%&amp;'*+/=?^_`{|}~-]+(?:\.[\w!#$%&amp;'*+/=?^_`{|}~-]+)*@(?:[\w](?:[\w-]*[\w])?\.)+[\w](?:[\w-]*[\w])?">
+                                匹配Email地址</a>
+                                <a href="javascript:;" title="[a-zA-z]+://[^\s]*">匹配网址URL</a>
+                                <a href="javascript:;" title="\d{3}-\d{8}|\d{4}-\{7,8}">匹配国内电话号码</a> 
+                                <a href="javascript:;" title="[1-9][0-9]{4,}">匹配腾讯QQ号</a> 
+                                <a href="javascript:;" title="[1-9]\d{5}(?!\d)">匹配中国邮政编码</a> 
+                                <a href="javascript:;" title="^(\d{6})(\d{4})(\d{2})(\d{2})(\d{3})([0-9]|X)$">匹配18位身份证号</a>
+                                
+                                <a href="javascript:;" title="([0-9]{3}[1-9]|[0-9]{2}[1-9][0-9]{1}|[0-9]{1}[1-9][0-9]{2}|[1-9][0-9]{3})-(((0[13578]|1[02])-(0[1-9]|[12][0-9]|3[01]))|((0[469]|11)-(0[1-9]|[12][0-9]|30))|(02-(0[1-9]|[1][0-9]|2[0-8])))">匹配(年-月-日)格式日期</a>
+                                <a href="javascript:;" title="^[1-9]\d*$">匹配正整数</a>
+                                <a href="javascript:;" title="^-[1-9]\d*$">匹配负整数</a> 
+                                <a href="javascript:;" title="^-?[1-9]\d*$">匹配整数</a> 
+                                <a href="javascript:;" title="^[1-9]\d*|0$">匹配非负整数（正整数 + 0）</a> 
+                                <a href="javascript:;" title="^-[1-9]\d*|0$">匹配非正整数（负整数 + 0）</a>
+                                <a href="javascript:;" title="^[1-9]\d*\.\d*|0\.\d*[1-9]\d*$">匹配正浮点数</a> 
+                                <a href="javascript:;" title="^-[1-9]\d*\.\d*|-0\.\d*[1-9]\d*$">匹配负浮点数</a> 
+                <a href="javascript:void(0)" title="\b(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\b">匹配IP</a>
+                                <a href="javascript:void(0)" title="^[\u4e00-\u9fa5A-Za-z0-9_]+$">匹配数字,字母,下划线,中文</a>
             </p>
         </div>
         </div>
@@ -148,7 +166,12 @@ b,i,u{font-style:normal;font-weight:normal;text-decoration:none;}#input b{backgr
                 $("#textPattern").val($(this).attr("title"));
                 onMatch();
             });
+            $("#regCommon  a").click(function () {
+                $("#textPattern").val($(this).attr("title"));
+                onMatch();
+            });
         });
+
 
         function setVisible(idElement, visible) {
             var obj = document.getElementById(idElement);

@@ -1839,6 +1839,17 @@ namespace CommonTool
             HttpContext.Current.Response.Redirect(string.Format("http://www.zxxk.com/Error.aspx?msg={0}", sMessage));
             HttpContext.Current.Response.End();
         }
+        /// <summary>
+        /// 北极时间转UNIX时间
+        /// </summary>
+        /// <param name="dateTime"></param>
+        /// <returns></returns>
+        public static long UNIX_TIMESP(DateTime dateTime)
+        {
+
+            return (dateTime.Ticks - DateTime.Parse("1970-01-01 00:00:00").Ticks) / 10000000;
+
+        }
         #endregion
 
    
