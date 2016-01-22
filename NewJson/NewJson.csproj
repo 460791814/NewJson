@@ -55,6 +55,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+
     <Content Include="Change\ConvertTools.aspx" />
     <Content Include="Change\FileSize.aspx" />
     <Content Include="Change\Fuli.aspx" />
@@ -68,8 +69,13 @@
     <Content Include="Change\ToUpperToLower.aspx" />
     <Content Include="Change\UnicodeToChinese.aspx" />
     <Content Include="Change\Unix.aspx" />
+	    <Content Include="Change\HttpTest.aspx" />
+
     <Content Include="Css\app.css" />
     <Content Include="Css\bootstrap.min.css" />
+    <Content Include="Css\change\all-base.css" />
+    <Content Include="Css\change\publicstyle.css" />
+    <Content Include="Css\change\toolstyle.css" />
     <Content Include="Css\classic.css" />
     <Content Include="Css\core.css" />
     <Content Include="Css\crayon.min.css" />
@@ -341,7 +347,17 @@
     <Compile Include="Change\HexConvert.aspx.designer.cs">
       <DependentUpon>HexConvert.aspx</DependentUpon>
     </Compile>
+
+
+    <Compile Include="Change\HttpTest.aspx.cs">
+      <DependentUpon>HttpTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Change\HttpTest.aspx.designer.cs">
+      <DependentUpon>HttpTest.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Change\Image2Base64.aspx.cs">
+
       <DependentUpon>Image2Base64.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>

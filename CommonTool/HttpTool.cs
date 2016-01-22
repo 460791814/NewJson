@@ -17,7 +17,7 @@ namespace CommonTool
         /// </summary>
         /// <param name="url"></param>
         /// <returns></returns>
-        public string SendWebRequest(string url)
+        public static string SendWebRequest(string url)
         {
             return SendWebRequest(url, new CookieContainer());
         }
@@ -27,7 +27,7 @@ namespace CommonTool
         /// <param name="url"></param>
         /// <param name="data"></param>
         /// <returns></returns>
-        public string SendWebRequest(string url, string data)
+        public static string SendWebRequest(string url, string data)
         {
             return SendWebRequest(url, data, new CookieContainer());
         }

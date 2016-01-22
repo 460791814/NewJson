@@ -17,6 +17,7 @@ namespace NewJson
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+
               var body = "我是中文的";
             var base64 = Convert.ToBase64String(Encoding.UTF8.GetBytes(body));
  string url = HttpGetUrl("http://www.ip138.com/ips138.asp?ip=124.207.33.6") ;//body中包含中文
@@ -25,7 +26,10 @@ namespace NewJson
 
 string str=  Utils.SendWebRequest("http://www.ip138.com/ips138.asp?ip=124.207.33.6");
 
-            string str1 = HttpTool.GetHtml("http://www.ip138.com/ips138.asp?ip=124.207.33.6", new System.Net.CookieContainer());
+            string str1 = HttpTool.SendWebRequest("http://www.ip138.com/ips138.asp?ip=124.207.33.6", new System.Net.CookieContainer());
+
+
+            return;
 
             string xml = @"<?xml version=""1.0"" encoding=""UTF-8"" ?>
 	<layout>3</layout>

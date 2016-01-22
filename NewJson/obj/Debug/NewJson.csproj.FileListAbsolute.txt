@@ -19,6 +19,7 @@ D:\Code\Web\NewJson\NewJson\bin\CommonTool.pdb
 D:\Code\Web\NewJson\NewJson\bin\Xamasoft.JsonClassGenerator.dll
 D:\Code\Web\NewJson\NewJson\bin\System.Data.Entity.Design.PluralizationServices.dll
 D:\Code\Web\NewJson\NewJson\bin\Xamasoft.JsonClassGenerator.pdb
+F:\Code\Web\NewJson\NewJson\obj\Debug\NewJson.csprojResolveAssemblyReference.cache
 F:\Code\Web\NewJson\NewJson\bin\NewJson.dll
 F:\Code\Web\NewJson\NewJson\bin\NewJson.pdb
 F:\Code\Web\NewJson\NewJson\bin\CommonTool.dll
@@ -29,6 +30,5 @@ F:\Code\Web\NewJson\NewJson\bin\System.Data.Entity.Design.PluralizationServices.
 F:\Code\Web\NewJson\NewJson\bin\CommonTool.pdb
 F:\Code\Web\NewJson\NewJson\bin\Xamasoft.JsonClassGenerator.pdb
 F:\Code\Web\NewJson\NewJson\bin\URLRewriter.pdb
-F:\Code\Web\NewJson\NewJson\obj\Debug\NewJson.csprojResolveAssemblyReference.cache
 F:\Code\Web\NewJson\NewJson\obj\Debug\NewJson.dll
 F:\Code\Web\NewJson\NewJson\obj\Debug\NewJson.pdb
