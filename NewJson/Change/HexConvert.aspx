@@ -121,7 +121,7 @@
             </div>
         </div>
         <div class="panel-body">
-        <div id="mainContent" class="tool_content wrapper">
+        <div id="mainContent" class="tool_content wrapper" style=" margin-left:50px">
 <table>
 		<tbody><tr><td>
 			<div class="content_area" id="input_area">

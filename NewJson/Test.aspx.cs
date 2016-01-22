@@ -17,7 +17,7 @@ namespace NewJson
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            return;
               var body = "我是中文的";
             var base64 = Convert.ToBase64String(Encoding.UTF8.GetBytes(body));
  string url = HttpGetUrl("http://www.ip138.com/ips138.asp?ip=124.207.33.6") ;//body中包含中文

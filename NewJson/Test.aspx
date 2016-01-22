@@ -9,51 +9,65 @@
     <link href="/Css/change/publicstyle.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-  <div class="Tool-MainWrap wrapper">
-
-	
+    <div class="Tool-MainWrap wrapper">
         <!--IcpSearch-begin-->
         <div class="publicSearch">
-          <form autocomplete="off" method="post">
+            <form autocomplete="off" method="post">
             <div id="totest" class="search-write-wrap w820 clearfix">
                 <div class="MainCate-choese _ToolChoese fl">
-                       <span class="search-write-choese pr ToolChoese fl"> 
-                     <div class="search-choese-cont YaHei SearChoese"> GET </div>
+                    <span class="search-write-choese pr ToolChoese fl">
+                        <div class="search-choese-cont YaHei SearChoese">
+                            GET
+                        </div>
                         <input name="method" value="0" type="hidden" />
-                      <span class="icon-drop-down SearChoese"></span>
-                      <ul class="search-choese-down SearChoese-show">
-                        <li><a href="javascript:" val="0">GET</a></li>
+                        <span class="icon-drop-down SearChoese"></span>
+                        <ul class="search-choese-down SearChoese-show">
+                            <li><a href="javascript:" val="0">GET</a></li>
                             <li><a href="javascript:" val="1">POST</a></li>
-                      </ul>  
-                </span>
-                </div> 
-                
-
-                <span class="search-write-left pr fl w460"><input type="text" class="search-write-cont WrapHid w442" id="host" name="host" url="true" value="" /><a href="javascript:" title="清空" class="quickdelete _CentHid"></a><b class="search-hint CentHid">请输入网址</b></span>
-                <span class="search-write-right fl w80"><input class="search-write-btn w80" type="submit" value="测试" id="btnsubmit" /></span> 
-                <input class="search-write-btn fl ml10 w80" type="button" value="添加参数"  id="addparams" /><div class="WebCache pl10 pt10 fl"><input type="checkbox" id="isRAW" /><label class="pl5 col-gray01">批量添加</label></div>
-             </div> 
-             <div class="portTestWrap clearfix pt20"><div class="Porname"><input type="text" class="TitInput _WrapHid w240" name="paramsname" value=""><b class="search-hint CentHid mt5" style="display: block;">参数名</b></div><div class="Porname ml10"><input type="text" class="TitInput _WrapHid w360" name="paramsval" value=""><b class="search-hint CentHid mt5" style="display:block">值</b></div><div class="fl pl10"><input type="button" value="删除" class="TitInBtn w70 removeparams"></div></div>
-             <div class="portTestear auto pt20 autohide" id="RAW">
-                <div class="PorBtnWrap clearfix"><input class="PorTxtear" type="text" id="RAWval" /><input class="PorBtn" type="button" value="OK" id="OK" /></div>
-                <p class="Porinfo">输入Raw参数，例如：id=1&url=tool.chinaz.com</p> 
-            </div> 
-             
-                                     <input type="hidden" name="hideRAW" id="hideRAW" value="" /> 
-         </form> 
-       </div>
+                        </ul>
+                    </span>
+                </div>
+                <span class="search-write-left pr fl w460">
+                    <input type="text" class="search-write-cont WrapHid w442" id="host" name="host" url="true"
+                        value="" /><a href="javascript:" title="清空" class="quickdelete _CentHid"></a><b class="search-hint CentHid">请输入网址</b></span>
+                <span class="search-write-right fl w80">
+                    <input class="search-write-btn w80" type="submit" value="测试" id="btnsubmit" /></span>
+                <input class="search-write-btn fl ml10 w80" type="button" value="添加参数" id="addparams" /><div
+                    class="WebCache pl10 pt10 fl">
+                    <input type="checkbox" id="isRAW" /><label class="pl5 col-gray01">批量添加</label></div>
+            </div>
+            <div class="portTestWrap clearfix pt20">
+                <div class="Porname">
+                    <input type="text" class="TitInput _WrapHid w240" name="paramsname" value=""><b class="search-hint CentHid mt5"
+                        style="display: block;">参数名</b></div>
+                <div class="Porname ml10">
+                    <input type="text" class="TitInput _WrapHid w360" name="paramsval" value=""><b class="search-hint CentHid mt5"
+                        style="display: block">值</b></div>
+                <div class="fl pl10">
+                    <input type="button" value="删除" class="TitInBtn w70 removeparams"></div>
+            </div>
+            <div class="portTestear auto pt20 autohide" id="RAW">
+                <div class="PorBtnWrap clearfix">
+                    <input class="PorTxtear" type="text" id="RAWval" /><input class="PorBtn" type="button"
+                        value="OK" id="OK" /></div>
+                <p class="Porinfo">
+                    输入Raw参数，例如：id=1&url=tool.chinaz.com</p>
+            </div>
+            <input type="hidden" name="hideRAW" id="hideRAW" value="" />
+            </form>
+        </div>
         <!--IcpSearch-end-->
-    <div style="clear:both"></div>
- <div class="IcpMain02 pb20"> 
-       
-       <div class="portRtitCent auto">
-            <p class="RtitCehead bb-blue">
-                <span>执行时间：<b>29毫秒</b></span>
-                <span>请求状态码：<b>【200】</b></span>
-                <span>请求返回值如下：<b>【14958 bytes】</b></span>
-            </p>
-           <div class="RtitCeCode" style="word-break:break-all">
-                <pre style="white-space: pre-wrap; white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap;">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"&gt;
+        <div style="clear: both">
+        </div>
+        <div class="IcpMain02 pb20">
+            <div class="portRtitCent auto">
+                <p class="RtitCehead bb-blue">
+                    <span>执行时间：<b>29毫秒</b></span> <span>请求状态码：<b>【200】</b></span> <span>请求返回值如下：<b>【14958
+                        bytes】</b></span>
+                </p>
+                <div class="RtitCeCode" style="word-break: break-all">
+                    <pre style="white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap;
+                        white-space: -o-pre-wrap;">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"&gt;
 &lt;html&gt;
 &lt;head&gt;
 &lt;meta http-equiv="Content-Type" content="text/html; charset=gb2312"&gt;
@@ -347,12 +361,9 @@ BODY {margin-left,margin-right:0px; text-align:center}
 &lt;div style="display:none"&gt;&lt;script type="text/javascript" src="http://tajs.qq.com/stats?sId=36241650" charset="UTF-8"&gt;&lt;/script&gt;&lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;</pre>
-           </div>
-       </div>
-         
-   </div>
-    
-
-</div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

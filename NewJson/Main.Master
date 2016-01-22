@@ -71,7 +71,7 @@ var CrayonSyntaxStrings = {"copy":"\u4f7f\u7528 %s \u590d\u5236\uff0c\u4f7f\u752
         <!-- #main -->
         <div class="cls">
         </div>
-            <!-- #include file="/Template/footer.htm" -->
+         <!-- #include file="/Template/footer.htm" -->
         <script type="text/javascript">            loading('100%', 1000)</script>
 </body>
 </html>

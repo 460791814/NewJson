@@ -55,8 +55,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-
-    <Content Include="Change\ConvertTools.aspx" />
     <Content Include="Change\FileSize.aspx" />
     <Content Include="Change\Fuli.aspx" />
     <Content Include="Change\Hex2Str.aspx" />
@@ -69,8 +67,6 @@
     <Content Include="Change\ToUpperToLower.aspx" />
     <Content Include="Change\UnicodeToChinese.aspx" />
     <Content Include="Change\Unix.aspx" />
-	    <Content Include="Change\HttpTest.aspx" />
-
     <Content Include="Css\app.css" />
     <Content Include="Css\bootstrap.min.css" />
     <Content Include="Css\change\all-base.css" />
@@ -309,16 +305,10 @@
     </Content>
     <Content Include="WebTools\ClientInfo.aspx" />
     <Content Include="WebTools\GetIP.aspx" />
+    <Content Include="WebTools\HttpTest.aspx" />
     <Content Include="WebTools\UserAgent.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Change\ConvertTools.aspx.cs">
-      <DependentUpon>ConvertTools.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Change\ConvertTools.aspx.designer.cs">
-      <DependentUpon>ConvertTools.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Change\FileSize.aspx.cs">
       <DependentUpon>FileSize.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -347,17 +337,7 @@
     <Compile Include="Change\HexConvert.aspx.designer.cs">
       <DependentUpon>HexConvert.aspx</DependentUpon>
     </Compile>
-
-
-    <Compile Include="Change\HttpTest.aspx.cs">
-      <DependentUpon>HttpTest.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Change\HttpTest.aspx.designer.cs">
-      <DependentUpon>HttpTest.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Change\Image2Base64.aspx.cs">
-
       <DependentUpon>Image2Base64.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
@@ -603,6 +583,13 @@
     <Compile Include="WebTools\GetIP.aspx.designer.cs">
       <DependentUpon>GetIP.aspx</DependentUpon>
     </Compile>
+    <Compile Include="WebTools\HttpTest.aspx.cs">
+      <DependentUpon>HttpTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebTools\HttpTest.aspx.designer.cs">
+      <DependentUpon>HttpTest.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebTools\UserAgent.aspx.cs">
       <DependentUpon>UserAgent.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -660,7 +647,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>21017</DevelopmentServerPort>
+          <DevelopmentServerPort>56674</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

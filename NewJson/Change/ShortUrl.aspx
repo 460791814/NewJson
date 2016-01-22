@@ -44,14 +44,14 @@
 
         function encode() {
 
-            $.getJSON('/Conversion/ShortUrl.aspx?method=encode&url=' + jQuery("#content").val(), function (d) {
+            $.getJSON('/Change/ShortUrl.aspx?method=encode&url=' + jQuery("#content").val(), function (d) {
                     $("#result").val(d[0].url_short);
             })
           
         }
         function decode() {
 
-            $.getJSON('/Conversion/ShortUrl.aspx?method=decode&url=' + jQuery("#content").val(), function (d) {
+            $.getJSON('/Change/ShortUrl.aspx?method=decode&url=' + jQuery("#content").val(), function (d) {
                     $("#result").val(d.content);
                
             })

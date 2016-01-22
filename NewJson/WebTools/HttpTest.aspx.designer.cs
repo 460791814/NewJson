@@ -7,9 +7,9 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace NewJson.Change {
+namespace NewJson.WebTools {
     
     
-    public partial class ConvertTools {
+    public partial class HttpTest {
     }
 }
