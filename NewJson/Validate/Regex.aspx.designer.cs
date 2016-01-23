@@ -10,6 +10,6 @@
 namespace NewJson.Validate {
     
     
-    public partial class Regex {
+    public partial class RegexMatch {
     }
 }

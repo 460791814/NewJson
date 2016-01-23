@@ -17,15 +17,19 @@
             if (isLinux) return "Linux";
             if (isWin) {
                 var isWin2K = sUserAgent.indexOf("Windows NT 5.0") > -1 || sUserAgent.indexOf("Windows 2000") > -1;
-                if (isWin2K) return "Win2000";
+                if (isWin2K) return "Windows 2000";
                 var isWinXP = sUserAgent.indexOf("Windows NT 5.1") > -1 || sUserAgent.indexOf("Windows XP") > -1;
-                if (isWinXP) return "WinXP";
+                if (isWinXP) return "Windows XP";
                 var isWin2003 = sUserAgent.indexOf("Windows NT 5.2") > -1 || sUserAgent.indexOf("Windows 2003") > -1;
-                if (isWin2003) return "Win2003";
+                if (isWin2003) return "Windows 2003";
                 var isWinVista = sUserAgent.indexOf("Windows NT 6.0") > -1 || sUserAgent.indexOf("Windows Vista") > -1;
-                if (isWinVista) return "WinVista";
+                if (isWinVista) return "Windows Vista";
                 var isWin7 = sUserAgent.indexOf("Windows NT 6.1") > -1 || sUserAgent.indexOf("Windows 7") > -1;
-                if (isWin7) return "Win7";
+                if (isWin7) return "Windows 7";
+                var isWin7 = sUserAgent.indexOf("Windows NT 8.0") > -1 || sUserAgent.indexOf("Windows 8") > -1;
+                if (isWin7) return "Windows 10";
+                var isWin7 = sUserAgent.indexOf("Windows NT 10.0") > -1 || sUserAgent.indexOf("Windows 10") > -1;
+                if (isWin7) return "Windows 10";
             }
             return "other";
         }

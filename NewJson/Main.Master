@@ -14,8 +14,8 @@
     <!--[if IE 7]>
 <link rel="stylesheet" href="/css/font-awesome-ie7.min.css">
 <![endif]-->
-    <link href="/Css/bootstrap.min.css" rel="stylesheet">
-    <script src="/Js/bootstrap.min.js"></script>
+    <link href="/Js/bootstrap-3.3.6-dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <script src="/Js/bootstrap-3.3.6-dist/js/bootstrap.js" type="text/javascript"></script>
     <script type='text/javascript'>
 /* <![CDATA[ */
 var CrayonSyntaxSettings = {"version":"2.7.1","is_admin":"0","ajaxurl":"","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};

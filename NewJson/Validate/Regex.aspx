@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="在线正则校验,正则匹配，正则表达式测试,常用正则表达式大全" Language="C#" MasterPageFile="~/Main.Master"
-    AutoEventWireup="true" CodeBehind="Regex.aspx.cs" Inherits="NewJson.Validate.Regex" %>
+    AutoEventWireup="true" CodeBehind="Regex.aspx.cs" Inherits="NewJson.Validate.RegexMatch" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <meta name="keywords" content="在线正则校验,正则匹配，正则表达式测试,常用的正则表达式" />

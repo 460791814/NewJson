@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace NewJson.Validate
 {
-    public partial class Regex : System.Web.UI.Page
+    public partial class RegexMatch : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
