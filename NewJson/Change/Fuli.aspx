@@ -716,9 +716,9 @@
                     </fieldset>
                 </div>
                 </div>
-                            <script src="/Js/convert/checkdata.js" type="text/javascript"></script>
+                            <script src="/Js/change/checkdata.js" type="text/javascript"></script>
 
-            <script src="/Js/convert/numeral.min.js" type="text/javascript"></script>
+            <script src="/Js/change/numeral.min.js" type="text/javascript"></script>
             <script language="javaScript" type="text/javascript">
                 function select_change() {
 

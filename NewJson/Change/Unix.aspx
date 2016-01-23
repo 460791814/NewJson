@@ -63,7 +63,7 @@
         </div>
         <input type="hidden" id="encode" value="1" />
     </div>
-    <script src="/Js/convert/unix_time.js" type="text/javascript"></script>
+    <script src="/Js/change/unix_time.js" type="text/javascript"></script>
     <style>
         .bjtime
         {
