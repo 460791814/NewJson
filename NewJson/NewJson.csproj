@@ -57,10 +57,12 @@
   <ItemGroup>
     <Content Include="Change\FileSize.aspx" />
     <Content Include="Change\Fuli.aspx" />
+    <Content Include="Change\FullHalf.aspx" />
     <Content Include="Change\Hex2Str.aspx" />
     <Content Include="Change\HexConvert.aspx" />
     <Content Include="Change\HtmlUBB.aspx" />
     <Content Include="Change\Image2Base64.aspx" />
+    <Content Include="Change\J2F.aspx" />
     <Content Include="Change\NativeAscii.aspx" />
     <Content Include="Change\NumToRMB.aspx" />
     <Content Include="Change\RgbHex.aspx" />
@@ -204,6 +206,7 @@
     <Content Include="Js\brix-crypto-js-6362ada\sha512.js" />
     <Content Include="Js\brix-crypto-js-6362ada\tripledes.js" />
     <Content Include="Js\brix-crypto-js-6362ada\x64-core.js" />
+    <Content Include="Js\change\j2f.js" />
     <Content Include="Js\change\Html_Ubb.js" />
     <Content Include="Js\change\pinyin.js" />
     <Content Include="Js\chosen.jquery.min.js" />
@@ -351,6 +354,7 @@
     <Content Include="Template\menu.htm" />
     <Content Include="Test.aspx" />
     <Content Include="test.html" />
+    <Content Include="Tools\WordCounter.aspx" />
     <Content Include="UI\BorderRadius.aspx" />
     <Content Include="UI\ImageResize.aspx" />
     <Content Include="UI\OnlineColor.aspx" />
@@ -386,6 +390,13 @@
     <Compile Include="Change\Fuli.aspx.designer.cs">
       <DependentUpon>Fuli.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Change\FullHalf.aspx.cs">
+      <DependentUpon>FullHalf.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Change\FullHalf.aspx.designer.cs">
+      <DependentUpon>FullHalf.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Change\Hex2Str.aspx.cs">
       <DependentUpon>Hex2Str.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -413,6 +424,13 @@
     </Compile>
     <Compile Include="Change\Image2Base64.aspx.designer.cs">
       <DependentUpon>Image2Base64.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Change\J2F.aspx.cs">
+      <DependentUpon>J2F.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Change\J2F.aspx.designer.cs">
+      <DependentUpon>J2F.aspx</DependentUpon>
     </Compile>
     <Compile Include="Change\NativeAscii.aspx.cs">
       <DependentUpon>NativeAscii.aspx</DependentUpon>
@@ -618,6 +636,13 @@
     <Compile Include="Test.aspx.designer.cs">
       <DependentUpon>Test.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Tools\WordCounter.aspx.cs">
+      <DependentUpon>WordCounter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tools\WordCounter.aspx.designer.cs">
+      <DependentUpon>WordCounter.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UI\BorderRadius.aspx.cs">
       <DependentUpon>BorderRadius.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -706,9 +731,7 @@
       <DependentUpon>UserAgent.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Tools\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Js\bootstrap-3.3.6-dist\css\bootstrap-theme.css.map" />
     <None Include="Js\bootstrap-3.3.6-dist\css\bootstrap-theme.min.css.map" />

@@ -105,49 +105,7 @@
                 </div>
             </div>
             </div>
-        <%--<div class="wrapper pt20 pb20"> 
- 
- 	<div class="OpenCanShu-wrap DelHeadFilter">
-        
-    <form autocomplete="off">
-        <div class="filter-contlist pr clearfix casual"> 
-            <div class="OpenCanShu-top">
-                <label>输入URL</label><input class="OCStxt w200" value="http://" name="url" type="text" />
-            </div>
-            <ol class="item js-FilterItem w870 h30">
-                <li class="pr PLcx" val="ON"><p><label hidefocus="on">本窗口打开</label>   </p>
-                <li class="pr PLcx" val="ON"><p><label hidefocus="on">工具栏</label>       </p>
-                <li class="pr PLcx" val="ON"><p><label hidefocus="on">地址栏</label>       </p>
-                <li class="pr PLcx" val="ON"><p><label hidefocus="on">状态栏</label>       </p>
-                <li class="pr PLcx" val="ON"><p><label hidefocus="on">菜单栏</label>       </p>
-                <li class="pr PLcx" val="ON"><p><label hidefocus="on">调大小</label>       </p>
-                <li class="pr PLcx" val="ON"><p><label hidefocus="on">滚动条</label>       </p>
-            </ol>
-            <div class="OpenCanShu-top pt10 clear">
-                <label>上边距</label><input type="text" class="OCStxt w70" name="T" />
-                <label>左边距</label><input type="text" class="OCStxt w70" name="L" />
-                <label>宽度</label><input type="text" class="OCStxt w70" name="width" />
-                <label>高度</label><input type="text" class="OCStxt w70" name="height" />
-            </div>
-        </div>
-        <div class="col-red lh30 fz14 tc" id="errorinfo"></div>
-      </form>
-     </div>
-        
-     
- 
- 
-    <div class="GuoLvWrap auto">
-        <!--GuoLvWrap-begin--> 
-        <div class="pr"><textarea class="GuoLvWrapAgo bor-a1s h200 col-gray WrapHid" id="showcode" name="textarea"></textarea> <b class="search-hint CentHid">window.open("http://", "newwindow");</b></div>
-      	
-       <!--GuoLvWrap-end-->
-        <div class="GuoLvWrapCenter ptb10 clearfix">
-            <div class="GuoLvCbtn"><input type="button" value="清空" class="bg-blue02" id="clear" /><input type="button" value="复制" class="bg-blue02" id="clip" data-clipboard-target="showcode" /><input class="GLOkBtn" type="button" value="预览" name="button" id="test"/><input class="GLOkBtn" type="button" value="生成代码" name="Button" id="gen" /></div>
-        </div>
-    
-    </div>
-</div>--%>
+      
         </div>
         </div>
         

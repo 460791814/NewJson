@@ -1,4 +1,4 @@
-﻿<%@ Page Title="在线正则校验,正则匹配，正则表达式测试,常用正则表达式大全" Language="C#" MasterPageFile="~/Main.Master"
+﻿<%@ Page Title="在线正则表达式匹配,正则校验,正则匹配,正则表达式测试,常用正则表达式大全" Language="C#" MasterPageFile="~/Main.Master"
     AutoEventWireup="true" CodeBehind="Regex.aspx.cs" Inherits="NewJson.Validate.RegexMatch" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
@@ -43,7 +43,7 @@ b,i,u{font-style:normal;font-weight:normal;text-decoration:none;}#input b{backgr
             <div class="media">
                 <div class="media-body">
                     <h4 class="media-heading">
-                        在线正则表达式</h4>
+                        在线正则表达式匹配,正则校验,正则匹配</h4>
                 </div>
             </div>
         </div>
