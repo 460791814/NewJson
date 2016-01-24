@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace NewJson.WebTools
+namespace NewJson.UI
 {
     public partial class OpenWeb : System.Web.UI.Page
     {

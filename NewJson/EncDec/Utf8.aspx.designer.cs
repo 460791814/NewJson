@@ -7,9 +7,9 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace NewJson.WebTools {
+namespace NewJson.EncDec {
     
     
-    public partial class OpenWeb {
+    public partial class Utf8 {
     }
 }

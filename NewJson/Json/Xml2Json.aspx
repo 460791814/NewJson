@@ -34,15 +34,22 @@
                     height: 300px;" rows="32" spellcheck="false" placeholder="请输入需要处理的XML字符串或Json字符串"></textarea>
             </div>
             <div class="validateButtons clear">
-                <div class="left" style="float: left">
+                <div class="left"  >
                     <div class="btn-group" role="group" aria-label="...">
                         <input type="button" name="name" onclick="xmltojson();" class="btn btn-primary" value="Xml转Json" />
                         <input type="button" name="name" onclick="jsontoxml();" class="btn btn-primary" value="Json转Xml" />
                         <input type="button" name="name" onclick="javascript:$('#json_input').val('').focus(); "
                             type="reset" class="btn btn-danger" value="清空" />
-                        <p style="float: left; margin-top: 5px; margin-left: 10px;">
-                            <input id="bianma" type="checkbox">转义编码</p>
+                       
+                          
                     </div>
+                                <div class="btn-group"  >
+        <div class=" btn checkbox" style="margin-top: inherit;">
+      <label>
+       <input id="bianma" type="checkbox">转义编码
+      </label>
+   </div>
+   </div>
                     <div>
                     </div>
                 </div>

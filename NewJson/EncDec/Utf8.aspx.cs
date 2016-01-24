@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace NewJson.Change
+namespace NewJson.EncDec
 {
     public partial class Utf8 : System.Web.UI.Page
     {

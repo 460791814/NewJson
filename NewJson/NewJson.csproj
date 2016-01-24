@@ -69,7 +69,6 @@
     <Content Include="Change\ToUpperToLower.aspx" />
     <Content Include="Change\UnicodeToChinese.aspx" />
     <Content Include="Change\Unix.aspx" />
-    <Content Include="Change\Utf8.aspx" />
     <Content Include="Css\app.css" />
     <Content Include="Css\change\all-base.css" />
     <Content Include="Css\change\publicstyle.css" />
@@ -104,6 +103,7 @@
     <Content Include="EncDec\MD5.aspx" />
     <Content Include="EncDec\SHA.aspx" />
     <Content Include="EncDec\UrlEncode.aspx" />
+    <Content Include="EncDec\Utf8.aspx" />
     <Content Include="Format\CssFormat.aspx" />
     <Content Include="Format\JsHtmlFormat.aspx" />
     <Content Include="Format\SqlFormat.aspx" />
@@ -205,6 +205,7 @@
     <Content Include="Js\brix-crypto-js-6362ada\tripledes.js" />
     <Content Include="Js\brix-crypto-js-6362ada\x64-core.js" />
     <Content Include="Js\change\Html_Ubb.js" />
+    <Content Include="Js\change\pinyin.js" />
     <Content Include="Js\chosen.jquery.min.js" />
     <Content Include="Js\change\checkdata.js" />
     <Content Include="Js\change\dropdown21.js" />
@@ -353,6 +354,7 @@
     <Content Include="UI\BorderRadius.aspx" />
     <Content Include="UI\ImageResize.aspx" />
     <Content Include="UI\OnlineColor.aspx" />
+    <Content Include="UI\OpenWeb.aspx" />
     <Content Include="UI\PhoneSize.aspx" />
     <Content Include="UI\SafeColor.aspx" />
     <Content Include="UI\UseColor.aspx" />
@@ -367,7 +369,6 @@
     <Content Include="WebTools\ClientInfo.aspx" />
     <Content Include="WebTools\GetIP.aspx" />
     <Content Include="WebTools\HttpTest.aspx" />
-    <Content Include="WebTools\OpenWeb.aspx" />
     <Content Include="WebTools\UserAgent.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -469,13 +470,6 @@
     <Compile Include="Change\Unix.aspx.designer.cs">
       <DependentUpon>Unix.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Change\Utf8.aspx.cs">
-      <DependentUpon>Utf8.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Change\Utf8.aspx.designer.cs">
-      <DependentUpon>Utf8.aspx</DependentUpon>
-    </Compile>
     <Compile Include="EncDec\Base64.aspx.cs">
       <DependentUpon>Base64.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -524,6 +518,13 @@
     </Compile>
     <Compile Include="EncDec\UrlEncode.aspx.designer.cs">
       <DependentUpon>UrlEncode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EncDec\Utf8.aspx.cs">
+      <DependentUpon>Utf8.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EncDec\Utf8.aspx.designer.cs">
+      <DependentUpon>Utf8.aspx</DependentUpon>
     </Compile>
     <Compile Include="Format\CssFormat.aspx.cs">
       <DependentUpon>CssFormat.aspx</DependentUpon>
@@ -638,6 +639,13 @@
     <Compile Include="UI\OnlineColor.aspx.designer.cs">
       <DependentUpon>OnlineColor.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UI\OpenWeb.aspx.cs">
+      <DependentUpon>OpenWeb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\OpenWeb.aspx.designer.cs">
+      <DependentUpon>OpenWeb.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UI\PhoneSize.aspx.cs">
       <DependentUpon>PhoneSize.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -689,13 +697,6 @@
     </Compile>
     <Compile Include="WebTools\HttpTest.aspx.designer.cs">
       <DependentUpon>HttpTest.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebTools\OpenWeb.aspx.cs">
-      <DependentUpon>OpenWeb.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebTools\OpenWeb.aspx.designer.cs">
-      <DependentUpon>OpenWeb.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebTools\UserAgent.aspx.cs">
       <DependentUpon>UserAgent.aspx</DependentUpon>

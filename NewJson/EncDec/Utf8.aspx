@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="在线UTF-8编码汉字互转,中文转UTF-8,UTF-8转中文" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true"
-    CodeBehind="Utf8.aspx.cs" Inherits="NewJson.Change.Utf8" %>
+    CodeBehind="Utf8.aspx.cs" Inherits="NewJson.EncDec.Utf8" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 <meta name="keywords" content="UTF-8编码转换,在线UTF-8编码,utf8在线编码">

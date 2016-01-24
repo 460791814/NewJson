@@ -165,7 +165,7 @@
             <div class="media">
                 <div class="media-body">
                    <span>Response 请求返回值如下：<b></b></span>
-                     <button type="button" class="btn btn-primary" id="btn_copy"  >复制结果</button>
+                     <button type="button" class="btn btn-primary btn-xs" id="btn_copy"  >复制结果</button>
                          <script type="text/javascript" src="/Js/zeroclipboard.js?v=1288490188066.7"></script>
                                 <script>
                                     var clip = null;

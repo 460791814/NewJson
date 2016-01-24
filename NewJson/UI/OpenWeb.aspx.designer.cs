@@ -7,9 +7,9 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace NewJson.Change {
+namespace NewJson.UI {
     
     
-    public partial class Utf8 {
+    public partial class OpenWeb {
     }
 }
