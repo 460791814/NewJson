@@ -57,7 +57,7 @@
     </div>
     <script>
         function example() {
-            $("#text_input").val("name	payment	url	asdf\naaa中文测试	999	http://www.bejson.com	asdf\nbbb	888	http://www.bejson.com	asdf\nccc中文测试	777	http://www.bejson.com	asdf\nddd	666	http://www.bejson.com	asdf\neee中文测试	555	http://www.bejson.com	asdf\nfff	444	http://www.bejson.com	asdf");
+            $("#text_input").val("name	sex	age\n\我是小宝	男	5\n\我是小宝	男	5\n\我是小宝	男	5");
         }
 
         $("#text_input").bind("change1", function () {

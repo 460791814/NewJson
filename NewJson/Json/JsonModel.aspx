@@ -185,7 +185,7 @@
 
         }
         function demo() {
-            $("#text_input").val('{\r\n\t"animals":{\r\n\t"dog":[\r\n\t\t{"name":"Rufus","breed":"labrador","count":1,"twoFeet":false},\r\n\t\t{"name":"Marty","breed":"whippet","count":1,"twoFeet":false}\r\n\t],\r\n\t"cat":{"name":"Matilda"}\r\n}\r\n}');
+            $("#text_input").val('{\r\n\t"person":{\r\n\t"man":[\r\n\t\t{"name":"danshendog","sex":"man","age":5,"havemoney":false},\r\n\t\t{"name":"danshendog2","sex":"man","age":5,"havemoney":false}\r\n\t],\r\n\t"woman":{"name":"lili"}\r\n}\r\n}');
         }
 
     
