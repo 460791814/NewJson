@@ -288,6 +288,59 @@
     <Content Include="Js\linetextself.js" />
     <Content Include="Js\objtree.js" />
     <Content Include="Js\scripts.js" />
+    <Content Include="Js\tools\qrcode\basefn.js" />
+    <Content Include="Js\tools\qrcode\bdmap.js" />
+    <Content Include="Js\tools\qrcode\canvas.js" />
+    <Content Include="Js\tools\qrcode\css\base.css" />
+    <Content Include="Js\tools\qrcode\css\base_1.css" />
+    <Content Include="Js\tools\qrcode\css\index.css" />
+    <Content Include="Js\tools\qrcode\css\vector.css" />
+    <Content Include="Js\tools\qrcode\html5.js" />
+    <Content Include="Js\tools\qrcode\icolorpicker.js" />
+    <Content Include="Js\tools\qrcode\ie.js" />
+    <Content Include="Js\tools\qrcode\images\2013\diy\small\pin-1.png" />
+    <Content Include="Js\tools\qrcode\images\2013\diy\small\pin-10.png" />
+    <Content Include="Js\tools\qrcode\images\2013\diy\small\pin-11.png" />
+    <Content Include="Js\tools\qrcode\images\2013\diy\small\pin-12.png" />
+    <Content Include="Js\tools\qrcode\images\2013\diy\small\pin-13.png" />
+    <Content Include="Js\tools\qrcode\images\2013\diy\small\pin-14.png" />
+    <Content Include="Js\tools\qrcode\images\2013\diy\small\pin-15.png" />
+    <Content Include="Js\tools\qrcode\images\2013\diy\small\pin-16.png" />
+    <Content Include="Js\tools\qrcode\images\2013\diy\small\pin-17.png" />
+    <Content Include="Js\tools\qrcode\images\2013\diy\small\pin-18.png" />
+    <Content Include="Js\tools\qrcode\images\2013\diy\small\pin-19.png" />
+    <Content Include="Js\tools\qrcode\images\2013\diy\small\pin-2.png" />
+    <Content Include="Js\tools\qrcode\images\2013\diy\small\pin-20.png" />
+    <Content Include="Js\tools\qrcode\images\2013\diy\small\pin-21.png" />
+    <Content Include="Js\tools\qrcode\images\2013\diy\small\pin-3.png" />
+    <Content Include="Js\tools\qrcode\images\2013\diy\small\pin-4.png" />
+    <Content Include="Js\tools\qrcode\images\2013\diy\small\pin-5.png" />
+    <Content Include="Js\tools\qrcode\images\2013\diy\small\pin-6.png" />
+    <Content Include="Js\tools\qrcode\images\2013\diy\small\pin-7.png" />
+    <Content Include="Js\tools\qrcode\images\2013\diy\small\pin-8.png" />
+    <Content Include="Js\tools\qrcode\images\2013\diy\small\pin-9.png" />
+    <Content Include="Js\tools\qrcode\images\addpic.gif" />
+    <Content Include="Js\tools\qrcode\images\baidu_map.gif" />
+    <Content Include="Js\tools\qrcode\images\baidu_map.png" />
+    <Content Include="Js\tools\qrcode\images\bdmap_check.png" />
+    <Content Include="Js\tools\qrcode\images\bigicon.gif" />
+    <Content Include="Js\tools\qrcode\images\canvasbg.png" />
+    <Content Include="Js\tools\qrcode\images\dot.gif" />
+    <Content Include="Js\tools\qrcode\images\icon.gif" />
+    <Content Include="Js\tools\qrcode\images\icon.png" />
+    <Content Include="Js\tools\qrcode\images\picicon.gif" />
+    <Content Include="Js\tools\qrcode\images\pin-panel.png" />
+    <Content Include="Js\tools\qrcode\images\pin-tri.jpg" />
+    <Content Include="Js\tools\qrcode\images\scroll.gif" />
+    <Content Include="Js\tools\qrcode\images\textbg.gif" />
+    <Content Include="Js\tools\qrcode\images\tip.gif" />
+    <Content Include="Js\tools\qrcode\index.js" />
+    <Content Include="Js\tools\qrcode\jquery-1.8.2.min.js" />
+    <Content Include="Js\tools\qrcode\public.js" />
+    <Content Include="Js\tools\qrcode\qrcode.js" />
+    <Content Include="Js\tools\qrcode\sdk.js" />
+    <Content Include="Js\tools\qrcode\subnav.js" />
+    <Content Include="Js\tools\qrcode\vector.js" />
     <Content Include="Js\ui\blob.js" />
     <Content Include="Js\ui\canvas-toblob.js" />
     <Content Include="Js\ui\filesaver.js" />
@@ -334,6 +387,7 @@
     <Content Include="Picture\android_t2.png" />
     <Content Include="Picture\android_v1.png" />
     <Content Include="Picture\aoyou.png" />
+    <Content Include="Picture\close.gif" />
     <Content Include="Picture\google.png" />
     <Content Include="Picture\huofu.png" />
     <Content Include="Picture\ie9.png" />
@@ -347,6 +401,7 @@
     <Content Include="Picture\iphone_5.png" />
     <Content Include="Picture\iphone_6.png" />
     <Content Include="Picture\iphone_6p.png" />
+    <Content Include="Picture\liantu.png" />
     <Content Include="Picture\sougou.png" />
     <Content Include="Picture\spacer.gif" />
     <Content Include="Template\footer.htm" />
@@ -354,6 +409,66 @@
     <Content Include="Template\menu.htm" />
     <Content Include="Test.aspx" />
     <Content Include="test.html" />
+    <Content Include="Tools\ewm.htm" />
+    <Content Include="Tools\images\2013\diy\big\pin-1.png" />
+    <Content Include="Tools\images\2013\diy\big\pin-10.png" />
+    <Content Include="Tools\images\2013\diy\big\pin-11.png" />
+    <Content Include="Tools\images\2013\diy\big\pin-12.png" />
+    <Content Include="Tools\images\2013\diy\big\pin-13.png" />
+    <Content Include="Tools\images\2013\diy\big\pin-14.png" />
+    <Content Include="Tools\images\2013\diy\big\pin-15.png" />
+    <Content Include="Tools\images\2013\diy\big\pin-16.png" />
+    <Content Include="Tools\images\2013\diy\big\pin-17.png" />
+    <Content Include="Tools\images\2013\diy\big\pin-18.png" />
+    <Content Include="Tools\images\2013\diy\big\pin-19.png" />
+    <Content Include="Tools\images\2013\diy\big\pin-2.png" />
+    <Content Include="Tools\images\2013\diy\big\pin-20.png" />
+    <Content Include="Tools\images\2013\diy\big\pin-21.png" />
+    <Content Include="Tools\images\2013\diy\big\pin-3.png" />
+    <Content Include="Tools\images\2013\diy\big\pin-4.png" />
+    <Content Include="Tools\images\2013\diy\big\pin-5.png" />
+    <Content Include="Tools\images\2013\diy\big\pin-6.png" />
+    <Content Include="Tools\images\2013\diy\big\pin-7.png" />
+    <Content Include="Tools\images\2013\diy\big\pin-8.png" />
+    <Content Include="Tools\images\2013\diy\big\pin-9.png" />
+    <Content Include="Tools\images\2013\diy\small\pin-1.png" />
+    <Content Include="Tools\images\2013\diy\small\pin-10.png" />
+    <Content Include="Tools\images\2013\diy\small\pin-11.png" />
+    <Content Include="Tools\images\2013\diy\small\pin-12.png" />
+    <Content Include="Tools\images\2013\diy\small\pin-13.png" />
+    <Content Include="Tools\images\2013\diy\small\pin-14.png" />
+    <Content Include="Tools\images\2013\diy\small\pin-15.png" />
+    <Content Include="Tools\images\2013\diy\small\pin-16.png" />
+    <Content Include="Tools\images\2013\diy\small\pin-17.png" />
+    <Content Include="Tools\images\2013\diy\small\pin-18.png" />
+    <Content Include="Tools\images\2013\diy\small\pin-19.png" />
+    <Content Include="Tools\images\2013\diy\small\pin-2.png" />
+    <Content Include="Tools\images\2013\diy\small\pin-20.png" />
+    <Content Include="Tools\images\2013\diy\small\pin-21.png" />
+    <Content Include="Tools\images\2013\diy\small\pin-3.png" />
+    <Content Include="Tools\images\2013\diy\small\pin-4.png" />
+    <Content Include="Tools\images\2013\diy\small\pin-5.png" />
+    <Content Include="Tools\images\2013\diy\small\pin-6.png" />
+    <Content Include="Tools\images\2013\diy\small\pin-7.png" />
+    <Content Include="Tools\images\2013\diy\small\pin-8.png" />
+    <Content Include="Tools\images\2013\diy\small\pin-9.png" />
+    <Content Include="Tools\images\addpic.gif" />
+    <Content Include="Tools\images\baidu_map.gif" />
+    <Content Include="Tools\images\baidu_map.png" />
+    <Content Include="Tools\images\bdmap_check.png" />
+    <Content Include="Tools\images\bigicon.gif" />
+    <Content Include="Tools\images\canvasbg.png" />
+    <Content Include="Tools\images\dot.gif" />
+    <Content Include="Tools\images\icon.gif" />
+    <Content Include="Tools\images\icon.png" />
+    <Content Include="Tools\images\picicon.gif" />
+    <Content Include="Tools\images\pin-panel.png" />
+    <Content Include="Tools\images\pin-tri.jpg" />
+    <Content Include="Tools\images\scroll.gif" />
+    <Content Include="Tools\images\textbg.gif" />
+    <Content Include="Tools\images\tip.gif" />
+    <Content Include="Tools\QRCode.aspx" />
+    <Content Include="Tools\WebForm1.aspx" />
     <Content Include="Tools\WordCounter.aspx" />
     <Content Include="UI\BorderRadius.aspx" />
     <Content Include="UI\ImageResize.aspx" />
@@ -635,6 +750,20 @@
     </Compile>
     <Compile Include="Test.aspx.designer.cs">
       <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\QRCode.aspx.cs">
+      <DependentUpon>QRCode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tools\QRCode.aspx.designer.cs">
+      <DependentUpon>QRCode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tools\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Tools\WordCounter.aspx.cs">
       <DependentUpon>WordCounter.aspx</DependentUpon>

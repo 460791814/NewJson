@@ -42,7 +42,7 @@ var CrayonSyntaxStrings = {"copy":"\u4f7f\u7528 %s \u590d\u5236\uff0c\u4f7f\u752
         <div class="container">
             <div class="row">
                 <div class="aw-json_input-wrap clearfix">
-                    <div class=" aw-main-json_input" style="min-height: 700px; max-height: 2000px">
+                    <div class=" aw-main-json_input" style="min-height: 700px; ">
                         <div style="clear: both"></div>
   
                             <asp:ContentPlaceHolder ID="Content" runat="server">
