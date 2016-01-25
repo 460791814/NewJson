@@ -17,7 +17,7 @@
         </div>
         <div class="panel-body" >
 
-          <iframe src="ewm.htm" marginheight="0" marginwidth="0" frameborder="0" scrolling="no"  height="100%" id="iframepage" name="iframepage" onload="iFrameHeight()" ></iframe>
+          <iframe src="/tools/ewm.htm" marginheight="0" marginwidth="0" frameborder="0" scrolling="no"  height="100%" id="iframepage" name="iframepage" onload="iFrameHeight()"  style="margin-left: 50px;"></iframe>
             <script type="text/javascript" language="javascript">
 
                 function iFrameHeight() {
@@ -28,7 +28,7 @@
 
                     if (ifm != null && subWeb != null) {
 
-                        ifm.height = subWeb.body.scrollHeight;
+                        ifm.height = subWeb.body.scrollHeight+30;
                         ifm.width = subWeb.body.scrollWidth;
                     }
 
