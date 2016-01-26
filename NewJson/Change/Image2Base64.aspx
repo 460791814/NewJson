@@ -27,7 +27,7 @@
         <div class="panel-body">
             <div style="margin-left: 10px">
                 <span class="btn btn-success fileinput-button"><i class="glyphicon glyphicon-plus"></i>
-                    <span>Select files...</span>
+                    <span>选择文件...</span>
                     <input id="fileupload" type="file" name="files[]" data-url="/Change/Image2Base64.aspx?method=base64"
                         multiple />
                 </span>

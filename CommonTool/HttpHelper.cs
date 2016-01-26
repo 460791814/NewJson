@@ -31,6 +31,7 @@ namespace CommonTool
 
         public static string Send(string url, string method, string data, HttpConfig config)
         {
+            url = System.Web.HttpUtility.UrlEncode(url);
             if (config == null) config = new HttpConfig();
             string result;
             using (HttpWebResponse response = GetResponse(url, method, data, config))

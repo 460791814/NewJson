@@ -31,7 +31,7 @@ namespace NewJson.Change
 
         private void Encode()
         {
-        string json=Utils.SendWebRequest("http://api.t.sina.com.cn/short_url/shorten.json?source=1681459862&url_long="+Request["url"]);
+        string json=Utils.SendWebRequest("http://api.t.sina.com.cn/short_url/shorten.json?source=1681459862&url_long="+System.Web.HttpUtility.UrlEncode(Request["url"]));
         Response.Write(json);
         Response.End();
         }

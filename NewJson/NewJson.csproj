@@ -293,6 +293,7 @@
     <Content Include="Js\tools\qrcode\canvas.js" />
     <Content Include="Js\tools\qrcode\css\base.css" />
     <Content Include="Js\tools\qrcode\css\base_1.css" />
+    <Content Include="Js\tools\qrcode\css\bootstrap.css" />
     <Content Include="Js\tools\qrcode\css\index.css" />
     <Content Include="Js\tools\qrcode\css\vector.css" />
     <Content Include="Js\tools\qrcode\html5.js" />
@@ -341,6 +342,20 @@
     <Content Include="Js\tools\qrcode\sdk.js" />
     <Content Include="Js\tools\qrcode\subnav.js" />
     <Content Include="Js\tools\qrcode\vector.js" />
+    <Content Include="Js\tools\qrdecode\bejsoncommon.js" />
+    <Content Include="Js\tools\qrdecode\bootstrap.min.js" />
+    <Content Include="Js\tools\qrdecode\jquery.min.js" />
+    <Content Include="Js\tools\qrdecode\jquery.min_1.js" />
+    <Content Include="Js\tools\qrdecode\qrcodelib_decode.js" />
+    <Content Include="Js\tools\qrdecode\qrcodelib_default.css" />
+    <Content Include="Js\tools\qrdecode\qrcodelib_encode.js" />
+    <Content Include="Js\tools\qrdecode\qrcodelib_qrbase.js" />
+    <Content Include="Js\tools\qrdecode\qrcodelib_qrcode.js" />
+    <Content Include="Js\tools\qrdecode\qrcodelib_qrdecode.js" />
+    <Content Include="Js\tools\qrdecode\qrcodelib_reedsolomon.js" />
+    <Content Include="Js\tools\qrdecode\qrcodelib_render.canvas.js" />
+    <Content Include="Js\tools\qrdecode\qrcodelib_render.em.js" />
+    <Content Include="Js\tools\qrdecode\qrcodelib_render.table.js" />
     <Content Include="Js\ui\blob.js" />
     <Content Include="Js\ui\canvas-toblob.js" />
     <Content Include="Js\ui\filesaver.js" />
@@ -467,8 +482,9 @@
     <Content Include="Tools\images\scroll.gif" />
     <Content Include="Tools\images\textbg.gif" />
     <Content Include="Tools\images\tip.gif" />
+    <Content Include="Tools\QRCode1.aspx" />
+    <Content Include="Tools\QRDeCode.aspx" />
     <Content Include="Tools\QRCode.aspx" />
-    <Content Include="Tools\WebForm1.aspx" />
     <Content Include="Tools\WordCounter.aspx" />
     <Content Include="UI\BorderRadius.aspx" />
     <Content Include="UI\ImageResize.aspx" />
@@ -751,19 +767,26 @@
     <Compile Include="Test.aspx.designer.cs">
       <DependentUpon>Test.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Tools\QRCode1.aspx.cs">
+      <DependentUpon>QRCode1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tools\QRCode1.aspx.designer.cs">
+      <DependentUpon>QRCode1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\QRDeCode.aspx.cs">
+      <DependentUpon>QRDeCode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tools\QRDeCode.aspx.designer.cs">
+      <DependentUpon>QRDeCode.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Tools\QRCode.aspx.cs">
       <DependentUpon>QRCode.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Tools\QRCode.aspx.designer.cs">
       <DependentUpon>QRCode.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Tools\WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Tools\WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Tools\WordCounter.aspx.cs">
       <DependentUpon>WordCounter.aspx</DependentUpon>
@@ -897,6 +920,7 @@
     <None Include="Js\jQuery-File-Upload-8.8.5\server\php\UploadHandler.php" />
     <None Include="Js\jsoneditor\stat.php" />
     <Content Include="Main.Master" />
+    <None Include="Js\tools\qrdecode\stat.php" />
     <None Include="Js\uploadify\check-exists.php" />
     <None Include="Js\uploadify\index.php" />
     <None Include="Js\uploadify\uploadify.php" />
