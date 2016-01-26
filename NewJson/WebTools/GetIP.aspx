@@ -42,8 +42,7 @@
                 <div class="media-body">
                     <h4 class="media-heading">
                         获取您的IP</h4>
-                    <div id="desc1">
-                        获取用户IP</div>
+                   
                 </div>
             </div>
         </div>

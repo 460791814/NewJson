@@ -491,6 +491,7 @@
     <Content Include="UI\OnlineColor.aspx" />
     <Content Include="UI\OpenWeb.aspx" />
     <Content Include="UI\PhoneSize.aspx" />
+    <Content Include="UI\RunJs.aspx" />
     <Content Include="UI\SafeColor.aspx" />
     <Content Include="UI\UseColor.aspx" />
     <Content Include="Validate\Regex.aspx" />
@@ -829,6 +830,13 @@
     </Compile>
     <Compile Include="UI\PhoneSize.aspx.designer.cs">
       <DependentUpon>PhoneSize.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\RunJs.aspx.cs">
+      <DependentUpon>RunJs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\RunJs.aspx.designer.cs">
+      <DependentUpon>RunJs.aspx</DependentUpon>
     </Compile>
     <Compile Include="UI\SafeColor.aspx.cs">
       <DependentUpon>SafeColor.aspx</DependentUpon>

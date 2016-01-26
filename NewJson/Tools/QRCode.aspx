@@ -263,29 +263,6 @@ text-decoration:none;
             </div>
         </div>
         <div class="panel-body" >
-
-<%--          <iframe src="/tools/ewm.htm" marginheight="0" marginwidth="0" frameborder="0" scrolling="no"  height="100%" id="iframepage" name="iframepage" onload="iFrameHeight()"  style="margin-left: 50px;"></iframe>
-            <script type="text/javascript" language="javascript">
-
-                function iFrameHeight() {
-
-                    var ifm = document.getElementById("iframepage");
-
-                    var subWeb = document.frames ? document.frames["iframepage"].document :ifm.contentDocument;
-
-                    if (ifm != null && subWeb != null) {
-
-                        ifm.height = subWeb.body.scrollHeight+30;
-                        ifm.width = subWeb.body.scrollWidth;
-                    }
-
-                }
-
-</script>--%>
-
-
-
-
  
             <link href="/js/tools/qrcode/css/base_1.css" type="text/css" rel="stylesheet"/>
         <link href="/js/tools/qrcode/css/index.css" type="text/css" rel="stylesheet"/>
@@ -782,7 +759,7 @@ text-decoration:none;
         <!-- #main -->
         <div class="cls">
         </div>
-         <!-- #include file="/Template/footer.htm" -->
+     
         <script type="text/javascript">            loading('100%', 1000)</script>
 </body>
 </html>
