@@ -81,6 +81,8 @@
     <Content Include="Css\font-awesome-ie7.min.css" />
     <Content Include="Css\font-awesome.min.css" />
     <Content Include="Css\ie.css" />
+    <Content Include="Css\math\9me.css" />
+    <Content Include="Css\math\9mime.css" />
     <Content Include="Css\toolstyle.css" />
     <Content Include="Css\ui\placeholder.almost-flat.min.css" />
     <Content Include="Css\ui\progress.almost-flat.min.css" />
@@ -143,9 +145,13 @@
     <Content Include="Images\warning.png" />
     <Content Include="Images\wordpress-blue.png" />
     <Content Include="Images\yes.png" />
+    <Content Include="Json\AboutJson.aspx" />
     <Content Include="Json\Excel2Json.aspx" />
     <Content Include="Json\GetPostJson.aspx" />
     <Content Include="Json\JsonCheck.aspx" />
+    <Content Include="Json\Jsoncn.aspx" />
+    <Content Include="Json\JsonCode.aspx" />
+    <Content Include="Json\JsonComponent.aspx" />
     <Content Include="Json\JsonEditor.aspx" />
     <Content Include="Json\JsonHandle.aspx" />
     <Content Include="Json\JsonModel.aspx" />
@@ -284,8 +290,25 @@
     <Content Include="Js\jsoneditor\jsonlint.js" />
     <Content Include="Js\jsoneditor\notify.js" />
     <Content Include="Js\jsoneditor\splitter.js" />
+    <Content Include="Js\json\base.css" />
+    <Content Include="Js\json\bootstrap.min.css" />
+    <Content Include="Js\json\bootstrap.min.js" />
+    <Content Include="Js\json\e4fa28540d94417096cd8a0508d766e4.js" />
+    <Content Include="Js\json\font-awesome.min.css" />
+    <Content Include="Js\json\html5shiv.min.js" />
+    <Content Include="Js\json\jquery.json.js" />
+    <Content Include="Js\json\jquery.json2xml.js" />
+    <Content Include="Js\json\jquery.message.js" />
+    <Content Include="Js\json\jquery.min.js" />
+    <Content Include="Js\json\json2.js" />
+    <Content Include="Js\json\jsonlint.js" />
+    <Content Include="Js\json\respond.min.js" />
     <Content Include="Js\lightbox-2.6.min.js" />
     <Content Include="Js\linetextself.js" />
+    <Content Include="Js\math\globaljquery.js" />
+    <Content Include="Js\math\jquery-1.4.3.min.js" />
+    <Content Include="Js\math\jquery-addinfo.js" />
+    <Content Include="Js\math\latest.js" />
     <Content Include="Js\objtree.js" />
     <Content Include="Js\scripts.js" />
     <Content Include="Js\tools\qrcode\basefn.js" />
@@ -373,6 +396,7 @@
     <Content Include="Js\zeroclipboard.js" />
     <Content Include="Js\ZeroClipboard.swf" />
     <Content Include="Lib\Newtonsoft.Json.dll" />
+    <Content Include="Math\TaxTool.aspx" />
     <Content Include="Picture\1443430414000418.jpg" />
     <Content Include="Picture\360.png" />
     <Content Include="Picture\android_h1.png" />
@@ -704,6 +728,13 @@
     <Compile Include="Format\XmlFormat.aspx.designer.cs">
       <DependentUpon>XmlFormat.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Json\AboutJson.aspx.cs">
+      <DependentUpon>AboutJson.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Json\AboutJson.aspx.designer.cs">
+      <DependentUpon>AboutJson.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Json\Excel2Json.aspx.cs">
       <DependentUpon>Excel2Json.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -724,6 +755,27 @@
     </Compile>
     <Compile Include="Json\JsonCheck.aspx.designer.cs">
       <DependentUpon>JsonCheck.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Json\Jsoncn.aspx.cs">
+      <DependentUpon>Jsoncn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Json\Jsoncn.aspx.designer.cs">
+      <DependentUpon>Jsoncn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Json\JsonCode.aspx.cs">
+      <DependentUpon>JsonCode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Json\JsonCode.aspx.designer.cs">
+      <DependentUpon>JsonCode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Json\JsonComponent.aspx.cs">
+      <DependentUpon>JsonComponent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Json\JsonComponent.aspx.designer.cs">
+      <DependentUpon>JsonComponent.aspx</DependentUpon>
     </Compile>
     <Compile Include="Json\JsonEditor.aspx.cs">
       <DependentUpon>JsonEditor.aspx</DependentUpon>
@@ -759,6 +811,13 @@
     </Compile>
     <Compile Include="Main.Master.designer.cs">
       <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Math\TaxTool.aspx.cs">
+      <DependentUpon>TaxTool.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Math\TaxTool.aspx.designer.cs">
+      <DependentUpon>TaxTool.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test.aspx.cs">
@@ -907,6 +966,7 @@
     <None Include="Js\brix-crypto-js-6362ada\LICENSE" />
     <None Include="Js\brix-crypto-js-6362ada\package.json" />
     <None Include="Js\brix-crypto-js-6362ada\README.md" />
+    <None Include="Js\fonts\fontawesome-webfont.woff" />
     <None Include="Js\jQuery-File-Upload-8.8.5\.gitignore" />
     <None Include="Js\jQuery-File-Upload-8.8.5\blueimp-file-upload.jquery.json" />
     <None Include="Js\jQuery-File-Upload-8.8.5\bower.json" />

@@ -17,6 +17,7 @@ namespace NewJson
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+           //SendGW(23095740, "124.1.1.16");
             return;
               var body = "我是中文的";
             var base64 = Convert.ToBase64String(Encoding.UTF8.GetBytes(body));
@@ -70,6 +71,23 @@ string str=  Utils.SendWebRequest("http://www.ip138.com/ips138.asp?ip=124.207.33
         //    Console.WriteLine("XML -> JSON: {0}", json);
          //   Console.ReadLine();
     //         Response.Write(doc);
+        }
+        /// <summary>
+        /// 增加用户抽奖次数接口
+        /// </summary>
+        /// <param name="useId"></param>
+        /// <param name="ip"></param>
+        private void SendGW(int useId, string ip)
+        {
+            string url = "http://gw.open.zxxk.com/router?$method=xk.usersharelottery.usersharelottery.AddLotteryTimes&$app_key=xop_temp_key&$format=json&userid=" + useId + "&ip=" + ip;
+            try
+            {
+                Utils.SendWebRequest(url);
+            }
+            catch (Exception e)
+            {
+              //  new SendEmail().Send("712300408", "用户抽奖", "地址：" + url + "\r\n" + e.Message);
+            }
         }
         public static String HttpGetUrl(String url)
         {
