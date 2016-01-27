@@ -742,9 +742,6 @@ jsl.interactions = (function() {
                 if (compress) {
                     $('#json_input').val(JSON.stringify(JSON.parse(jsonVal), null, ""))
                 }
-                  var result_jsontree = new JSONFormat($('#json_input').val(), 4).toString();
-                   $('#jsontree').html(result_jsontree);
-                   $('#jsontree').show();
             } else {
                 alert("\u672a\u77e5\u9519\u8bef")
             }
@@ -811,14 +808,12 @@ jsl.interactions = (function() {
 //        }).linedtextarea({
 //            selectedClass: 'lineselect'
 //        }).focus();
-        $('#clear').click(function() {
-            $('#jsontree').html(" ");
-            $('#jsontree').hide();
+        $('#reset').click(function() {
             $('#json_input').val('').focus()
         });
-//        $('#faqButton').click(function() {
-//            $('#faq').slideToggle()
-//        });
+        $('#faqButton').click(function() {
+            $('#faq').slideToggle()
+        });
         if (jsonParam) {
             $('#json_input').val(jsonParam);
             $('#validate').click()
