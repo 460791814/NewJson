@@ -149,6 +149,7 @@
     <Content Include="Json\Excel2Json.aspx" />
     <Content Include="Json\GetPostJson.aspx" />
     <Content Include="Json\JsonCheck.aspx" />
+    <Content Include="Json\jsoncheck.js" />
     <Content Include="Json\Jsoncn.aspx" />
     <Content Include="Json\JsonCode.aspx" />
     <Content Include="Json\JsonComponent.aspx" />

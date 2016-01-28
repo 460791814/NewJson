@@ -5,11 +5,12 @@
 <meta name="keywords" content="在线,JSON,JSON 校验,格式化,在线工具,json视图,json可视化,json测试,在线json格式化工具,json 格式化,json格式化工具,json字符串格式化,json 在线查看器,json在线,json 在线验证,json tools online"/>
 <meta name="description" content="在线,JSON,JSON 校验,格式化,在线工具,json视图,json可视化,json测试,在线json格式化工具,json 格式化,json格式化工具,json字符串格式化,json 在线查看器,json在线,json 在线验证,json tools online"/>
     <link href="/Css/self.css" rel="stylesheet" type="text/css" />
-    
+    <link href="/Js/json/font-awesome.min.css" rel="stylesheet" type="text/css" /> 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
     <script src="/Js/jquery-linedtextarea.js" type="text/javascript"></script>
     <link href="/Css/jquery-linedtextarea.css" type="text/css" rel="stylesheet">
+   <script src="/Js/json/jquery.json.js" type="text/javascript"></script> 
     <script type="text/javascript" src="/Js/jsoncheck.js"></script>
     
     <!--[if IE]><link rel="stylesheet" href="/Css/ie.css" type="text/css" media="screen, projection"><![endif]-->
@@ -30,7 +31,7 @@
                 <div style="clear: both;">
                 </div>
             </div>
-            <form id="JSONValidate" method="post" action="" name="JSONValidate" style="margin-top: 10px;">
+          
             <input type="hidden" id="reformat" value="1" />
             <input type="hidden" id="compress" value="0" />
             <div>
@@ -42,15 +43,18 @@
                     <div class="btn-group" role="group" aria-label="...">
                         <button name="validate" id="validate" value="Validate" class="btn btn-primary">
                             校验</button>
-                        <input name="validate" class="btn btn-danger" onclick="javascript:$('#json_input').focus(); "
-                            type="reset" value="清空" />
+                        <input type="button"  class="btn btn-danger" id="clear"   name="name" value="清空" />
+                         
                     </div>
                 </div>
             </div>
-            </form>
+            
             <div style="clear: both;">
             </div>
             <pre id="results" class="top10" style="display: none;"></pre>
+            <div id="jsontree" class="greenBorder" style="display: none;">
+             
+            </div>
             <div id="attention">
                 <p>
                     如下原因会造成JSON校验失败,而且会让你不知道为什么失败</p>
@@ -62,4 +66,12 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript">
+        function clear() {
+            $('#jsontree').html(" ");
+            $('#jsontree').hide();
+            $('#json_input').focus();
+          
+        }
+    </script>
 </asp:Content>

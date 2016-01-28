@@ -2,8 +2,8 @@ D:\Code\Web\NewJson\CommonTool\bin\Debug\CommonTool.dll
 D:\Code\Web\NewJson\CommonTool\bin\Debug\CommonTool.pdb
 D:\Code\Web\NewJson\CommonTool\obj\Debug\CommonTool.dll
 D:\Code\Web\NewJson\CommonTool\obj\Debug\CommonTool.pdb
+D:\Code\Web\NewJson\CommonTool\obj\Debug\CommonTool.csprojResolveAssemblyReference.cache
 F:\Code\Web\NewJson\CommonTool\bin\Debug\CommonTool.dll
 F:\Code\Web\NewJson\CommonTool\bin\Debug\CommonTool.pdb
 F:\Code\Web\NewJson\CommonTool\obj\Debug\CommonTool.dll
 F:\Code\Web\NewJson\CommonTool\obj\Debug\CommonTool.pdb
-F:\Code\Web\NewJson\CommonTool\obj\Debug\CommonTool.csprojResolveAssemblyReference.cache
