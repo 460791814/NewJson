@@ -9,6 +9,7 @@
     <link href="/Css/change/publicstyle.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+<embed width="100%" height="100%" name="plugin" src="http://www.tuyitu.com//photoshop/Editor.swf" type="application/x-shockwave-flash">
     <div class="Tool-MainWrap wrapper">
         <!--IcpSearch-begin-->
         <div class="publicSearch">

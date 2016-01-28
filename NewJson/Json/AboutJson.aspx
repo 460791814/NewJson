@@ -1,5 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="AboutJson.aspx.cs" Inherits="NewJson.Json.AboutJson" %>
+﻿<%@ Page Title="什么是Json" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="AboutJson.aspx.cs" Inherits="NewJson.Json.AboutJson" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+<meta name="keywords" content="Json,Json在线解析,Json解析,Json格式化,Json压缩,XML转Json,Json转XML,Json中文网,Json工具,Json.cn">
+<meta name="description" content="致力于在中国推广Json,并提供相关的Json解析、验证、格式化、压缩、编辑器以及Json与XML相互转换等服务">
     <style type="text/css">
     h1, h2, h3, h4, h5 {
     font-weight: bold;

@@ -11,6 +11,7 @@
     <script src="/Js/jquery-linedtextarea.js" type="text/javascript"></script>
     <link href="/Css/jquery-linedtextarea.css" type="text/css" rel="stylesheet">
    <script src="/Js/json/jquery.json.js" type="text/javascript"></script> 
+   
     <script type="text/javascript" src="/Js/jsoncheck.js"></script>
     
     <!--[if IE]><link rel="stylesheet" href="/Css/ie.css" type="text/css" media="screen, projection"><![endif]-->
@@ -19,8 +20,9 @@
         <div class="panel-heading">
             <div class="media">
                 <div class="media-body">
-                    <h4 class="media-heading">
-                        Json格式化校验</h4>
+                    <h4 class="media-heading" style=" float:left" >
+                        Json格式化校验</h4> <div>
+                            <a href="/json/aboutjson/" style=" margin:20px">什么是json?</a><a href="/json/jsoncode/">json解析</a></div>
                 </div>
             </div>
         </div>
@@ -42,6 +44,8 @@
                 <div class="left" style="float: left">
                     <div class="btn-group" role="group" aria-label="...">
                         <button name="validate" id="validate" value="Validate" class="btn btn-primary">
+                            校验</button>
+                                                    <button name="validate" id="TOXML" value="Validate" class="btn btn-primary">
                             校验</button>
                         <input type="button"  class="btn btn-danger" id="clear"   name="name" value="清空" />
                          
@@ -66,12 +70,5 @@
             </div>
         </div>
     </div>
-    <script type="text/javascript">
-        function clear() {
-            $('#jsontree').html(" ");
-            $('#jsontree').hide();
-            $('#json_input').focus();
-          
-        }
-    </script>
+
 </asp:Content>

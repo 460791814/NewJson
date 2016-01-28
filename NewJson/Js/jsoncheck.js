@@ -366,7 +366,7 @@ jsl.parser = function() {
                             for (w in f[r]) this.terminals_[w] && w > 2 && z.push("'" + this.terminals_[w] + "'");
                             var A = "";
                            // this.lexer.showPosition ? A = "Parse error on line " + (h + 1) + ":\n" + this.lexer.showPosition() + "\nExpecting " + z.join(", ") : A = "Parse error on line " + (h + 1) + ": Unexpected " + (p == 1 ? "end of input": "'" + (this.terminals_[p] || p) + "'"),
-                             this.lexer.showPosition ? A = "\u7b2c " + (h + 1) + " \u884c\u89e3\u6790\u9519\u8bef:\n" + this.lexer.showPosition() + "\n\u9700\u8981 " + z.join(",").replace('EOF','\u7ed3\u5c3e\u7b26\u53f7') : A = "\u7b2c  " + (h + 1) + "\u884c\u89e3\u6790\u9519\u8bef: \u672a\u77e5\u9519\u8bef " + (p == 1 ? "\u8f93\u5165\u7ed3\u675f": "'" + (this.terminals_[p] || p) + "'"),
+                             this.lexer.showPosition ? A = "\u7b2c " + (h + 1) + " \u884c\u89e3\u6790\u9519\u8bef:\n" + this.lexer.showPosition() + "\n\u7f3a\u5c11 " + z.join(",").replace('EOF','\u7ed3\u5c3e\u7b26\u53f7') : A = "\u7b2c  " + (h + 1) + "\u884c\u89e3\u6790\u9519\u8bef: \u672a\u77e5\u9519\u8bef " + (p == 1 ? "\u7ed3\u5c3e\u8f93\u5165": "'" + (this.terminals_[p] || p) + "'"),
                             this.parseError(A, {
                                 text: this.lexer.match,
                                 token: this.terminals_[p] || p,
@@ -820,9 +820,11 @@ jsl.interactions = (function() {
             $('#jsontree').hide();
             $('#json_input').val('').focus()
         });
+
 //        $('#faqButton').click(function() {
 //            $('#faq').slideToggle()
 //        });
+    
         if (jsonParam) {
             $('#json_input').val(jsonParam);
             $('#validate').click()

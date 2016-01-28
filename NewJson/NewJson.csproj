@@ -60,6 +60,7 @@
     <Content Include="Change\FullHalf.aspx" />
     <Content Include="Change\Hex2Str.aspx" />
     <Content Include="Change\HexConvert.aspx" />
+    <Content Include="Change\Html2MarkDown.aspx" />
     <Content Include="Change\HtmlUBB.aspx" />
     <Content Include="Change\Image2Base64.aspx" />
     <Content Include="Change\J2F.aspx" />
@@ -100,11 +101,17 @@
     <Content Include="Css\validate\all-base.css" />
     <Content Include="Css\validate\publicstyle.css" />
     <Content Include="Css\validate\toolstyle.css" />
+    <Content Include="Docs\MarkDown.aspx" />
+    <Content Include="Docs\MarkDownBasic.aspx" />
+    <Content Include="DownLoad\jquery.json2xml.js" />
+    <Content Include="DownLoad\jquery.xml2json.js" />
+    <Content Include="DownLoad\json2.js" />
     <Content Include="EncDec\Base64.aspx" />
     <Content Include="EncDec\Escape.aspx" />
     <Content Include="EncDec\JsConfusion.aspx" />
     <Content Include="EncDec\JsEval.aspx" />
     <Content Include="EncDec\MD5.aspx" />
+    <Content Include="EncDec\Morse.aspx" />
     <Content Include="EncDec\SHA.aspx" />
     <Content Include="EncDec\UrlEncode.aspx" />
     <Content Include="EncDec\Utf8.aspx" />
@@ -149,7 +156,6 @@
     <Content Include="Json\Excel2Json.aspx" />
     <Content Include="Json\GetPostJson.aspx" />
     <Content Include="Json\JsonCheck.aspx" />
-    <Content Include="Json\jsoncheck.js" />
     <Content Include="Json\Jsoncn.aspx" />
     <Content Include="Json\JsonCode.aspx" />
     <Content Include="Json\JsonComponent.aspx" />
@@ -215,7 +221,9 @@
     <Content Include="Js\brix-crypto-js-6362ada\x64-core.js" />
     <Content Include="Js\change\j2f.js" />
     <Content Include="Js\change\Html_Ubb.js" />
+    <Content Include="Js\change\markdown.min.js" />
     <Content Include="Js\change\pinyin.js" />
+    <Content Include="Js\change\to-markdown.js" />
     <Content Include="Js\chosen.jquery.min.js" />
     <Content Include="Js\change\checkdata.js" />
     <Content Include="Js\change\dropdown21.js" />
@@ -224,6 +232,7 @@
     <Content Include="Js\change\unix_time.js" />
     <Content Include="Js\encdec\base64.js" />
     <Content Include="Js\encdec\md5.js" />
+    <Content Include="Js\encdec\mor.min.js" />
     <Content Include="Js\encdec\sha1.js" />
     <Content Include="Js\encdec\sha256.js" />
     <Content Include="Js\encdec\sha512.js" />
@@ -516,6 +525,7 @@
     <Content Include="UI\OnlineColor.aspx" />
     <Content Include="UI\OpenWeb.aspx" />
     <Content Include="UI\PhoneSize.aspx" />
+    <Content Include="UI\PhotoShop.aspx" />
     <Content Include="UI\RunJs.aspx" />
     <Content Include="UI\SafeColor.aspx" />
     <Content Include="UI\UseColor.aspx" />
@@ -567,6 +577,13 @@
     </Compile>
     <Compile Include="Change\HexConvert.aspx.designer.cs">
       <DependentUpon>HexConvert.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Change\Html2MarkDown.aspx.cs">
+      <DependentUpon>Html2MarkDown.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Change\Html2MarkDown.aspx.designer.cs">
+      <DependentUpon>Html2MarkDown.aspx</DependentUpon>
     </Compile>
     <Compile Include="Change\HtmlUBB.aspx.cs">
       <DependentUpon>HtmlUBB.aspx</DependentUpon>
@@ -645,6 +662,20 @@
     <Compile Include="Change\Unix.aspx.designer.cs">
       <DependentUpon>Unix.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Docs\MarkDown.aspx.cs">
+      <DependentUpon>MarkDown.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Docs\MarkDown.aspx.designer.cs">
+      <DependentUpon>MarkDown.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Docs\MarkDownBasic.aspx.cs">
+      <DependentUpon>MarkDownBasic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Docs\MarkDownBasic.aspx.designer.cs">
+      <DependentUpon>MarkDownBasic.aspx</DependentUpon>
+    </Compile>
     <Compile Include="EncDec\Base64.aspx.cs">
       <DependentUpon>Base64.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -679,6 +710,13 @@
     </Compile>
     <Compile Include="EncDec\MD5.aspx.designer.cs">
       <DependentUpon>MD5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EncDec\Morse.aspx.cs">
+      <DependentUpon>Morse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EncDec\Morse.aspx.designer.cs">
+      <DependentUpon>Morse.aspx</DependentUpon>
     </Compile>
     <Compile Include="EncDec\SHA.aspx.cs">
       <DependentUpon>SHA.aspx</DependentUpon>
@@ -891,6 +929,13 @@
     <Compile Include="UI\PhoneSize.aspx.designer.cs">
       <DependentUpon>PhoneSize.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UI\PhotoShop.aspx.cs">
+      <DependentUpon>PhotoShop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\PhotoShop.aspx.designer.cs">
+      <DependentUpon>PhotoShop.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UI\RunJs.aspx.cs">
       <DependentUpon>RunJs.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -951,8 +996,11 @@
       <DependentUpon>UserAgent.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
+    <Folder Include="Css\docs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DownLoad\jsonview-0.9-fx.xpi" />
     <None Include="Js\bootstrap-3.3.6-dist\css\bootstrap-theme.css.map" />
     <None Include="Js\bootstrap-3.3.6-dist\css\bootstrap-theme.min.css.map" />
     <None Include="Js\bootstrap-3.3.6-dist\css\bootstrap.css.map" />

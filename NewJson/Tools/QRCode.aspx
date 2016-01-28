@@ -258,7 +258,7 @@ text-decoration:none;
             <div class="media">
                 <div class="media-body">
                     <h4 class="media-heading" style=" width: 200px;float:left">
-                        在线二维码生成器</h4> <a href="/tools/qrcode/" class="btn btn-primary btn-xs" style=" color:White" >在线二维码解码</a>
+                        在线二维码生成器</h4> <a href="/tools/qrdecode/" class="btn btn-primary btn-xs" style=" color:White" >在线二维码解码</a>
                 </div>
             </div>
         </div>

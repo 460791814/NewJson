@@ -2,8 +2,11 @@
     CodeBehind="Xml2Json.aspx.cs" Inherits="NewJson.Json.Xml2Json" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+  
     <meta name="keywords" content="在线,JSON,Xml转Json,Json转Xml">
-    <meta name="description" content="在线,JSON,Xml转Json,Json转Xml">
+    <meta name="description" content="在线,JSON,Xml转Json,Json转Xml">  
+    <script src="/Js/objtree.js" type="text/javascript"></script>
+    <script src="/Js/jkl-dumper.js" type="text/javascript"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
     <script src="/Js/jquery-linedtextarea.js" type="text/javascript"></script>

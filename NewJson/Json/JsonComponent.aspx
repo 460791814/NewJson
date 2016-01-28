@@ -1,5 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="JsonComponent.aspx.cs" Inherits="NewJson.Json.JsonComponent" %>
+﻿<%@ Page Title="Json常用组件" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="JsonComponent.aspx.cs" Inherits="NewJson.Json.JsonComponent" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <meta name="keywords" content="在线,Json常用组件">
+    <meta name="description" content="在线,Json常用组件">  
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
 <main class="row-fluid" style="padding:30px 80px;">
@@ -16,7 +18,7 @@
             </div>
             <div class="brief">
                 <h5>下载地址：</h5>
-                <a href="http://json.cn/download/json2.js" target="_blank">http://json.cn/download/json2.js</a>。
+                <a href="http://newjson.com/download/json2.js" target="_blank">http://newjson.com/download/json2.js</a>。
             </div>
             <div class="brief">
                 <h5>安装部署： </h5><pre><code><xmp><script type="text/javascript" src="json2.js"></script> </xmp></code></pre>
@@ -51,7 +53,7 @@
             </div>
             <div class="brief">
                 <h5>下载地址：</h5>
-                <a href="http://json.cn/download/jquery.json2xml.js" target="_blank">http://json.cn/download/jquery.json2xml.js</a>。
+                <a href="http://newjson.com/download/jquery.json2xml.js" target="_blank">http://newjson.com/download/jquery.json2xml.js</a>。
             </div>
             <div class="brief">
                 <h5>安装部署： </h5><pre><code><xmp><script type="text/javascript" src="jquery.json2xml.js"></script> </xmp></code></pre>
@@ -79,7 +81,7 @@
             </div>
             <div class="brief">
                 <h5>下载地址：</h5>
-                <a href="http://json.cn/download/jquery.xml2json.js" target="_blank">http://json.cn/download/jquery.xml2json.js</a>。
+                <a href="http://newjson.com/download/jquery.xml2json.js" target="_blank">http://newjson.com/download/jquery.xml2json.js</a>。
             </div>
             <div class="brief">
                 <h5>安装部署： </h5><pre><code><xmp><script type="text/javascript" src="jquery.xml2json.js"></script> </xmp></code></pre>
@@ -107,7 +109,7 @@
             </div>
             <div class="brief">
                 <h5>下载地址：</h5>
-                Firefox版：<a href="http://json.cn/download/jsonview-0.9-fx.xpi" target="_blank">http://json.cn/download/jsonview-0.9-fx.xpi</a><br>
+                Firefox版：<a href="http://newjson.com/download/jsonview-0.9-fx.xpi" target="_blank">http://newjson.com/download/jsonview-0.9-fx.xpi</a><br>
                 Chrome版（适用于不能翻墙用户）：<a href="http://json.cn/download/jsonview.crx" target="_blank">http://json.cn/download/jsonview.crx</a><br>
                 Chrome版商店下载：<a href="https://chrome.google.com/webstore/detail/chklaanhfefbnpoihckbnefhakgolnmc" target="_blank">https://chrome.google.com/webstore/detail/chklaanhfefbnpoihckbnefhakgolnmc</a><br>
             </div>
