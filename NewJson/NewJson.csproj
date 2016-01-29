@@ -79,12 +79,20 @@
     <Content Include="Css\classic.css" />
     <Content Include="Css\core.css" />
     <Content Include="Css\crayon.min.css" />
+    <Content Include="Css\docs\basic.css" />
+    <Content Include="Css\docs\farbtastic.css" />
     <Content Include="Css\font-awesome-ie7.min.css" />
     <Content Include="Css\font-awesome.min.css" />
+    <Content Include="Css\header.css" />
     <Content Include="Css\ie.css" />
+    <Content Include="Css\images\marker.png" />
+    <Content Include="Css\images\mask.png" />
+    <Content Include="Css\images\wheel.png" />
     <Content Include="Css\math\9me.css" />
     <Content Include="Css\math\9mime.css" />
     <Content Include="Css\toolstyle.css" />
+    <Content Include="Css\ui\alloyphoto\bar.style.css" />
+    <Content Include="Css\ui\alloyphoto\main.css" />
     <Content Include="Css\ui\placeholder.almost-flat.min.css" />
     <Content Include="Css\ui\progress.almost-flat.min.css" />
     <Content Include="Css\ui\uikit.almost-flat.min.css" />
@@ -101,13 +109,22 @@
     <Content Include="Css\validate\all-base.css" />
     <Content Include="Css\validate\publicstyle.css" />
     <Content Include="Css\validate\toolstyle.css" />
+    <Content Include="Docs\ASCII.aspx" />
+    <Content Include="Docs\HtmlEscape.aspx" />
+    <Content Include="Docs\HTTPContentType.aspx" />
+    <Content Include="Docs\HttpStatus.aspx" />
     <Content Include="Docs\MarkDown.aspx" />
     <Content Include="Docs\MarkDownBasic.aspx" />
+    <Content Include="Docs\Operator.aspx" />
+    <Content Include="Docs\RgbCommon.aspx" />
+    <Content Include="Docs\TcpUdp.aspx" />
+    <Content Include="Docs\WebFonts.aspx" />
     <Content Include="DownLoad\jquery.json2xml.js" />
     <Content Include="DownLoad\jquery.xml2json.js" />
     <Content Include="DownLoad\json2.js" />
     <Content Include="EncDec\Base64.aspx" />
     <Content Include="EncDec\Escape.aspx" />
+    <Content Include="EncDec\Htpasswd.aspx" />
     <Content Include="EncDec\JsConfusion.aspx" />
     <Content Include="EncDec\JsEval.aspx" />
     <Content Include="EncDec\MD5.aspx" />
@@ -230,12 +247,17 @@
     <Content Include="Js\change\tools.js" />
     <Content Include="Js\change\numeral.min.js" />
     <Content Include="Js\change\unix_time.js" />
+    <Content Include="Js\docs\farbtastic.js" />
     <Content Include="Js\encdec\base64.js" />
+    <Content Include="Js\encdec\htpaaword_md5.js" />
+    <Content Include="Js\encdec\htpaaword_sha1.js" />
+    <Content Include="Js\encdec\javacrypt.js" />
     <Content Include="Js\encdec\md5.js" />
     <Content Include="Js\encdec\mor.min.js" />
     <Content Include="Js\encdec\sha1.js" />
     <Content Include="Js\encdec\sha256.js" />
     <Content Include="Js\encdec\sha512.js" />
+    <Content Include="Js\encdec\tag.js" />
     <Content Include="Js\format\base.js" />
     <Content Include="Js\bejsoncommon.js" />
     <Content Include="Js\c.js" />
@@ -389,6 +411,9 @@
     <Content Include="Js\tools\qrdecode\qrcodelib_render.canvas.js" />
     <Content Include="Js\tools\qrdecode\qrcodelib_render.em.js" />
     <Content Include="Js\tools\qrdecode\qrcodelib_render.table.js" />
+    <Content Include="Js\tools\texteditor\edit.js" />
+    <Content Include="Js\tools\texteditor\jquery.cookie.js" />
+    <Content Include="Js\ui\alloyimage.js" />
     <Content Include="Js\ui\blob.js" />
     <Content Include="Js\ui\canvas-toblob.js" />
     <Content Include="Js\ui\filesaver.js" />
@@ -409,6 +434,29 @@
     <Content Include="Math\TaxTool.aspx" />
     <Content Include="Picture\1443430414000418.jpg" />
     <Content Include="Picture\360.png" />
+    <Content Include="Picture\AlloyPhoto\big.jpg" />
+    <Content Include="Picture\AlloyPhoto\bulding.jpg" />
+    <Content Include="Picture\AlloyPhoto\e1.jpg" />
+    <Content Include="Picture\AlloyPhoto\e1.png" />
+    <Content Include="Picture\AlloyPhoto\e10.png" />
+    <Content Include="Picture\AlloyPhoto\e11.png" />
+    <Content Include="Picture\AlloyPhoto\e12.png" />
+    <Content Include="Picture\AlloyPhoto\e13.png" />
+    <Content Include="Picture\AlloyPhoto\e14.png" />
+    <Content Include="Picture\AlloyPhoto\e2.png" />
+    <Content Include="Picture\AlloyPhoto\e3.png" />
+    <Content Include="Picture\AlloyPhoto\e4.png" />
+    <Content Include="Picture\AlloyPhoto\e5.png" />
+    <Content Include="Picture\AlloyPhoto\e6.png" />
+    <Content Include="Picture\AlloyPhoto\e7.png" />
+    <Content Include="Picture\AlloyPhoto\e8.png" />
+    <Content Include="Picture\AlloyPhoto\e9.png" />
+    <Content Include="Picture\AlloyPhoto\girl.jpg" />
+    <Content Include="Picture\AlloyPhoto\inner.jpg" />
+    <Content Include="Picture\AlloyPhoto\pet.jpg" />
+    <Content Include="Picture\AlloyPhoto\scen.jpg" />
+    <Content Include="Picture\AlloyPhoto\small.jpg" />
+    <Content Include="Picture\AlloyPhoto\stop.jpg" />
     <Content Include="Picture\android_h1.png" />
     <Content Include="Picture\android_h2.png" />
     <Content Include="Picture\android_h6.png" />
@@ -436,10 +484,15 @@
     <Content Include="Picture\android_t2.png" />
     <Content Include="Picture\android_v1.png" />
     <Content Include="Picture\aoyou.png" />
+    <Content Include="Picture\big.jpg" />
+    <Content Include="Picture\bulding.jpg" />
     <Content Include="Picture\close.gif" />
+    <Content Include="Picture\e1.jpg" />
+    <Content Include="Picture\girl.jpg" />
     <Content Include="Picture\google.png" />
     <Content Include="Picture\huofu.png" />
     <Content Include="Picture\ie9.png" />
+    <Content Include="Picture\inner.jpg" />
     <Content Include="Picture\ipa-ico.png" />
     <Content Include="Picture\ipa.png" />
     <Content Include="Picture\ipad_s.png" />
@@ -451,8 +504,12 @@
     <Content Include="Picture\iphone_6.png" />
     <Content Include="Picture\iphone_6p.png" />
     <Content Include="Picture\liantu.png" />
+    <Content Include="Picture\pet.jpg" />
+    <Content Include="Picture\scen.jpg" />
+    <Content Include="Picture\small.jpg" />
     <Content Include="Picture\sougou.png" />
     <Content Include="Picture\spacer.gif" />
+    <Content Include="Picture\stop.jpg" />
     <Content Include="Template\footer.htm" />
     <Content Include="Template\header.htm" />
     <Content Include="Template\menu.htm" />
@@ -519,7 +576,9 @@
     <Content Include="Tools\QRCode1.aspx" />
     <Content Include="Tools\QRDeCode.aspx" />
     <Content Include="Tools\QRCode.aspx" />
+    <Content Include="Tools\TextEditor.aspx" />
     <Content Include="Tools\WordCounter.aspx" />
+    <Content Include="UI\AlloyPhoto.aspx" />
     <Content Include="UI\BorderRadius.aspx" />
     <Content Include="UI\ImageResize.aspx" />
     <Content Include="UI\OnlineColor.aspx" />
@@ -662,6 +721,34 @@
     <Compile Include="Change\Unix.aspx.designer.cs">
       <DependentUpon>Unix.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Docs\ASCII.aspx.cs">
+      <DependentUpon>ASCII.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Docs\ASCII.aspx.designer.cs">
+      <DependentUpon>ASCII.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Docs\HtmlEscape.aspx.cs">
+      <DependentUpon>HtmlEscape.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Docs\HtmlEscape.aspx.designer.cs">
+      <DependentUpon>HtmlEscape.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Docs\HTTPContentType.aspx.cs">
+      <DependentUpon>HTTPContentType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Docs\HTTPContentType.aspx.designer.cs">
+      <DependentUpon>HTTPContentType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Docs\HttpStatus.aspx.cs">
+      <DependentUpon>HttpStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Docs\HttpStatus.aspx.designer.cs">
+      <DependentUpon>HttpStatus.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Docs\MarkDown.aspx.cs">
       <DependentUpon>MarkDown.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -676,6 +763,34 @@
     <Compile Include="Docs\MarkDownBasic.aspx.designer.cs">
       <DependentUpon>MarkDownBasic.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Docs\Operator.aspx.cs">
+      <DependentUpon>Operator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Docs\Operator.aspx.designer.cs">
+      <DependentUpon>Operator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Docs\RgbCommon.aspx.cs">
+      <DependentUpon>RgbCommon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Docs\RgbCommon.aspx.designer.cs">
+      <DependentUpon>RgbCommon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Docs\TcpUdp.aspx.cs">
+      <DependentUpon>TcpUdp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Docs\TcpUdp.aspx.designer.cs">
+      <DependentUpon>TcpUdp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Docs\WebFonts.aspx.cs">
+      <DependentUpon>WebFonts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Docs\WebFonts.aspx.designer.cs">
+      <DependentUpon>WebFonts.aspx</DependentUpon>
+    </Compile>
     <Compile Include="EncDec\Base64.aspx.cs">
       <DependentUpon>Base64.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -689,6 +804,13 @@
     </Compile>
     <Compile Include="EncDec\Escape.aspx.designer.cs">
       <DependentUpon>Escape.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EncDec\Htpasswd.aspx.cs">
+      <DependentUpon>Htpasswd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EncDec\Htpasswd.aspx.designer.cs">
+      <DependentUpon>Htpasswd.aspx</DependentUpon>
     </Compile>
     <Compile Include="EncDec\JsConfusion.aspx.cs">
       <DependentUpon>JsConfusion.aspx</DependentUpon>
@@ -887,12 +1009,26 @@
     <Compile Include="Tools\QRCode.aspx.designer.cs">
       <DependentUpon>QRCode.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Tools\TextEditor.aspx.cs">
+      <DependentUpon>TextEditor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tools\TextEditor.aspx.designer.cs">
+      <DependentUpon>TextEditor.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Tools\WordCounter.aspx.cs">
       <DependentUpon>WordCounter.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Tools\WordCounter.aspx.designer.cs">
       <DependentUpon>WordCounter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\AlloyPhoto.aspx.cs">
+      <DependentUpon>AlloyPhoto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\AlloyPhoto.aspx.designer.cs">
+      <DependentUpon>AlloyPhoto.aspx</DependentUpon>
     </Compile>
     <Compile Include="UI\BorderRadius.aspx.cs">
       <DependentUpon>BorderRadius.aspx</DependentUpon>
@@ -996,9 +1132,7 @@
       <DependentUpon>UserAgent.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Css\docs\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="DownLoad\jsonview-0.9-fx.xpi" />
     <None Include="Js\bootstrap-3.3.6-dist\css\bootstrap-theme.css.map" />
