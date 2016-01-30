@@ -274,7 +274,7 @@ h1{margin:0;padding:0;}
 .texthidden{text-indent:-9999px;white-space:nowrap;line-height:0;}
 </style>
 <!--     Tools头部header开始    -->
- <!-- #include file="/Template/header.htm" -->
+
 <!--     Tools头部header结束    --><div class="wrapper">
   <div class="left">
     <h3>效果</h3>
@@ -314,7 +314,9 @@ h1{margin:0;padding:0;}
     </li>
   </ul>
   <div class="footer">
-    <div class="copyright">Copyright &copy; <script>                                                document.write(new Date().getFullYear());</script> <a href="http://www.AlloyTeam.com/" target="_blank">Tencent AlloyTeam</a>. All Rights Reserved.</div>
+    <div class="copyright">Copyright &copy; 
+    <script>                                                document.write(new Date().getFullYear());</script> 
+ <%--   <a href="http://www.AlloyTeam.com/" target="_blank">Tencent AlloyTeam</a>. All Rights Reserved.</div>--%>
   </div>
 </div>
 <input type="file" name="open" id="open" class="open" />

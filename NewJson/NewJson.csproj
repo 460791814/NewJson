@@ -247,6 +247,7 @@
     <Content Include="Js\change\tools.js" />
     <Content Include="Js\change\numeral.min.js" />
     <Content Include="Js\change\unix_time.js" />
+    <Content Include="Js\commoncheck.js" />
     <Content Include="Js\docs\farbtastic.js" />
     <Content Include="Js\encdec\base64.js" />
     <Content Include="Js\encdec\htpaaword_md5.js" />
@@ -599,6 +600,7 @@
     <Content Include="WebTools\ClientInfo.aspx" />
     <Content Include="WebTools\GetIP.aspx" />
     <Content Include="WebTools\HttpTest.aspx" />
+    <Content Include="WebTools\Ips.aspx" />
     <Content Include="WebTools\UserAgent.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -1123,6 +1125,13 @@
     </Compile>
     <Compile Include="WebTools\HttpTest.aspx.designer.cs">
       <DependentUpon>HttpTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebTools\Ips.aspx.cs">
+      <DependentUpon>Ips.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebTools\Ips.aspx.designer.cs">
+      <DependentUpon>Ips.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebTools\UserAgent.aspx.cs">
       <DependentUpon>UserAgent.aspx</DependentUpon>
