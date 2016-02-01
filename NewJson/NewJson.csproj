@@ -169,6 +169,7 @@
     <Content Include="Images\warning.png" />
     <Content Include="Images\wordpress-blue.png" />
     <Content Include="Images\yes.png" />
+    <Content Include="Index.aspx" />
     <Content Include="Json\AboutJson.aspx" />
     <Content Include="Json\Excel2Json.aspx" />
     <Content Include="Json\GetPostJson.aspx" />
@@ -485,15 +486,10 @@
     <Content Include="Picture\android_t2.png" />
     <Content Include="Picture\android_v1.png" />
     <Content Include="Picture\aoyou.png" />
-    <Content Include="Picture\big.jpg" />
-    <Content Include="Picture\bulding.jpg" />
     <Content Include="Picture\close.gif" />
-    <Content Include="Picture\e1.jpg" />
-    <Content Include="Picture\girl.jpg" />
     <Content Include="Picture\google.png" />
     <Content Include="Picture\huofu.png" />
     <Content Include="Picture\ie9.png" />
-    <Content Include="Picture\inner.jpg" />
     <Content Include="Picture\ipa-ico.png" />
     <Content Include="Picture\ipa.png" />
     <Content Include="Picture\ipad_s.png" />
@@ -505,12 +501,8 @@
     <Content Include="Picture\iphone_6.png" />
     <Content Include="Picture\iphone_6p.png" />
     <Content Include="Picture\liantu.png" />
-    <Content Include="Picture\pet.jpg" />
-    <Content Include="Picture\scen.jpg" />
-    <Content Include="Picture\small.jpg" />
     <Content Include="Picture\sougou.png" />
     <Content Include="Picture\spacer.gif" />
-    <Content Include="Picture\stop.jpg" />
     <Content Include="Template\footer.htm" />
     <Content Include="Template\header.htm" />
     <Content Include="Template\menu.htm" />
@@ -890,6 +882,13 @@
     </Compile>
     <Compile Include="Format\XmlFormat.aspx.designer.cs">
       <DependentUpon>XmlFormat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Json\AboutJson.aspx.cs">
       <DependentUpon>AboutJson.aspx</DependentUpon>
