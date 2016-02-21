@@ -594,6 +594,7 @@
     <Content Include="WebTools\HttpTest.aspx" />
     <Content Include="WebTools\Ips.aspx" />
     <Content Include="WebTools\UserAgent.aspx" />
+    <Content Include="xys.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Change\FileSize.aspx.cs">

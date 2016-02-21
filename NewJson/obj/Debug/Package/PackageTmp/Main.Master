@@ -4,18 +4,23 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+<meta name="viewport" content="width=device-width , initial-scale=1.0 , user-scalable=0 , minimum-scale=1.0 , maximum-scale=1.0" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
     <script type='text/javascript' src='/Js/jquery.min.js'></script>
      <script type='text/javascript' src='/js/crayon.min.js'></script>
     <script type="text/javascript">        (function () { mod_txt = '#'; adminBar = "" || 0 })();</script>
     <script type="text/javascript" src="/js/frontopen.js"></script>
    <link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
     <link rel="stylesheet" type="text/css" media="all" href="/css/mobile.css" />
+    
+ 
     <!--[if lt IE 9]><script src="/js/html5.js"></script><![endif]-->
     <!--[if IE 7]>
 <link rel="stylesheet" href="/css/font-awesome-ie7.min.css">
 <![endif]-->
-    <link href="/Js/bootstrap-3.3.6-dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
-    <script src="/Js/bootstrap-3.3.6-dist/js/bootstrap.js" type="text/javascript"></script>
+     <link href="/Js/bootstrap-3.3.6-dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <script src="/Js/bootstrap-3.3.6-dist/js/bootstrap.js" type="text/javascript"></script> 
     <script type='text/javascript'>
 /* <![CDATA[ */
 var CrayonSyntaxSettings = {"version":"2.7.1","is_admin":"0","ajaxurl":"","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
@@ -29,12 +34,14 @@ var CrayonSyntaxStrings = {"copy":"\u4f7f\u7528 %s \u590d\u5236\uff0c\u4f7f\u752
    <div class="loading">
     </div>
         <div class="web_bod">
-        <!-- #include file="/Template/header.htm" -->
+      
+          <!-- #include file="/Template/header.htm" -->
+
         <section class="conter marauto">
         <script type="text/javascript">            loading('33%', 1000)</script>
 
     <!-- #json_input -->
-  <div style="float:left; width:74%" >
+  <div style="float:left; " >
     <div  role="main">
         </div>
      

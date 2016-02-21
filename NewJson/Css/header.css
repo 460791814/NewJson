@@ -48,7 +48,7 @@ a.more-link:hover{color:#FFF}
 .navlist dl dd{line-height:30px;height:30px;width:65px;text-align:center;font-weight:700;font-family:Arial,Microsoft Yahei}
 .navcon{height:45px;background:#474546;line-height:45px;font-size:16px;margin-top:10px;width:94%;overflow: hidden;}
 .navcon ul li{float:left; border-right:1px solid #5A5859}
-.navcon ul li a{color:#FFF;display:block;padding:0 20px;white-space:nowrap;text-decoration:none;}
+.navcon ul li a{color:#FFF;display:block;padding:0 15px;white-space:nowrap;text-decoration:none;}
 .navcon ul li a:hover,.navcurrent{background:#000;}/*color:#FD5E02;*/
 .conter{margin-top:15px}
 
@@ -99,7 +99,7 @@ a.more-link:hover{color:#FFF}
 .side li ul{overflow:hidden}
 .side ul li{line-height:28px;font-size:14px;margin-top:0px;color:#555;padding-left:3%;background:url(../Images/li-pic.gif) left 13px no-repeat}
 .sub-menu{position:absolute;z-index:10;background:#999}
-.sub-menu .menu-item{background:#999;border-right:none;font-size:14px;line-height:36px;float:none;position:relative;height:36px;vertical-align:top;display:none;width:100% !important}
+.sub-menu .menu-item{background:#999;border-right:none;font-size:14px;line-height:30px;float:none;position:relative;height:30px;vertical-align:top;display:none;width:100% !important}
 .sub-menu .sub-menu{top:0}
 .nav_button{filter:alpha(opacity=70);opacity:0.7}
 #calendar_wrap th,#calendar_wrap td{width:35px;text-align:center}

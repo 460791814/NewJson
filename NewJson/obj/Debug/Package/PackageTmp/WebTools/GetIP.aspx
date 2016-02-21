@@ -27,7 +27,7 @@
                 var isWin7 = sUserAgent.indexOf("Windows NT 6.1") > -1 || sUserAgent.indexOf("Windows 7") > -1;
                 if (isWin7) return "Windows 7";
                 var isWin7 = sUserAgent.indexOf("Windows NT 8.0") > -1 || sUserAgent.indexOf("Windows 8") > -1;
-                if (isWin7) return "Windows 10";
+                if (isWin7) return "Windows 8";
                 var isWin7 = sUserAgent.indexOf("Windows NT 10.0") > -1 || sUserAgent.indexOf("Windows 10") > -1;
                 if (isWin7) return "Windows 10";
             }

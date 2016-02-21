@@ -2,6 +2,74 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 <meta name="keywords" content="在线获取客户端系统及浏览器信息">
 <meta name="description" content="在线获取客户端系统及浏览器信息">
+<style>
+	table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+table {
+    overflow: hidden;
+    border: 1px solid #d3d3d3;
+    background: #fefefe;
+    width: 100%;
+    margin: 0 auto;
+    -moz-border-radius: 5px; /* FF1+ */
+    -webkit-border-radius: 5px; /* Saf3-4 */
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+th, td {
+    padding: 18px 28px 18px;
+}
+th {
+    padding-top: 22px;
+    text-shadow: 1px 1px 1px #fff;
+    background: #e8eaeb;
+    background: -moz-linear-gradient(100% 20% 90deg, #e8eaeb, #ededed);
+    background: -webkit-gradient(linear, 0% 0%, 0% 20%, from(#ededed), to(#e8eaeb));
+}
+td {
+    border-top: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    background: -moz-linear-gradient(100% 25% 90deg, #fefefe, #f9f9f9);
+    background: -webkit-gradient(linear, 0% 0%, 0% 25%, from(#f9f9f9), to(#fefefe));
+}
+tr.odd-row td {
+    background: #f6f6f6;
+}
+td.first, th.first {
+    text-align: left
+}
+td.last {
+    border-right: none;
+}
+tr.odd-row td {
+    background: -moz-linear-gradient(100% 25% 90deg, #f6f6f6, #f1f1f1);
+    background: -webkit-gradient(linear, 0% 0%, 0% 25%, from(#f1f1f1), to(#f6f6f6));
+}
+tr:first-child th.first {
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px; /* Saf3-4 */
+}
+tr:first-child th.last {
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px; /* Saf3-4 */
+}
+tr:last-child td.first {
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px; /* Saf3-4 */
+}
+tr:last-child td.last {
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px; /* Saf3-4 */
+}
+</style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
 <div class="panel panel-default">
@@ -9,7 +77,7 @@
 <div class="media">
 <div class="media-body">
 <h4 class="media-heading">在线获取客户端系统及浏览器信息</h4>
-<div id="desc1">在线获取客户端系统及浏览器信息</div>
+ 
 </div>
 </div>
 </div>
@@ -27,15 +95,19 @@
         if (isLinux) return "Linux";
         if (isWin) {
             var isWin2K = sUserAgent.indexOf("Windows NT 5.0") > -1 || sUserAgent.indexOf("Windows 2000") > -1;
-            if (isWin2K) return "Win2000";
+            if (isWin2K) return "Windows 2000";
             var isWinXP = sUserAgent.indexOf("Windows NT 5.1") > -1 || sUserAgent.indexOf("Windows XP") > -1;
-            if (isWinXP) return "WinXP";
+            if (isWinXP) return "Windows XP";
             var isWin2003 = sUserAgent.indexOf("Windows NT 5.2") > -1 || sUserAgent.indexOf("Windows 2003") > -1;
-            if (isWin2003) return "Win2003";
+            if (isWin2003) return "Windows 2003";
             var isWinVista = sUserAgent.indexOf("Windows NT 6.0") > -1 || sUserAgent.indexOf("Windows Vista") > -1;
-            if (isWinVista) return "WinVista";
+            if (isWinVista) return "Windows Vista";
             var isWin7 = sUserAgent.indexOf("Windows NT 6.1") > -1 || sUserAgent.indexOf("Windows 7") > -1;
-            if (isWin7) return "Win7";
+            if (isWin7) return "Windows 7";
+            var isWin7 = sUserAgent.indexOf("Windows NT 8.0") > -1 || sUserAgent.indexOf("Windows 8") > -1;
+            if (isWin7) return "Windows 8";
+            var isWin7 = sUserAgent.indexOf("Windows NT 10.0") > -1 || sUserAgent.indexOf("Windows 10") > -1;
+            if (isWin7) return "Windows 10";
         }
         return "other";
     }

@@ -60,13 +60,13 @@
             <div id="jsontree" class="greenBorder" style="display: none;">
              
             </div>
-            <div id="attention">
+            <div id="attention" style="padding: 10px;line-height: 25px">
                 <p>
                     如下原因会造成JSON校验失败,而且会让你不知道为什么失败</p>
                 <ol>
-                    <li>JSON字符串里的非数字型键值没有双引号 </li>
-                    <li>JSON中存在\t这样的制表符,看起来和空格一样,但是就是因为它的存在校验不通过。去掉就能过了。 </li>
-                    <li>编辑器有bom头也会造成</li>
+                    <li>&nbsp;&nbsp;&nbsp;&nbsp;1、JSON字符串里的非数字型键值没有双引号 </li>
+                    <li>&nbsp;&nbsp;&nbsp;&nbsp;2、JSON中存在\t这样的制表符,看起来和空格一样2、JSON中存在\t这样的制表符,看起来和空格一样，但是就是因为它的存在校验不通过，去掉就能过了 </li>
+                    <li>&nbsp;&nbsp;&nbsp;&nbsp;3、编辑器有bom头也会造成</li>
                 </ol>
             </div>
         </div>
