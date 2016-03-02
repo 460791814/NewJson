@@ -35,5 +35,6 @@
 
 <body scroll="no" > 
 <iframe id="iframePage" name="iframePage" frameborder="0" width="100%" scrolling="auto"   onload="iFrameHeight()"  height="100%" src="http://www.uupoop.com/ps/Editor.swf" </iframe>   
+ <script src="http://s11.cnzz.com/stat.php?id=1257658599&web_id=1257658599" language="JavaScript"></script>
 </body>  
 </html>

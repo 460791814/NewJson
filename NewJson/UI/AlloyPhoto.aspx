@@ -320,7 +320,7 @@ h1{margin:0;padding:0;}
   </div>
 </div>
 <input type="file" name="open" id="open" class="open" />
-
+ <script src="http://s11.cnzz.com/stat.php?id=1257658599&web_id=1257658599" language="JavaScript"></script>
 </body>
 </html>
 

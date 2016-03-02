@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Css格式化,解压缩,整理" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="CssFormat.aspx.cs" Inherits="NewJson.Format.CssFormat" %>
+﻿<%@ Page Title="Css格式化 解压缩 整理" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="CssFormat.aspx.cs" Inherits="NewJson.Format.CssFormat" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 

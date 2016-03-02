@@ -46,8 +46,7 @@
                     <div class="btn-group" role="group" aria-label="...">
                         <button name="validate" id="validate" value="Validate" class="btn btn-primary">
                             校验</button>
-                                                    <button name="validate" id="TOXML" value="Validate" class="btn btn-primary">
-                            校验</button>
+                                                
                         <input type="button"  class="btn btn-danger" id="clear"   name="name" value="清空" />
                          
                     </div>

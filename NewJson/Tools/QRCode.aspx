@@ -557,5 +557,6 @@ var CrayonSyntaxStrings = {"copy":"\u4f7f\u7528 %s \u590d\u5236\uff0c\u4f7f\u752
         </div>
      
         <script type="text/javascript">            loading('100%', 1000)</script>
+         <script src="http://s11.cnzz.com/stat.php?id=1257658599&web_id=1257658599" language="JavaScript"></script>
 </body>
 </html>

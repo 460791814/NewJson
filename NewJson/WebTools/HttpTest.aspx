@@ -1,4 +1,4 @@
-﻿<%@ Page Title="在线HTTP GET/POST接口测试,模拟http请求" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true"
+﻿<%@ Page Title="在线HTTP GET/POST接口测试 模拟http请求" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true"
     CodeBehind="HttpTest.aspx.cs" Inherits="NewJson.WebTools.HttpTest" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
@@ -49,7 +49,7 @@
             <div class="media">
                 <div class="media-body">
                     <h4 class="media-heading">
-                        在线HTTP GET/POST接口测试,模拟http请求</h4>
+                        在线HTTP GET/POST接口测试 模拟http请求</h4>
                 </div>
             </div>
         </div>

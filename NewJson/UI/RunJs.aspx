@@ -48,5 +48,6 @@ iframe {border: 0px;}
 
 <iframe id="iframePage" name="iframePage" frameborder="0" width="100%" scrolling="auto"   onload="iFrameHeight()" 
     height="100%" src="http://runjs.cn/code" </iframe>   
+     <script src="http://s11.cnzz.com/stat.php?id=1257658599&web_id=1257658599" language="JavaScript"></script>
 </body>  
 </html>
