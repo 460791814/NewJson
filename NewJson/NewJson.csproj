@@ -72,12 +72,13 @@
     <Content Include="Change\ToUpperToLower.aspx" />
     <Content Include="Change\UnicodeToChinese.aspx" />
     <Content Include="Change\Unix.aspx" />
-    <Content Include="Css\app.css" />
+    <Content Include="Css\images\jsoneditor-icons.png" />
+    <Content Include="Css\json\app.css" />
     <Content Include="Css\change\all-base.css" />
     <Content Include="Css\change\publicstyle.css" />
     <Content Include="Css\change\toolstyle.css" />
     <Content Include="Css\classic.css" />
-    <Content Include="Css\core.css" />
+    <Content Include="Css\json\core.css" />
     <Content Include="Css\crayon.min.css" />
     <Content Include="Css\docs\basic.css" />
     <Content Include="Css\docs\farbtastic.css" />
@@ -88,6 +89,7 @@
     <Content Include="Css\images\marker.png" />
     <Content Include="Css\images\mask.png" />
     <Content Include="Css\images\wheel.png" />
+    <Content Include="Css\json\ext-all.css" />
     <Content Include="Css\math\9me.css" />
     <Content Include="Css\math\9mime.css" />
     <Content Include="Css\toolstyle.css" />
@@ -97,8 +99,8 @@
     <Content Include="Css\ui\progress.almost-flat.min.css" />
     <Content Include="Css\ui\uikit.almost-flat.min.css" />
     <Content Include="Css\jquery-linedtextarea.css" />
-    <Content Include="Css\jquery.reject.css" />
-    <Content Include="Css\jsoneditor.css" />
+    <Content Include="Css\json\jquery.reject.css" />
+    <Content Include="Css\json\jsoneditor.css" />
     <Content Include="Css\lightbox.css" />
     <Content Include="Css\mobile.css" />
     <Content Include="Css\monaco.css" />
@@ -151,6 +153,129 @@
     <Content Include="Images\icon_quote_s.gif" />
     <Content Include="Images\info.png" />
     <Content Include="Images\jsoneditor-icons.png" />
+    <Content Include="Images\jsonview\array.gif" />
+    <Content Include="Images\jsonview\arrows.gif" />
+    <Content Include="Images\jsonview\arrow_down.png" />
+    <Content Include="Images\jsonview\arrow_up.png" />
+    <Content Include="Images\jsonview\bg.gif" />
+    <Content Include="Images\jsonview\blue.gif" />
+    <Content Include="Images\jsonview\btn-arrow-light.gif" />
+    <Content Include="Images\jsonview\btn-arrow_1.gif" />
+    <Content Include="Images\jsonview\checkbox.gif" />
+    <Content Include="Images\jsonview\checked.gif" />
+    <Content Include="Images\jsonview\clear-trigger.gif" />
+    <Content Include="Images\jsonview\close.gif" />
+    <Content Include="Images\jsonview\col-move-bottom.gif" />
+    <Content Include="Images\jsonview\col-move-top.gif" />
+    <Content Include="Images\jsonview\columns.gif" />
+    <Content Include="Images\jsonview\corners-blue.gif" />
+    <Content Include="Images\jsonview\corners-sprite.gif" />
+    <Content Include="Images\jsonview\corners.gif" />
+    <Content Include="Images\jsonview\date-trigger.gif" />
+    <Content Include="Images\jsonview\dirty.gif" />
+    <Content Include="Images\jsonview\drop-add_1.gif" />
+    <Content Include="Images\jsonview\drop-between.gif" />
+    <Content Include="Images\jsonview\drop-over.gif" />
+    <Content Include="Images\jsonview\drop-under.gif" />
+    <Content Include="Images\jsonview\elbow-end-minus-nl.gif" />
+    <Content Include="Images\jsonview\elbow-end-minus.gif" />
+    <Content Include="Images\jsonview\elbow-end-plus-nl.gif" />
+    <Content Include="Images\jsonview\elbow-end-plus.gif" />
+    <Content Include="Images\jsonview\elbow-end.gif" />
+    <Content Include="Images\jsonview\elbow-line.gif" />
+    <Content Include="Images\jsonview\elbow-minus-nl.gif" />
+    <Content Include="Images\jsonview\elbow-minus.gif" />
+    <Content Include="Images\jsonview\elbow-plus-nl.gif" />
+    <Content Include="Images\jsonview\elbow-plus.gif" />
+    <Content Include="Images\jsonview\elbow.gif" />
+    <Content Include="Images\jsonview\error-tip-corners.gif" />
+    <Content Include="Images\jsonview\exclamation.gif" />
+    <Content Include="Images\jsonview\folder-open.gif" />
+    <Content Include="Images\jsonview\folder.gif" />
+    <Content Include="Images\jsonview\green.gif" />
+    <Content Include="Images\jsonview\grid-blue-split.gif" />
+    <Content Include="Images\jsonview\grid-split.gif" />
+    <Content Include="Images\jsonview\grid3-hd-btn.gif" />
+    <Content Include="Images\jsonview\grid3-hrow-over.gif" />
+    <Content Include="Images\jsonview\grid3-hrow.gif" />
+    <Content Include="Images\jsonview\grid3-special-col-bg.gif" />
+    <Content Include="Images\jsonview\grid3-special-col-sel-bg.gif" />
+    <Content Include="Images\jsonview\group-by.gif" />
+    <Content Include="Images\jsonview\group-checked.gif" />
+    <Content Include="Images\jsonview\group-expand-sprite.gif" />
+    <Content Include="Images\jsonview\hd-pop.gif" />
+    <Content Include="Images\jsonview\hmenu-asc.gif" />
+    <Content Include="Images\jsonview\hmenu-desc.gif" />
+    <Content Include="Images\jsonview\hmenu-lock.gif" />
+    <Content Include="Images\jsonview\hmenu-unlock.gif" />
+    <Content Include="Images\jsonview\icon-error.gif" />
+    <Content Include="Images\jsonview\icon-info.gif" />
+    <Content Include="Images\jsonview\icon-question.gif" />
+    <Content Include="Images\jsonview\icon-warning.gif" />
+    <Content Include="Images\jsonview\invalid_line.gif" />
+    <Content Include="Images\jsonview\item-over.gif" />
+    <Content Include="Images\jsonview\l-blue.gif" />
+    <Content Include="Images\jsonview\l.gif" />
+    <Content Include="Images\jsonview\leaf.gif" />
+    <Content Include="Images\jsonview\left-corners.png" />
+    <Content Include="Images\jsonview\left-right.gif" />
+    <Content Include="Images\jsonview\left-right.png" />
+    <Content Include="Images\jsonview\light-hd.gif" />
+    <Content Include="Images\jsonview\loading.gif" />
+    <Content Include="Images\jsonview\menu-parent.gif" />
+    <Content Include="Images\jsonview\menu.gif" />
+    <Content Include="Images\jsonview\mso-hd.gif" />
+    <Content Include="Images\jsonview\object.gif" />
+    <Content Include="Images\jsonview\page-first-disabled.gif" />
+    <Content Include="Images\jsonview\page-first.gif" />
+    <Content Include="Images\jsonview\page-last-disabled.gif" />
+    <Content Include="Images\jsonview\page-last.gif" />
+    <Content Include="Images\jsonview\page-next-disabled.gif" />
+    <Content Include="Images\jsonview\page-next.gif" />
+    <Content Include="Images\jsonview\page-prev-disabled.gif" />
+    <Content Include="Images\jsonview\page-prev.gif" />
+    <Content Include="Images\jsonview\progress-bg.gif" />
+    <Content Include="Images\jsonview\r-blue.gif" />
+    <Content Include="Images\jsonview\r.gif" />
+    <Content Include="Images\jsonview\radio.gif" />
+    <Content Include="Images\jsonview\refresh.gif" />
+    <Content Include="Images\jsonview\right-corners.png" />
+    <Content Include="Images\jsonview\row-check-sprite.gif" />
+    <Content Include="Images\jsonview\row-expand-sprite.gif" />
+    <Content Include="Images\jsonview\row-over.gif" />
+    <Content Include="Images\jsonview\s.gif" />
+    <Content Include="Images\jsonview\scroll-left.gif" />
+    <Content Include="Images\jsonview\scroll-right.gif" />
+    <Content Include="Images\jsonview\search-trigger.gif" />
+    <Content Include="Images\jsonview\shadow-c.png" />
+    <Content Include="Images\jsonview\shadow-lr.png" />
+    <Content Include="Images\jsonview\shadow.png" />
+    <Content Include="Images\jsonview\slider-bg.png" />
+    <Content Include="Images\jsonview\slider-v-bg.png" />
+    <Content Include="Images\jsonview\slider-v-thumb.png" />
+    <Content Include="Images\jsonview\sort_asc.gif" />
+    <Content Include="Images\jsonview\sort_desc.gif" />
+    <Content Include="Images\jsonview\tab-btm-inactive-left-bg.gif" />
+    <Content Include="Images\jsonview\tab-btm-inactive-right-bg.gif" />
+    <Content Include="Images\jsonview\tab-btm-left-bg.gif" />
+    <Content Include="Images\jsonview\tab-btm-right-bg.gif" />
+    <Content Include="Images\jsonview\tab-close.gif" />
+    <Content Include="Images\jsonview\tab-strip-bg.gif" />
+    <Content Include="Images\jsonview\tab-strip-btm-bg.gif" />
+    <Content Include="Images\jsonview\tabs-sprite.gif" />
+    <Content Include="Images\jsonview\tb-blue.gif" />
+    <Content Include="Images\jsonview\tb-btn-sprite.gif" />
+    <Content Include="Images\jsonview\tb-sprite.gif" />
+    <Content Include="Images\jsonview\tb.gif" />
+    <Content Include="Images\jsonview\text-bg.gif" />
+    <Content Include="Images\jsonview\tip-sprite.gif" />
+    <Content Include="Images\jsonview\tool-sprites.gif" />
+    <Content Include="Images\jsonview\top-bottom.gif" />
+    <Content Include="Images\jsonview\top-bottom.png" />
+    <Content Include="Images\jsonview\trigger.gif" />
+    <Content Include="Images\jsonview\unchecked.gif" />
+    <Content Include="Images\jsonview\white-top-bottom.gif" />
+    <Content Include="Images\jsonview\yellow.gif" />
     <Content Include="Images\li-pic.gif" />
     <Content Include="Images\linbak.gif" />
     <Content Include="Images\lindown.gif" />
@@ -178,8 +303,10 @@
     <Content Include="Json\JsonCode.aspx" />
     <Content Include="Json\JsonComponent.aspx" />
     <Content Include="Json\JsonEditor.aspx" />
+    <Content Include="Json\JsonEditorFull.aspx" />
     <Content Include="Json\JsonHandle.aspx" />
     <Content Include="Json\JsonModel.aspx" />
+    <Content Include="Json\JsonView.aspx" />
     <Content Include="Json\Xml2Json.aspx" />
     <Content Include="Js\bootstrap-3.3.6-dist\css\bootstrap-theme.css" />
     <Content Include="Js\bootstrap-3.3.6-dist\css\bootstrap-theme.min.css" />
@@ -319,6 +446,7 @@
     <Content Include="Js\jsoneditor\bootstrap.min.js" />
     <Content Include="Js\jsoneditor\jquery.js" />
     <Content Include="Js\jsoneditor\jquery.min.js" />
+    <Content Include="Js\jsoneditor\jquery.reject.360.js" />
     <Content Include="Js\jsoneditor\jquery.reject.js" />
     <Content Include="Js\jsoneditor\jsoneditor.js" />
     <Content Include="Js\jsoneditor\jsonlint.js" />
@@ -335,7 +463,18 @@
     <Content Include="Js\json\jquery.message.js" />
     <Content Include="Js\json\jquery.min.js" />
     <Content Include="Js\json\json2.js" />
+    <Content Include="Js\json\JsonEditorFull\app.js" />
+    <Content Include="Js\json\JsonEditorFull\jquery.js" />
+    <Content Include="Js\json\JsonEditorFull\jquery.reject.360.js" />
+    <Content Include="Js\json\JsonEditorFull\jquery.reject.js" />
+    <Content Include="Js\json\JsonEditorFull\jsoneditor.js" />
+    <Content Include="Js\json\JsonEditorFull\jsonlint.js" />
+    <Content Include="Js\json\JsonEditorFull\notify.js" />
+    <Content Include="Js\json\JsonEditorFull\splitter.js" />
     <Content Include="Js\json\jsonlint.js" />
+    <Content Include="Js\json\jsonview\ext-all.js" />
+    <Content Include="Js\json\jsonview\ext-base.js" />
+    <Content Include="Js\json\jsonview\jsonviewercn.js" />
     <Content Include="Js\json\respond.min.js" />
     <Content Include="Js\lightbox-2.6.min.js" />
     <Content Include="Js\linetextself.js" />
@@ -947,6 +1086,13 @@
     <Compile Include="Json\JsonEditor.aspx.designer.cs">
       <DependentUpon>JsonEditor.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Json\JsonEditorFull.aspx.cs">
+      <DependentUpon>JsonEditorFull.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Json\JsonEditorFull.aspx.designer.cs">
+      <DependentUpon>JsonEditorFull.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Json\JsonHandle.aspx.cs">
       <DependentUpon>JsonHandle.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -960,6 +1106,13 @@
     </Compile>
     <Compile Include="Json\JsonModel.aspx.designer.cs">
       <DependentUpon>JsonModel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Json\JsonView.aspx.cs">
+      <DependentUpon>JsonView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Json\JsonView.aspx.designer.cs">
+      <DependentUpon>JsonView.aspx</DependentUpon>
     </Compile>
     <Compile Include="Json\Xml2Json.aspx.cs">
       <DependentUpon>Xml2Json.aspx</DependentUpon>
@@ -1180,6 +1333,7 @@
     <None Include="Js\jQuery-File-Upload-8.8.5\server\php\UploadHandler.php" />
     <None Include="Js\jsoneditor\stat.php" />
     <Content Include="Main.Master" />
+    <None Include="Js\json\jsonview\stat.php" />
     <None Include="Js\tools\qrdecode\stat.php" />
     <None Include="Js\uploadify\check-exists.php" />
     <None Include="Js\uploadify\index.php" />

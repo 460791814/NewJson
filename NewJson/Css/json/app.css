@@ -21,7 +21,7 @@ span.header-light {
     overflow: hidden;
     */
 
-    background: #4D4D4D url('../images/header_background.png');
+    background: #4D4D4D url('../../images/header_background.png');
     color: white;
 }
 
@@ -162,7 +162,7 @@ span.header-light {
     height: 100%;
     cursor: col-resize;
 }
-
+/*
 #footer {
     width: 100%;
     height: 23px;
@@ -177,7 +177,7 @@ span.header-light {
 #footer-inner {
     margin: 4px;
 }
-
+*/
 a.header {
     color: white;
     text-decoration: none;
@@ -267,9 +267,9 @@ div.convert-right, div.convert-left {
 }
 
 div.convert-right {
-    background: #FFFFFF url('../images/jsoneditor-icons.png') -168px 0;
+    background: #FFFFFF url('../../images/jsoneditor-icons.png') -168px 0;
 }
 
 div.convert-left {
-    background: #FFFFFF url('../images/jsoneditor-icons.png') -192px 0;
+    background: #FFFFFF url('../../images/jsoneditor-icons.png') -192px 0;
 }

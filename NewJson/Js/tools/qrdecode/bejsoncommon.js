@@ -35,8 +35,8 @@ if (typeof String.prototype.endsWith != 'function') {
 		}
 		showMod('网站地图',html);
 	}
-	
-var abannt = '<p style="height: 38px;line-height: 38px;background-color: #fff07b;border-bottom: 1px solid #d9cda7;color: #988328;font-size: 13px;" id="aban">建议各位在本站关闭广告屏蔽插件,因为他可能会导致部分功能js无法正常加载,比如【<a style="color: black;" href="http://www.bejson.com/jshtml_format/" target="_blank">JavaScript/HTML格式化</a>】的<a href="http://ww2.sinaimg.cn/large/7fa0b485jw1ew33qr3qtmj20za02l3zk.jpg"  style="color: black;" target="_blank">点击查看被错误屏蔽的截图</a><br/><a href="/other/jikefma/" style="color: white;text-decoration: none;" target="_blank" title="极客学院VIP年卡原价260的F码">极客学院VIP年卡惊爆价啊,低的官网连代理商价格都不允许直接在这放(会员功能:1.观看全部课程,2.资料下载 3.高清视频下载)</a></p>';
+
+	var abannt = '<p style="height: 38px;line-height: 38px;background-color: #fff07b;border-bottom: 1px solid #d9cda7;color: #988328;font-size: 13px;" id="aban">建议各位在本站关闭广告屏蔽插件,因为他可能会导致部分功能js无法正常加载,比如【<a style="color: black;" href="http://www.newjson.com/format/jshtmlformat/" target="_blank">JavaScript/HTML格式化</a>】的<a href="http://ww2.sinaimg.cn/large/7fa0b485jw1ew33qr3qtmj20za02l3zk.jpg"  style="color: black;" target="_blank">点击查看被错误屏蔽的截图</a><br/><a href="/other/jikefma/" style="color: white;text-decoration: none;" target="_blank" title="极客学院VIP年卡原价260的F码">极客学院VIP年卡惊爆价啊,低的官网连代理商价格都不允许直接在这放(会员功能:1.观看全部课程,2.资料下载 3.高清视频下载)</a></p>';
 
 	setTimeout(function(){
   if (showaban && $('#adimg').height() == 0){
