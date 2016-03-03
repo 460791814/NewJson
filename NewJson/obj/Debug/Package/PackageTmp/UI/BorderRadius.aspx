@@ -14,7 +14,7 @@
 <div class="media">
 <div class="media-body">
 <h4 class="media-heading">在线图片转圆角图片,支持png,gif,jpg</h4>
-<div id="desc1">在线图片转圆角图片,支持png,gif,jpg</div>
+
 </div>
 </div>
 </div>
@@ -33,7 +33,7 @@
 </div>
 </div>
 <div class="row" style="margin-top: 10px;">
-<button type="button" class="button success small" onclick="download_img();">下载</button>
+<button type="button" class="btn btn-primary" onclick="download_img();">下载</button>
 </div>
 <div class="row" style="margin-top: 10px;">
 <div id="prev" class="alert success"></div>

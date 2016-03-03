@@ -21,7 +21,7 @@
         <link rel="stylesheet" href="/Css/screen.css" type="text/css" media="screen, projection">
         <div class="panel-body">
             <div>
-                <textarea id="text_input" name="RawJson" class="json_input" rows="10" style="width: 100%;"
+                <textarea id="text_input" name="RawJson" class="json_input" rows="10" style="width: 100%;height: 200px;"
                     spellcheck="false" placeholder="请在excel里复制下内容贴到这里"></textarea>
             </div>
             <div class="input-group" style="width: 180px; float: left; margin-right: 20px;">
@@ -49,7 +49,7 @@
             <div style="clear: both;">
             </div>
             <div style="padding-top: 10px;">
-                <textarea id="result" name="RawJson" class="json_input" rows="10" style="width: 100%;"
+                <textarea id="result" name="RawJson" class="json_input" rows="10" style="width: 100%;height: 200px;"
                     spellcheck="false" placeholder="转换后的内容"></textarea>
             </div>
             <input type="hidden" id="ctype" value="0" />

@@ -28,7 +28,7 @@
             </div>
             <div>
                 <textarea id="text_input" name="json_input" onkeyup="" class="json_input" style="font-size: 11px !important;
-                    height: 200px;" rows="32" spellcheck="false" placeholder="请输入你要转换的字符串"></textarea>
+                    height: 200px;" rows="32" spellcheck="false" placeholder="请输入你要转换的字符串">{"a":"1","b":"2"}</textarea>
             </div>
             <div class="btn-group" role="group" aria-label="..." >
                 <button type="button" class="btn btn-primary" onclick="jsonget(1);">
@@ -50,6 +50,7 @@
                 var sstr = $("#text_input").val();
                 if (type == 1) {
                     //{"a":"11","b":"12",}
+                   sstr= yasuo(sstr);
                     sstr = sstr.replace(/\t/g, "");
                     sstr = sstr.replace(/\"/g, "").replace("{", "").replace("}", "").replace(",", "&").replace(":", "=");
                     sstr = sstr.replace(/\"/g, "").replace(/{/g, "").replace(/}/g, "").replace(/,/g, "&").replace(/:/g, "=");
@@ -68,6 +69,31 @@
 
             function GetFocus() {
                 document.getElementById('text_input').select();
+            }
+            function yasuo(text) {
+             
+              
+         
+                    text = text.split("\n").join(" ");
+                    var t = [];
+                    var inString = false;
+                    for (var i = 0, len = text.length; i < len; i++) {
+                        var c = text.charAt(i);
+                        if (inString && c === inString) {
+                            // TODO: \\"
+                            if (text.charAt(i - 1) !== '\\') {
+                                inString = false;
+                            }
+                        } else if (!inString && (c === '"' || c === "'")) {
+                            inString = c;
+                        } else if (!inString && (c === ' ' || c === "\t")) {
+                            c = '';
+                        }
+                        t.push(c);
+                    }
+                    text = t.join('');
+                return text;
+            
             }
         </script>
     </div>

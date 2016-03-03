@@ -1,10 +1,10 @@
-﻿<%@ Page Title="Json格式化校验" Language="C#" MasterPageFile="~/Main.Master"  AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="NewJson.Index" %>
+﻿<%@ Page Title="Json格式化校验 Json在线解析" Language="C#" MasterPageFile="~/Main.Master"  AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="NewJson.Index" %>
 
  
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-<meta name="keywords" content="在线,JSON,JSON 校验,格式化,在线工具,json视图,json可视化,json测试,在线json格式化工具,json 格式化,json格式化工具,json字符串格式化,json 在线查看器,json在线,json 在线验证,json tools online"/>
-<meta name="description" content="在线,JSON,JSON 校验,格式化,在线工具,json视图,json可视化,json测试,在线json格式化工具,json 格式化,json格式化工具,json字符串格式化,json 在线查看器,json在线,json 在线验证,json tools online"/>
+<meta name="keywords" content="在线,JSON,JSON 校验,Json在线解析,格式化,在线工具,json视图,json可视化,json测试,在线json格式化工具,json 格式化,json格式化工具,json字符串格式化,json 在线查看器,json在线,json 在线验证,json tools online"/>
+<meta name="description" content="在线,JSON,JSON 校验,Json在线解析,格式化,在线工具,json视图,json可视化,json测试,在线json格式化工具,json 格式化,json格式化工具,json字符串格式化,json 在线查看器,json在线,json 在线验证,json tools online"/>
     <link href="/Css/self.css" rel="stylesheet" type="text/css" />
     <link href="/Js/json/font-awesome.min.css" rel="stylesheet" type="text/css" /> 
 </asp:Content>
@@ -22,7 +22,7 @@
             <div class="media">
                 <div class="media-body">
                     <h4 class="media-heading" style=" float:left" >
-                        Json格式化校验</h4> <div>
+                        Json格式化校验 Json在线解析</h4> <div>
                             <a href="/json/aboutjson/" style=" margin:20px">什么是json?</a><a href="/json/jsoncode/">json解析</a></div>
                 </div>
             </div>

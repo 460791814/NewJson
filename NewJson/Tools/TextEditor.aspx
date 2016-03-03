@@ -1,8 +1,8 @@
-﻿<%@ Page Title="在线自动排版工具" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true"
+﻿<%@ Page Title="在线文字排版工具" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true"
     CodeBehind="TextEditor.aspx.cs" Inherits="NewJson.Tools.TextEditor" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <meta name="自动排版,自动编辑,一键排版编辑" content="keywords">
+    <meta name="文字排版,自动排版,自动编辑,一键排版编辑" content="keywords">
     <meta name="自动排版工具可自动排版编辑文章，一键轻松实现稿件规范排版。" content="description">
     <script type="text/javascript" src="/js/tools/texteditor/edit.js"></script>
 </asp:Content>

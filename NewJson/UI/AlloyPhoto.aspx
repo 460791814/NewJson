@@ -244,8 +244,8 @@
                       "木雕": "e13",
                       "粗糙": "e14"
                   };
-                  var effectModel = '<li class="e_item"><div class="imgWrapper"><img src="/picture/AlloyPhoto/{pic}.png" alt="" />{effect}</div></li>';
-                  var html = '<li class="e_item"><div class="imgWrapper"><img src="/picture/AlloyPhoto/e1.jpg" alt="" />原图</div></li>';
+                  var effectModel = '<li class="e_item"><div class="imgWrapper"><img src="http://7xrgqx.com1.z0.glb.clouddn.com/{pic}.png" alt="" />{effect}</div></li>';
+                  var html = '<li class="e_item"><div class="imgWrapper"><img src="http://7xrgqx.com1.z0.glb.clouddn.com/e1.jpg" alt="" />原图</div></li>';
                   for (var i in EasyReflection) {
                       html += effectModel.replace("{effect}", i.length < 3 ? i + "效果" : i).replace("{pic}", EasyReflection[i]);
                   }
@@ -287,7 +287,7 @@ h1{margin:0;padding:0;}
   </div>
   <div class="right">
     <div id="picWrapper" class="picWrapper">
-        <img src="/picture/AlloyPhoto/bulding.jpg" class="pic" id="pic" alt="" draggable="false"/>
+        <img src="http://7xrgqx.com1.z0.glb.clouddn.com/bulding.jpg" class="pic" id="pic" alt="" draggable="false"/>
 
         <div id="infoMsg">
           处理中
@@ -299,14 +299,14 @@ h1{margin:0;padding:0;}
 <div class="command">
   <ul class="demoImg">
     <li>示例图片 <br />demos</li>
-    <li class="d_item"><img src="/picture/AlloyPhoto/bulding.jpg" /><div class='lab'>建筑</div></li>
-    <li class="d_item"><img src="/picture/AlloyPhoto/big.jpg" /><div class='lab'>特写</div></li>
-    <li class="d_item"><img src="/picture/AlloyPhoto/small.jpg" /><div class='lab'>微距</div></li>
-    <li class="d_item"><img src="/picture/AlloyPhoto/girl.jpg" /><div class='lab'>人物</div></li>
-    <li class="d_item"><img src="/picture/AlloyPhoto/inner.jpg" /><div class='lab'>室内</div></li>
-    <li class="d_item"><img src="/picture/AlloyPhoto/pet.jpg" /><div class='lab'>宠物</div></li>
-    <li class="d_item"><img src="/picture/AlloyPhoto/scen.jpg" /><div class='lab'>风景</div></li>
-    <li class="d_item"><img src="/picture/AlloyPhoto/stop.jpg" /><div class='lab'>静物</div></li>
+    <li class="d_item"><img src="http://7xrgqx.com1.z0.glb.clouddn.com/bulding.jpg" /><div class='lab'>建筑</div></li>
+    <li class="d_item"><img src="http://7xrgqx.com1.z0.glb.clouddn.com/big.jpg" /><div class='lab'>特写</div></li>
+    <li class="d_item"><img src="http://7xrgqx.com1.z0.glb.clouddn.com/small.jpg" /><div class='lab'>微距</div></li>
+    <li class="d_item"><img src="http://7xrgqx.com1.z0.glb.clouddn.com/girl.jpg" /><div class='lab'>人物</div></li>
+    <li class="d_item"><img src="http://7xrgqx.com1.z0.glb.clouddn.com/inner.jpg" /><div class='lab'>室内</div></li>
+    <li class="d_item"><img src="http://7xrgqx.com1.z0.glb.clouddn.com/pet.jpg" /><div class='lab'>宠物</div></li>
+    <li class="d_item"><img src="http://7xrgqx.com1.z0.glb.clouddn.com/scen.jpg" /><div class='lab'>风景</div></li>
+    <li class="d_item"><img src="http://7xrgqx.com1.z0.glb.clouddn.com/stop.jpg" /><div class='lab'>静物</div></li>
   </ul>
   <ul class="command_items">
     <li>
@@ -320,7 +320,9 @@ h1{margin:0;padding:0;}
   </div>
 </div>
 <input type="file" name="open" id="open" class="open" />
- <script src="http://s11.cnzz.com/stat.php?id=1257658599&web_id=1257658599" language="JavaScript"></script>
+   <div style=" display:none">
+    <script src="http://s11.cnzz.com/stat.php?id=1257658599&web_id=1257658599" language="JavaScript"></script>
+    </div>
 </body>
 </html>
 

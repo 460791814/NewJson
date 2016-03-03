@@ -53,7 +53,7 @@
 .show{display:block}
 .tit{zoom:1;overflow:hidden;color:#828282;font-size:18px;line-height: 20px;height: 20px;font-family:"Microsoft YaHei","SimSun";margin-bottom:10px}
 .tit span{float:right;color:#999;font-size:12px;font-family:"SimSun"}
-.text,.sms_text{width:384px;height:102px;padding:7px;resize:none;font-size:15px;font-family:"Microsoft Yahei","SimSun";font-weight:bold;color:#000;border:1px solid #ababab;overflow:hidden;overflow-y:auto;outline:0}
+.text,.sms_text{width:484px;height:102px;padding:7px;resize:none;font-size:15px;font-family:"Microsoft Yahei","SimSun";font-weight:bold;color:#000;border:1px solid #ababab;overflow:hidden;overflow-y:auto;outline:0}
 .default{font-size:14px;color:#999;font-weight:normal;font-family:"SimSun"}
 .size{margin-top:10px;color:#999}
 .merchant{margin-top:185px;text-align: center;}

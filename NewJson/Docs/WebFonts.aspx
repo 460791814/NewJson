@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 <meta name="Keywords" content="网页字体参考,常用对照表">
 <meta name="Description" content="网页字体参考,常用对照表">
-   <link href="/Css/docs/basic.css" rel="stylesheet" type="text/css" />
+
    <style>
 #font_area dt{color:#A00;font-size:15pt;margin:20px 0 15px 0;}
 </style>

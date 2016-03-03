@@ -25,7 +25,7 @@
         <!--[if IE]><link rel="stylesheet" href="/css/ie.css" type="text/css" media="screen, projection"><![endif]-->
         <link rel="stylesheet" href="/Css/screen.css" type="text/css" media="screen, projection">
         <div class="panel-body">
-            <div style="margin-left: 10px">
+            <div style="margin-left: 0px">
                 <span class="btn btn-success fileinput-button"><i class="glyphicon glyphicon-plus"></i>
                     <span>选择文件...</span>
                     <input id="fileupload" type="file" name="files[]" data-url="/Change/Image2Base64.aspx?method=base64"
@@ -66,6 +66,8 @@
                         </script>
                         <button type="button" class="btn btn-primary" onclick="base2img()">
                             Base64转换成图片</button>
+                              <button type="button" class="btn btn-danger" onclick="empty()">
+                            清空结果</button>
                     </div>
                 </div>
             </div>
@@ -122,6 +124,11 @@
 
             $("#img").attr("src", baseStr);
             $("#showImg").show();
+        }
+        function empty() {
+            
+            document.getElementById('result_input').value = '';
+            document.getElementById('result_input').select();
         }
     </script>
 </asp:Content>

@@ -1,34 +1,6 @@
 ﻿/* 公共部分 */
-body,h1,h2,h3,h4,h5,h6,hr,img,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td,a,tr
-	{
-	margin: 0;
-	padding: 0;
-}
 
-body,button,input,select,textarea {
-	font-size: 14px;
-	font-family: Microsoft YaHei, 微软雅黑, Verdana, sans-serif, 宋体;
-	background-color: #fff;
-	line-height: 18px;
-}
 
-body{
-	background: url(../images/headerbg.gif) repeat-x;
-}
-
-ul,li {
-	list-style: none;
-}
-
-a {
-	text-decoration: none;
-	color: #006cbf;
-}
-
-a:hover {
-	color: #ff9600;
-	cursor: pointer;
-}
 
 img,input {
 	border: none;
@@ -63,24 +35,10 @@ img,input {
 	margin-right: 20px;
 }
 
-#header {
-	
-	height: 50px;
-	width:100%;
-}
 
-#logo {
-	background: url(../images/logo_1.gif) no-repeat;
-	line-height: 50px;
-	cursor: pointer;
-	width: 250px;
-	height: 50px;
-}
 
-#mainSearch {
-	float: right;
-	margin-top: 10px;
-}
+
+
 
 .searchBox {
 	height: 30px;
@@ -109,15 +67,8 @@ img,input {
 	background-color: #ff8000;
 }
 
-#mainContent {
-	
-}
 
-#footer {
-	margin-top: 20px;
-	background-color: #ececec;
-	line-height: 30px;
-}
+
 /* END 公共部分 */
 
 /*  INDEX  */

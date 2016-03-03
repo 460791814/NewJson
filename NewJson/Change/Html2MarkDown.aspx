@@ -56,7 +56,7 @@
         </div>
     </div>
 
-    <div class="panel panel-default" id="show_panel">
+    <div class="panel panel-default" id="show_panel" style=" display:none">
         <div class="panel-heading">
             <div class="media">
                 <div class="media-body">
@@ -70,12 +70,20 @@
             </div>
             </div></div>
 
-    <div  style="border-left:solid 1px #ddd;border:solid 1px #ddd;border-radius:5px;padding:15px;margin-bottom:15px">
-    <a href="/docs/markdown/" class="btn btn-default btn-xs" >Markdown 语法说明(简体中文版)</a>
-    <a href="/docs/markdownbasic/" class="btn btn-default btn-xs">Markdown 快速入门 语法说明(简体中文版)</a> 
-    </div>
-
-            
+    
+        <div class="panel panel-default" >
+          <div class="panel-heading">
+            <div class="media">
+                <div class="media-body">
+                    相关链接
+                </div>
+            </div>
+        </div>
+      <div class="panel-body">
+            <a href="/docs/markdown/"  >Markdown 语法说明(简体中文版)</a>&nbsp&nbsp
+    <a href="/docs/markdownbasic/">Markdown 快速入门 语法说明(简体中文版)</a> 
+     </div>
+       </div>     
     <script src="/Js/change/markdown.min.js" type="text/javascript"></script>
     <script src="/Js/change/to-markdown.js" type="text/javascript"></script>
     <script type="text/javascript">

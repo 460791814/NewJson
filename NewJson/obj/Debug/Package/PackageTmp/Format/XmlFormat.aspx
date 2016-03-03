@@ -34,10 +34,11 @@
             <div class="validateButtons clear">
                 <div class="left" style="float: left">
                     <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" class="btn btn-primary" onclick="$('#json_input').format({method: 'xml'});">
+                            格式化</button>
                         <button type="button" class="btn btn-primary" onclick="$('#json_input').format({method: 'xmlmin'});">
                             压缩</button>
-                        <button type="button" class="btn btn-primary" onclick="$('#json_input').format({method: 'xml'});">
-                            格式化</button>
+                        
                         <button type="button" class="btn btn-danger" onclick="javascript:$('#json_input').val('').focus(); ">
                             清空结果</button>
                     </div>

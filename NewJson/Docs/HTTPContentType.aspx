@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 <meta name="Keywords" content="HTTP Content-type,常用对照表">
 <meta name="Description" content="HTTP Content-type,常用对照表">
-   <link href="/Css/docs/basic.css" rel="stylesheet" type="text/css" />
+  <link href="/Css/docs/basic.css" rel="stylesheet" type="text/css" />
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">

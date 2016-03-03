@@ -34,7 +34,7 @@
             <input type="hidden" id="compress" value="0" />
             <div>
                 <textarea id="json_input" name="json_input" class="json_input" style="font-size: 11px !important;
-                    height: 300px;" rows="32" spellcheck="false" placeholder="请输入需要处理的XML字符串或Json字符串"></textarea>
+                    height: 200px;" rows="32" spellcheck="false" placeholder="请输入需要处理的XML字符串或Json字符串"></textarea>
             </div>
             <div class="validateButtons clear">
                 <div class="left"  >
@@ -62,7 +62,7 @@
             </div>
             <div class="top10">
                 <textarea id="result_input" name="json_input" class="json_input" style="font-size: 11px !important;
-                    height: 300px;" rows="32" spellcheck="false" placeholder="这里输出转换结果"></textarea>
+                    height: 200px;" rows="32" spellcheck="false" placeholder="这里输出转换结果"></textarea>
             </div>
             <pre id="results" class="top10" style="display: none;"></pre>
         </div>

@@ -93,6 +93,14 @@
     <Content Include="Css\math\9me.css" />
     <Content Include="Css\math\9mime.css" />
     <Content Include="Css\toolstyle.css" />
+    <Content Include="Css\tools\diff\2345d7812e114320a2d2d823782cc6b4.css" />
+    <Content Include="Css\tools\diff\codemirror.css" />
+    <Content Include="Css\tools\diff\editor.css" />
+    <Content Include="Css\tools\diff\farbtastic.css" />
+    <Content Include="Css\tools\diff\jquery-ui-1.10.1.custom.css" />
+    <Content Include="Css\tools\diff\tipsy.css" />
+    <Content Include="Css\tools\diff\wicked-ui.css" />
+    <Content Include="Css\tools\diff\xiaoyaole.css" />
     <Content Include="Css\ui\alloyphoto\bar.style.css" />
     <Content Include="Css\ui\alloyphoto\main.css" />
     <Content Include="Css\ui\placeholder.almost-flat.min.css" />
@@ -112,6 +120,7 @@
     <Content Include="Css\validate\publicstyle.css" />
     <Content Include="Css\validate\toolstyle.css" />
     <Content Include="Docs\ASCII.aspx" />
+    <Content Include="Docs\FreeAPI.aspx" />
     <Content Include="Docs\HtmlEscape.aspx" />
     <Content Include="Docs\HTTPContentType.aspx" />
     <Content Include="Docs\HttpStatus.aspx" />
@@ -289,6 +298,32 @@
     <Content Include="Images\pass-word.png" />
     <Content Include="Images\prev.png" />
     <Content Include="Images\toggleimg.png" />
+    <Content Include="Images\tools\diff\arrow-down-v.png" />
+    <Content Include="Images\tools\diff\arrow-left-v.png" />
+    <Content Include="Images\tools\diff\arrow-left-vv.png" />
+    <Content Include="Images\tools\diff\arrow-right-v.png" />
+    <Content Include="Images\tools\diff\arrow-right-vv.png" />
+    <Content Include="Images\tools\diff\arrow-right.png" />
+    <Content Include="Images\tools\diff\arrow-up-v.png" />
+    <Content Include="Images\tools\diff\banner.png" />
+    <Content Include="Images\tools\diff\check.png" />
+    <Content Include="Images\tools\diff\download.png" />
+    <Content Include="Images\tools\diff\marker.png" />
+    <Content Include="Images\tools\diff\mask.png" />
+    <Content Include="Images\tools\diff\redo.png" />
+    <Content Include="Images\tools\diff\share.png" />
+    <Content Include="Images\tools\diff\swap.png" />
+    <Content Include="Images\tools\diff\ui-bg_glass_45_5e5e5e_1x400.png" />
+    <Content Include="Images\tools\diff\ui-bg_glass_75_098be1_1x400.png" />
+    <Content Include="Images\tools\diff\ui-bg_gloss-wave_50_098be1_500x100.png" />
+    <Content Include="Images\tools\diff\ui-bg_gloss-wave_75_1c1c1c_500x100.png" />
+    <Content Include="Images\tools\diff\ui-bg_gloss-wave_75_aaaaaa_500x100.png" />
+    <Content Include="Images\tools\diff\ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+    <Content Include="Images\tools\diff\ui-icons_ffffff_256x240.png" />
+    <Content Include="Images\tools\diff\undo.png" />
+    <Content Include="Images\tools\diff\upload.png" />
+    <Content Include="Images\tools\diff\wheel.png" />
+    <Content Include="Images\tools\diff\x-mark.png" />
     <Content Include="Images\top_post.gif" />
     <Content Include="Images\twitter.png" />
     <Content Include="Images\warning.png" />
@@ -484,6 +519,16 @@
     <Content Include="Js\math\latest.js" />
     <Content Include="Js\objtree.js" />
     <Content Include="Js\scripts.js" />
+    <Content Include="Js\tools\diff\codemirror.min.js" />
+    <Content Include="Js\tools\diff\editor.min.js" />
+    <Content Include="Js\tools\diff\farbtastic.js" />
+    <Content Include="Js\tools\diff\jquery-ui.min.js" />
+    <Content Include="Js\tools\diff\jquery.min.js" />
+    <Content Include="Js\tools\diff\jquery.tipsy.js" />
+    <Content Include="Js\tools\diff\searchcursor.js" />
+    <Content Include="Js\tools\diff\wb.js" />
+    <Content Include="Js\tools\diff\wicked-ui.js" />
+    <Content Include="Js\tools\diff\xiaoyaole.min.js" />
     <Content Include="Js\tools\qrcode\basefn.js" />
     <Content Include="Js\tools\qrcode\bdmap.js" />
     <Content Include="Js\tools\qrcode\canvas.js" />
@@ -646,7 +691,7 @@
     <Content Include="Template\header.htm" />
     <Content Include="Template\menu.htm" />
     <Content Include="Test.aspx" />
-    <Content Include="test.html" />
+    <Content Include="Tools\Diff.aspx" />
     <Content Include="Tools\ewm.htm" />
     <Content Include="Tools\images\2013\diy\big\pin-1.png" />
     <Content Include="Tools\images\2013\diy\big\pin-10.png" />
@@ -705,7 +750,6 @@
     <Content Include="Tools\images\scroll.gif" />
     <Content Include="Tools\images\textbg.gif" />
     <Content Include="Tools\images\tip.gif" />
-    <Content Include="Tools\QRCode1.aspx" />
     <Content Include="Tools\QRDeCode.aspx" />
     <Content Include="Tools\QRCode.aspx" />
     <Content Include="Tools\TextEditor.aspx" />
@@ -729,11 +773,10 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="WebTools\ClientInfo.aspx" />
-    <Content Include="WebTools\GetIP.aspx" />
+    <Content Include="WebTools\IPAddress.aspx" />
     <Content Include="WebTools\HttpTest.aspx" />
     <Content Include="WebTools\Ips.aspx" />
     <Content Include="WebTools\UserAgent.aspx" />
-    <Content Include="xys.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Change\FileSize.aspx.cs">
@@ -861,6 +904,13 @@
     </Compile>
     <Compile Include="Docs\ASCII.aspx.designer.cs">
       <DependentUpon>ASCII.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Docs\FreeAPI.aspx.cs">
+      <DependentUpon>FreeAPI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Docs\FreeAPI.aspx.designer.cs">
+      <DependentUpon>FreeAPI.aspx</DependentUpon>
     </Compile>
     <Compile Include="Docs\HtmlEscape.aspx.cs">
       <DependentUpon>HtmlEscape.aspx</DependentUpon>
@@ -1143,12 +1193,12 @@
     <Compile Include="Test.aspx.designer.cs">
       <DependentUpon>Test.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Tools\QRCode1.aspx.cs">
-      <DependentUpon>QRCode1.aspx</DependentUpon>
+    <Compile Include="Tools\Diff.aspx.cs">
+      <DependentUpon>Diff.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Tools\QRCode1.aspx.designer.cs">
-      <DependentUpon>QRCode1.aspx</DependentUpon>
+    <Compile Include="Tools\Diff.aspx.designer.cs">
+      <DependentUpon>Diff.aspx</DependentUpon>
     </Compile>
     <Compile Include="Tools\QRDeCode.aspx.cs">
       <DependentUpon>QRDeCode.aspx</DependentUpon>
@@ -1262,12 +1312,12 @@
     <Compile Include="WebTools\ClientInfo.aspx.designer.cs">
       <DependentUpon>ClientInfo.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebTools\GetIP.aspx.cs">
-      <DependentUpon>GetIP.aspx</DependentUpon>
+    <Compile Include="WebTools\IPAddress.aspx.cs">
+      <DependentUpon>IPAddress.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebTools\GetIP.aspx.designer.cs">
-      <DependentUpon>GetIP.aspx</DependentUpon>
+    <Compile Include="WebTools\IPAddress.aspx.designer.cs">
+      <DependentUpon>IPAddress.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebTools\Handler\HttpTest.ashx.cs">
       <DependentUpon>HttpTest.ashx</DependentUpon>
@@ -1334,6 +1384,7 @@
     <None Include="Js\jsoneditor\stat.php" />
     <Content Include="Main.Master" />
     <None Include="Js\json\jsonview\stat.php" />
+    <None Include="Js\tools\diff\stat.php" />
     <None Include="Js\tools\qrdecode\stat.php" />
     <None Include="Js\uploadify\check-exists.php" />
     <None Include="Js\uploadify\index.php" />

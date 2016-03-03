@@ -156,7 +156,7 @@ a.more-link:hover{color:#FFF}
 .relatedposts li{float:left;width:50%;overflow:hidden;line-height:30px;list-style:inside square;white-space:nowrap;font-size:14px}
 #goTop{display:block;background:#413F40;float:left;color:#fff !important;font-size:12px;padding:3px 12px}
 #ds-recent-visitors div.ds-avatar{height:50px;float:left;display:block !important}
-#footer{width:94%;margin:auto;margin-top:20px;text-align:right;font-size:16px;padding:10px 0;border-top:#ddd double 3px;font-size:14px;font-family:Arial,Microsoft Yahei}
+#footer{width:94%;margin:auto;margin-top:20px;font-size:16px;padding:10px 0;border-top:#ddd double 3px;font-size:14px;font-family:Arial,Microsoft Yahei}/*text-align:right;*/
 #footer a{color:#FD7B2F}
 .j_zeng{border:1px solid #FF6100;background:#fff;padding-left:10px}
 .jz_bt{background:#FF6100;float:right;color:#fff;width:100px;text-align:center;text-decoration:none !important}

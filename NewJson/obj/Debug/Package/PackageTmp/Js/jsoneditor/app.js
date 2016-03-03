@@ -66,13 +66,13 @@ app.load = function () {
 
 		// default json document
 		var json = {
-			"name": "BeJson",
-			"url": "http://www.bejson.com",
+		    "name": "newjson",
+		    "url": "http://www.newjson.com",
 			"page": 88,
 			"isNonProfit": true,
 			"address": {
-				"street": "科技园路.",
-				"city": "江苏苏州",
+			    "street": "海淀区",
+			    "city": "北京",
 				"country": "中国"
 			},
 			"links": [{
