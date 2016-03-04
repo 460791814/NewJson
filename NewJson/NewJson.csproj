@@ -72,6 +72,7 @@
     <Content Include="Change\ToUpperToLower.aspx" />
     <Content Include="Change\UnicodeToChinese.aspx" />
     <Content Include="Change\Unix.aspx" />
+    <Content Include="Change\UrlConvert.aspx" />
     <Content Include="Css\images\jsoneditor-icons.png" />
     <Content Include="Css\json\app.css" />
     <Content Include="Css\change\all-base.css" />
@@ -897,6 +898,13 @@
     </Compile>
     <Compile Include="Change\Unix.aspx.designer.cs">
       <DependentUpon>Unix.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Change\UrlConvert.aspx.cs">
+      <DependentUpon>UrlConvert.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Change\UrlConvert.aspx.designer.cs">
+      <DependentUpon>UrlConvert.aspx</DependentUpon>
     </Compile>
     <Compile Include="Docs\ASCII.aspx.cs">
       <DependentUpon>ASCII.aspx</DependentUpon>
