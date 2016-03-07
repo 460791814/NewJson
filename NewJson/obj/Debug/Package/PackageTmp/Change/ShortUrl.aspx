@@ -12,8 +12,7 @@
                 <div class="media-body">
                     <h4 class="media-heading">
                         短网址生成还原</h4>
-                    <div id="desc1">
-                        短网址生成还原</div>
+                   
                 </div>
             </div>
         </div>

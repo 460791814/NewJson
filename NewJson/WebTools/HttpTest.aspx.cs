@@ -24,7 +24,7 @@ namespace NewJson.WebTools
         protected void Page_Load(object sender, EventArgs e)
         {
 
-           string xdd= Utils.SendWebRequest("http://yw.zxxk.com", null, "GET", Encoding.GetEncoding("gb2312"));
+      
             switch (Request["method"])
             {
                 case "send":

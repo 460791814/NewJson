@@ -26,7 +26,7 @@ namespace NewJson.Json
         private void GetJson()
         {
             string url = Request["url"];
-            string htmlcontent = HttpTool.SendWebRequest(url, new System.Net.CookieContainer());
+            string htmlcontent = HttpHelper.SendGet(url);//HttpTool.SendWebRequest(url, new System.Net.CookieContainer());
             string result = JsonConvert.SerializeObject(new { content = htmlcontent });
             Response.Write(result);
             Response.End();

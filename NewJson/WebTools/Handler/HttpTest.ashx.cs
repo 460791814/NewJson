@@ -10,6 +10,7 @@ using System.Net.Security;
 using System.Text.RegularExpressions;
 using Newtonsoft.Json;
 using System.Security.Cryptography.X509Certificates;
+using CommonTool;
 
 namespace NewJson.WebTools.Handler
 {
@@ -31,6 +32,8 @@ namespace NewJson.WebTools.Handler
                     SendRequest(context);
                     break;
                 default:
+                    context.Response.Clear();
+                    context.Response.Write(HttpHelper.SendGet(context.Request["url"]));
                     break;
             }
         }
@@ -51,7 +54,7 @@ namespace NewJson.WebTools.Handler
                     string[] headers = header.Split('|');
                     foreach (var item in headers)
                     {
-                        if (string.IsNullOrEmpty(item) == false&&item.Contains('='))
+                        if (string.IsNullOrEmpty(item) == false && item.Contains('='))
                         {
                             string[] items = item.Split('=');
                             headerDic.Add(items[0], items[1]);
@@ -73,8 +76,8 @@ namespace NewJson.WebTools.Handler
                 string result = JsonConvert.SerializeObject(new { content = html, header = headerStr.ToString() });
                 context.Response.Clear();
                 context.Response.Write(result);
-                
-             
+
+
             }
             catch (Exception e)
             {
@@ -82,8 +85,8 @@ namespace NewJson.WebTools.Handler
                 string result = JsonConvert.SerializeObject(new { content = e.Message, header = headerStr.ToString() });
                 context.Response.Clear();
                 context.Response.Write(result);
-            
-               
+
+
             }
         }
 
@@ -105,7 +108,7 @@ namespace NewJson.WebTools.Handler
 
         public static string Send(string url, string method, string data, HttpConfig config)
         {
-      
+
             if (config == null) config = new HttpConfig();
             string result;
             using (HttpWebResponse response = GetResponse(url, method, data, config))
