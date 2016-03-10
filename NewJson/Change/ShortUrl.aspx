@@ -26,8 +26,6 @@
                     短地址转换</button>
                 <button type="button" class="btn btn-primary" onclick="decode();">
                     短地址解码</button>
-                <button type="button" class="btn btn-primary" onclick="change();">
-                    内容交换</button>
                 <button type="button" class="btn btn-danger" onclick="Empty();">
                     清空结果</button>
             </div>

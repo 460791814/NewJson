@@ -11,7 +11,7 @@ namespace NewJson
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-          //  Page.Header.Title += " - newjson.com";
+            Page.Header.Title += " - newjson.com";
         }
     }
 }

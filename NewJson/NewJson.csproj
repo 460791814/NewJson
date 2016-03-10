@@ -539,6 +539,7 @@
     <Content Include="Js\math\jquery-1.4.3.min.js" />
     <Content Include="Js\math\jquery-addinfo.js" />
     <Content Include="Js\math\latest.js" />
+    <Content Include="Js\newjsontool.js" />
     <Content Include="Js\objtree.js" />
     <Content Include="Js\scripts.js" />
     <Content Include="Js\tools\diff\codemirror.min.js" />
@@ -787,7 +788,9 @@
     <Content Include="UI\SafeColor.aspx" />
     <Content Include="UI\UseColor.aspx" />
     <Content Include="Validate\Regex.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>

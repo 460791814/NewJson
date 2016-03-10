@@ -16,7 +16,6 @@ namespace NewJson.Change
         {
 
             switch (Request["method"])
-                   
             {
                 case "encode":
                     Encode();
@@ -31,9 +30,14 @@ namespace NewJson.Change
 
         private void Encode()
         {
-        string json=Utils.SendWebRequest("http://api.t.sina.com.cn/short_url/shorten.json?source=1681459862&url_long="+System.Web.HttpUtility.UrlEncode(Request["url"]));
-        Response.Write(json);
-        Response.End();
+            string strUrl = Request["url"];
+            if (!strUrl.Contains("http://") && !strUrl.Contains("https://"))
+            {
+                strUrl = "http://" + strUrl;
+            }
+            string json = Utils.SendWebRequest("http://api.t.sina.com.cn/short_url/shorten.json?source=1681459862&url_long=" + System.Web.HttpUtility.UrlEncode(strUrl));
+            Response.Write(json);
+            Response.End();
         }
         private void Decode()
         {

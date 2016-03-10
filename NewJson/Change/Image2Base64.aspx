@@ -54,7 +54,7 @@
                                 clip.setHandCursor(true);
                                 clip.setText($("#result_input").val());
                                 clip.glue("btn_copy");
-                                clip.addEventListener("mouseOver", function () {
+                                clip.addEventListener("mouseDown", function () {
                                     clip.setText($("#result_input").val());
                                 });
                             })

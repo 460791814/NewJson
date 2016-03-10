@@ -19,7 +19,7 @@
        <div>
        <div class="input-group">
                 <span class="input-group-addon" id="basic-addon1">输入URL</span>
-                <input type="text" class="form-control" id="url_input" style="width: 70%" name="url"  onkeyup="openAttr(false);" placeholder="http://" aria-describedby="basic-addon1">
+                <input type="text" class="form-control" id="url_input" style="width: 70%" name="url"  onkeyup="openAttr(false);" placeholder="http://" value="http://" aria-describedby="basic-addon1">
             </div>
        
        <div style=" margin-top:15px" class="validateButtons clear">
@@ -146,6 +146,7 @@
             }
             if (istest) {
                 if (address == "http://" || !address) { alert("请输入URL！"); return; }
+
                 window.open(address, op_selfopen, tempopenstyle);
                 return;
             }

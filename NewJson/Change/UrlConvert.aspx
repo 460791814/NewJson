@@ -2,14 +2,15 @@
     AutoEventWireup="true" CodeBehind="UrlConvert.aspx.cs" Inherits="NewJson.Change.UrlConvert" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <%--   <title>迅雷下载地址在线转换 快车下载地址在线转换 旋风下载地址在线转换工具 - 爱Q生活网</title>--%>
+
     <meta name="keywords" content="迅雷下载地址在线转换,快车下载地址在线转换，旋风下载地址在线转" />
     <meta name="description" content="本工具为您提供方便快捷的下载地址在线转换服务,支持迅雷 快车 旋风下载地址一键转换" />
-    <%--    <link href="/Css/change/urlconvertstyle.css" rel="stylesheet" type="text/css" />--%>
+
  
     <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
     <script src="/Js/change/urlconvert/jquery.js" type="text/javascript"></script>
     <script src="/Js/change/urlconvert/ajax.js" type="text/javascript"></script>
+
     <style type="text/css">
     .main {
 	float:left;
@@ -168,7 +169,7 @@ label.origin,label.fileico,label.xunlei,label.kuaiche,label.xuanfeng {
                         <label for="" class="origin form_left">
                             原始地址：</label><input type="text" id="oldurl" name="oldurl" class="text olink" spellcheck="false"
                                 value="thunder://QUFodHRwOi8vdG9vbC5sdS90ZXN0LnppcFpa" />
-                        <i class="erase"><a href="#" title="清除内容" onclick="$('#sourcelink').val('');return false;">
+                        <i class="erase"><a href="#" title="清除内容" onclick="$('#oldurl').val('');return false;">
                             清除内容</a></i>
                              <input id="button2" onclick="urlconvert();" type="button" value="转换" class="btn btn-primary" name="button">
                             </p>
@@ -179,7 +180,7 @@ label.origin,label.fileico,label.xunlei,label.kuaiche,label.xuanfeng {
                    
                     <div style="position: relative; margin-bottom: 1em">
                         <label for="reallink" class="fileico form_left">
-                            真实地址：</label><input type="text" id="newurl" onclick="if(this.value){copy(this.value);}"
+                            真实地址：</label><input type="text" id="newurl" 
                                 name="newurl" readonly="readonly" class="text dlink" spellcheck="false" value="" /><span
                                     id="down_newurl"></span></div>
                     <div style="position: relative; margin-bottom: 1em">
@@ -197,6 +198,62 @@ label.origin,label.fileico,label.xunlei,label.kuaiche,label.xuanfeng {
                             旋风地址：</label><input type="text" id="qqurl" onclick="if(this.value){copy(this.value);}"
                                 name="qqurl" readonly="readonly" name="dlink[qqdl]" class="text dlink" value="" /><span
                                     id="down_qqurl"></span></div>
+                                     <script type="text/javascript" src="/Js/zeroclipboard.js?v=1288490188066.7"></script>
+
+                                <script>
+                                   
+                                    ZeroClipboard.setMoviePath("/Js/ZeroClipboard.swf");
+                                    $(function () {
+                                       $("input[class=text dlink]").each(function (i) {
+                                           var "clip"+i=null;
+                                             ("clip"+i) = new ZeroClipboard.Client();
+                                            ("clip"+i).setHandCursor(true);
+                                            ("clip"+i).setText($("#newurl").val());
+                                            ("clip"+i).glue("newurl");
+                                            ("clip"+i).addEventListener("mouseDown", function () {
+                                                clip.setText($("#newurl").val());
+
+                                            });
+                                         })
+//                                        var clip = null;
+//                                        var thunderclip = null;
+//                                        var flashgetclip = null;
+//                                        var qqclip = null;
+//                                            clip = new ZeroClipboard.Client();
+//                                            clip.setHandCursor(true);
+//                                            clip.setText($("#newurl").val());
+//                                            clip.glue("newurl");
+//                                            clip.addEventListener("mouseDown", function () {
+//                                                clip.setText($("#newurl").val());
+
+//                                            });
+
+
+//                                            thunderclip = new ZeroClipboard.Client();
+//                                            thunderclip.setHandCursor(true);
+//                                            thunderclip.setText($("#thunderurl").val());
+//                                            thunderclip.glue("thunderurl");
+//                                            thunderclip.addEventListener("mouseDown", function () {
+//                                                thunderclip.setText($("#thunderurl").val());
+
+//                                            });
+                                     
+                                    })
+                                    $(window).resize(function () {
+                                       // clip.reposition();
+                                    });
+//                                    function txtcopy(t) {
+//                                        clip = new ZeroClipboard.Client();
+//                                        clip.setHandCursor(true);
+//                                        clip.setText($(t).val());
+//                                        clip.glue($(t).attr("id"));
+//                                        clip.addEventListener("mouseDown", function () {
+//                                            clip.setText($(t).val());
+//                                            alert("复制成功");
+//                                        });
+//                                    }
+
+	                    </script>
                   
                 </div>
             </div>
