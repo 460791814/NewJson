@@ -3,13 +3,14 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
-    <meta name="keywords" content="迅雷下载地址在线转换,快车下载地址在线转换，旋风下载地址在线转" />
+    <meta name="keywords" content="迅雷下载地址在线转换,快车下载地址在线转换,旋风下载地址在线转" />
     <meta name="description" content="本工具为您提供方便快捷的下载地址在线转换服务,支持迅雷 快车 旋风下载地址一键转换" />
 
  
     <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
     <script src="/Js/change/urlconvert/jquery.js" type="text/javascript"></script>
     <script src="/Js/change/urlconvert/ajax.js" type="text/javascript"></script>
+
     <style type="text/css">
     .main {
 	float:left;
@@ -151,7 +152,7 @@ label.origin,label.fileico,label.xunlei,label.kuaiche,label.xuanfeng {
             <div class="media">
                 <div class="media-body">
                     <h4 class="media-heading">
-                        迅雷下载地址在线转换,快车下载地址在线转换，旋风下载地址在线转换工具</h4>
+                        迅雷下载地址在线转换,快车下载地址在线转换,旋风下载地址在线转换工具</h4>
                 </div>
             </div>
         </div>
@@ -168,7 +169,7 @@ label.origin,label.fileico,label.xunlei,label.kuaiche,label.xuanfeng {
                         <label for="" class="origin form_left">
                             原始地址：</label><input type="text" id="oldurl" name="oldurl" class="text olink" spellcheck="false"
                                 value="thunder://QUFodHRwOi8vdG9vbC5sdS90ZXN0LnppcFpa" />
-                        <i class="erase"><a href="#" title="清除内容" onclick="$('#sourcelink').val('');return false;">
+                        <i class="erase"><a href="#" title="清除内容" onclick="$('#oldurl').val('');return false;">
                             清除内容</a></i>
                              <input id="button2" onclick="urlconvert();" type="button" value="转换" class="btn btn-primary" name="button">
                             </p>
@@ -179,24 +180,47 @@ label.origin,label.fileico,label.xunlei,label.kuaiche,label.xuanfeng {
                    
                     <div style="position: relative; margin-bottom: 1em">
                         <label for="reallink" class="fileico form_left">
-                            真实地址：</label><input type="text" id="newurl" onclick="if(this.value){copy(this.value);}"
+                            真实地址：</label><input type="text" id="newurl" 
                                 name="newurl" readonly="readonly" class="text dlink" spellcheck="false" value="" /><span
                                     id="down_newurl"></span></div>
                     <div style="position: relative; margin-bottom: 1em">
                         <label for="thunderlink" class="xunlei form_left">
-                            迅雷地址：</label><input type="text" id="thunderurl" onclick="if(this.value){copy(this.value);}"
+                            迅雷地址：</label><input type="text" id="thunderurl" 
                                 name="thunderurl" readonly="readonly" class="text dlink" spellcheck="false" value="" /><span
                                     id="down_thunderurl"></span></div>
                     <div style="position: relative; margin-bottom: 1em">
                         <label for="flashgetlink" class="kuaiche form_left">
-                            快车地址：</label><input type="text" id="flashgeturl" onclick="if(this.value){copy(this.value);}"
+                            快车地址：</label><input type="text" id="flashgeturl" 
                                 name="flashgeturl" readonly="readonly" spellcheck="false" class="text dlink"
                                 value="" /><span id="down_flashgeturl"></span></div>
                     <div style="position: relative; margin-bottom: 1em">
                         <label for="qqdllink" class="xuanfeng form_left">
-                            旋风地址：</label><input type="text" id="qqurl" onclick="if(this.value){copy(this.value);}"
+                            旋风地址：</label><input type="text" id="qqurl"
                                 name="qqurl" readonly="readonly" name="dlink[qqdl]" class="text dlink" value="" /><span
                                     id="down_qqurl"></span></div>
+                                     <script type="text/javascript" src="/Js/copy/zeroclipboard.js?v=1288490188066.7"></script>
+
+                                <script>
+                                    $(function () {
+                                        $("input[class=text dlink]").each(function (i) {
+
+                                            $(this).css("cursor", "pointer")
+                                            $(this).attr("data-clipboard-target", $(this).attr("id"));
+
+                                            var clip = new ZeroClipboard(jQuery(this)[0], {
+                                                moviePath: "/JS/copy/ZeroClipboard.swf"
+                                            });
+                                            clip.on('complete', function (client, args) {
+                                                alert("复制成功");
+                                            });
+                                        })
+                                      
+
+                                    })
+                                  
+
+
+	                    </script>
                   
                 </div>
             </div>

@@ -1,6 +1,6 @@
 // Simple Set Clipboard System
 // Author: Joseph Huckaby
-// Download by http://www.jb51.net
+
 var ZeroClipboard = {
 	
 	version: "1.0.7",

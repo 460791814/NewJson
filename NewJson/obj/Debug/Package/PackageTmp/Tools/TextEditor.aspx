@@ -52,7 +52,7 @@
                                 clip.setHandCursor(true);
                                 clip.setText($("#thebody").val());
                                 clip.glue("btn_copy");
-                                clip.addEventListener("mouseOver", function () {
+                                clip.addEventListener("mouseDown", function () {
                                     clip.setText($("#thebody").val());
                                 });
                             })

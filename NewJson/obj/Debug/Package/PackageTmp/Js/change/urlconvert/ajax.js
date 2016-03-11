@@ -520,7 +520,8 @@ function copy(txt)
 			document.body.appendChild(divholder);
 		}
 		document.getElementById(flashcopier).innerHTML = '';
-		var divinfo = '<embed src="js/clipboard.swf" flashvars="clipboard='+txt+'" type="application/x-shockwave-flash" width="0" height="0"></embed>';
+		var divinfo = '<embed src="/js/ZeroClipboard.swf" flashvars="clipboard='+txt+'" type="application/x-shockwave-flash" width="0" height="0"></embed>';
+
 		document.getElementById(flashcopier).innerHTML = divinfo;
 	}
 

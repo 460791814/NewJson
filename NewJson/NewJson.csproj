@@ -433,6 +433,8 @@
     <Content Include="Js\change\numeral.min.js" />
     <Content Include="Js\change\unix_time.js" />
     <Content Include="Js\commoncheck.js" />
+    <Content Include="Js\copy\zeroclipboard.js" />
+    <Content Include="Js\copy\ZeroClipboard.swf" />
     <Content Include="Js\docs\farbtastic.js" />
     <Content Include="Js\encdec\base64.js" />
     <Content Include="Js\encdec\htpaaword_md5.js" />
