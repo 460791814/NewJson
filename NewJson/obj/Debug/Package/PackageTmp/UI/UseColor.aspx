@@ -2470,7 +2470,7 @@
             </div>
         </div>
         <!--ToolMain02-end-->
-        <script src="/Js/copy/zeroclipboard.js" type="text/javascript"></script>
+        <script src="/Js/zeroclipboard1.2/zeroclipboard.js" type="text/javascript"></script>
         <script type="text/javascript">
             $(function () {
                 $('.CorConList div').each(function (index) {
@@ -2480,7 +2480,7 @@
                     $(this).attr("data-clipboard-target", jQuery(this).find("span").attr("id"));
 
                     var clip = new ZeroClipboard(jQuery(this)[0], {
-                        moviePath: "/JS/copy/ZeroClipboard.swf"
+                        moviePath: "/JS/zeroclipboard1.2/ZeroClipboard.swf"
                     });
                     clip.on('complete', function (client, args) {
                         $("#tester").show().css({ opacity: 1, color: '#f00', left: $(this).position().left - 40, top: $(this).position().top }).stop().animate({

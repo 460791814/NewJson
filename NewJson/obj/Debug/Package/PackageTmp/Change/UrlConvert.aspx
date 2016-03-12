@@ -198,7 +198,7 @@ label.origin,label.fileico,label.xunlei,label.kuaiche,label.xuanfeng {
                             旋风地址：</label><input type="text" id="qqurl"
                                 name="qqurl" readonly="readonly" name="dlink[qqdl]" class="text dlink" value="" /><span
                                     id="down_qqurl"></span></div>
-                                     <script type="text/javascript" src="/Js/copy/zeroclipboard.js?v=1288490188066.7"></script>
+                                     <script type="text/javascript" src="/Js/zeroclipboard1.2/zeroclipboard.js?v=1288490188066.7"></script>
 
                                 <script>
                                     $(function () {
@@ -208,7 +208,7 @@ label.origin,label.fileico,label.xunlei,label.kuaiche,label.xuanfeng {
                                             $(this).attr("data-clipboard-target", $(this).attr("id"));
 
                                             var clip = new ZeroClipboard(jQuery(this)[0], {
-                                                moviePath: "/JS/copy/ZeroClipboard.swf"
+                                                moviePath: "/JS/zeroclipboard1.2/ZeroClipboard.swf"
                                             });
                                             clip.on('complete', function (client, args) {
                                                 alert("复制成功");

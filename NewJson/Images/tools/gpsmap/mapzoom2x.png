@@ -1,0 +1,265 @@
+<!doctype html>
+<html class="no-js" lang="zh-CN">
+
+<head>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://www.zhoupengyu.cn/wordpress/xmlrpc.php" />
+<title>周鹏禹 | My blog</title>
+<link rel="alternate" type="application/rss+xml" title="周鹏禹 &raquo; Feed" href="http://www.zhoupengyu.cn/wordpress/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="周鹏禹 &raquo; 评论Feed" href="http://www.zhoupengyu.cn/wordpress/?feed=comments-rss2" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.zhoupengyu.cn\/wordpress\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3.3"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='wp-player-css'  href='http://www.zhoupengyu.cn/wordpress/wp-content/plugins/wp-player/css/wp-player.css?ver=2.5.1' type='text/css' media='screen' />
+<link rel='stylesheet' id='wm-genericons-css'  href='http://www.zhoupengyu.cn/wordpress/wp-content/themes/modern/genericons/genericons.css?ver=1.4.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wm-slick-css'  href='http://www.zhoupengyu.cn/wordpress/wp-content/themes/modern/css/slick.css?ver=1.4.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wm-starter-css'  href='http://www.zhoupengyu.cn/wordpress/wp-content/themes/modern/css/starter.css?ver=1.4.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wm-stylesheet-css'  href='http://www.zhoupengyu.cn/wordpress/wp-content/themes/modern/style.css?ver=1.4.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wm-colors-css'  href='http://www.zhoupengyu.cn/wordpress/wp-content/themes/modern/css/colors.css?ver=1.4.5' type='text/css' media='all' />
+<style id='wm-colors-inline-css' type='text/css'>
+
+body{background-color:#1a1c1e}.site-banner-media:before,.banner-images:before {background:transparent;background:-webkit-linear-gradient(  top, rgba(26,28,30,0) 0%, #1a1c1e 100% );background:  linear-gradient( to bottom, rgba(26,28,30,0) 0%, #1a1c1e 100% );}.site-header,.site-header .social-links,.page-title,.taxonomy-description,.page-title,.error-404,.not-found {color:#ffffff;border-color:#ffffff;}a,.accent-color{color:#0aac8e}mark,ins,.highlight,pre:before,.pagination a,.pagination span,.label-sticky,.button,button,input[type="button"],input[type="reset"],input[type="submit"],.taxonomy-links a,.format-quote,.posts .format-quote,.format-status,.posts .format-status,.entry-content div.sharedaddy .sd-content ul li a.sd-button:not(.no-text),.post-navigation .nav-previous,.post-navigation .nav-next,.bypostauthor > .comment-body .comment-author:before,.comment-navigation a,.widget_calendar tbody a,.widget .tagcloud a:hover,body #infinite-handle span,.menu-toggle:before,.format-gallery .slick-prev,.format-gallery .slick-next {background-color:#0aac8e;color:#ffffff;}.entry-content div.sharedaddy .sd-content ul li a.sd-button:not(.no-text){color:#ffffff !important}mark,ins,.highlight {-webkit-box-shadow:.38em 0 0 #0aac8e, -.38em 0 0 #0aac8e;  box-shadow:.38em 0 0 #0aac8e, -.38em 0 0 #0aac8e;}.infinite-loader .spinner > div > div{background:#0aac8e !important}.label-sticky:before,.label-sticky:after {border-top-color:#0aac8e;border-right-color:#0aac8e;}input:focus,select:focus,textarea:focus,.widget .tagcloud a:hover{border-color:#0aac8e}.post-navigation .has-post-thumbnail:before {background:#0aac8e;background:-webkit-linear-gradient(  right, rgba(10,172,142,0) 19%, #0aac8e 81% );background:  linear-gradient( to left, rgba(10,172,142,0) 19%, #0aac8e 81% );}.post-navigation .nav-next.has-post-thumbnail:before {background:#0aac8e;background:-webkit-linear-gradient( left, rgba(10,172,142,0) 19%, #0aac8e 81% );background:  linear-gradient( to right, rgba(10,172,142,0) 19%, #0aac8e 81% );}body {font-family:'Fira Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:16px;}h1, h2, h3, h4, h5, h6,.h1, .h2, .h3, .h4, .h5, .h6{font-family:'Fira Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif}.site-title{font-family:'Fira Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif}
+
+</style>
+<script type='text/javascript' src='http://www.zhoupengyu.cn/wordpress/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://www.zhoupengyu.cn/wordpress/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.zhoupengyu.cn/wordpress/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.zhoupengyu.cn/wordpress/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.3.3" />
+<link rel="icon" href="http://www.zhoupengyu.cn/wordpress/wp-content/uploads/2015/09/X6EO0JAMWX5NUN1QQ.png" sizes="32x32" />
+<link rel="icon" href="http://www.zhoupengyu.cn/wordpress/wp-content/uploads/2015/09/X6EO0JAMWX5NUN1QQ.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="http://www.zhoupengyu.cn/wordpress/wp-content/uploads/2015/09/X6EO0JAMWX5NUN1QQ.png">
+<meta name="msapplication-TileImage" content="http://www.zhoupengyu.cn/wordpress/wp-content/uploads/2015/09/X6EO0JAMWX5NUN1QQ.png">
+
+</head>
+
+
+<body id="top" class="blog downscroll-enabled home is-not-singular">
+
+<div id="page" class="hfeed site">
+	<div class="site-inner">
+
+
+<header id="masthead" class="site-header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+
+<nav id="site-navigation" class="main-navigation" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement"><span class="screen-reader-text">周鹏禹 site navigation</span><a class="skip-link screen-reader-text" href="#content">Skip to content</a><div class="main-navigation-inner"><div class="menu"><ul><li id="menu-item-1267" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1267 active-menu-item"><a href="http://www.zhoupengyu.cn/wordpress/">首页</a></li>
+<li id="menu-item-983" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-983"><a href="http://www.zhoupengyu.cn/wordpress/?cat=10">音乐 <span class="expander"></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-984" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-984"><a href="http://www.zhoupengyu.cn/wordpress/?cat=13">中文</a></li>
+	<li id="menu-item-986" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-986"><a href="http://www.zhoupengyu.cn/wordpress/?cat=11">连盘</a></li>
+	<li id="menu-item-985" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-985"><a href="http://www.zhoupengyu.cn/wordpress/?cat=12">英文 <span class="expander"></span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-1008" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1008"><a href="http://www.zhoupengyu.cn/wordpress/?cat=20">DJ</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-1017" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1017"><a href="http://www.zhoupengyu.cn/wordpress/?cat=1">新鲜事</a></li>
+<li id="menu-item-1124" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1124"><a href="http://www.zhoupengyu.cn/wordpress/?page_id=1120">音乐收藏</a></li>
+</ul></div><div id="nav-search-form" class="nav-search-form"><a href="#" id="search-toggle" class="search-toggle"><span class="screen-reader-text">Search</span></a>
+<form method="get" class="form-search" action="http://www.zhoupengyu.cn/wordpress/">
+	<label for="search-field" class="screen-reader-text">Search</label>
+	<input type="search" value="" placeholder="Search field: type and press enter" name="s" class="search-field" id="search-field" />
+</form></div></div><button id="menu-toggle" class="menu-toggle" aria-controls="site-navigation" aria-expanded="false">Menu</button></nav><div class="site-branding"><h1 class="site-title logo type-text"><a href="http://www.zhoupengyu.cn/wordpress/" title="周鹏禹 | My blog"><span class="text-logo">周鹏禹</span></a></h1><h2 class="site-description">My blog</h2></div>
+<div id="site-banner" class="site-banner no-slider">
+
+	<div class="site-banner-inner">
+
+		
+<div class="site-banner-content">
+
+	
+	<div class="site-banner-media">
+
+		<figure class="site-banner-thumbnail">
+
+			<img src="http://www.zhoupengyu.cn/wordpress/wp-content/themes/modern/images/header.jpg" width="1920" height="1080" alt="" />
+		</figure>
+
+	</div>
+
+	
+	<div class="site-banner-header">
+
+		<h1 class="entry-title">Welcome to my personal blog - Zpy</h1>
+
+	</div>
+
+	
+</div>
+	</div>
+
+</div>
+
+</header>
+
+
+
+<div id="content" class="site-content">
+
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main clearfix" role="main">
+
+<div id="posts" class="posts posts-list clearfix" itemscope itemtype="http://schema.org/ItemList">
+<article id="post-1324" class="post-1324 post type-post status-publish format-standard hentry category-uncategorized" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+
+	<div class="entry-inner"><header class="entry-header"><h1 class="entry-title" itemprop="name"><a href="http://www.zhoupengyu.cn/wordpress/?p=1324" rel="bookmark">苹果为何紧“盯”着这家BBS社区不放？</a></h1></header><div class="entry-content" itemprop="description"><p class="post-excerpt">　　来源：界面 　　作为服务iPhone&hellip;</p>
+<div class="link-more"><a href="http://www.zhoupengyu.cn/wordpress/?p=1324">Continue reading<span class="screen-reader-text"> "苹果为何紧“盯”着这家BBS社区不放？"</span>&hellip;</a></div></div><div class="entry-meta"><time datetime="2016-01-11T04:54:28+00:00" class="entry-date entry-meta-element published" title="2016年1月11日 | 上午4:54" itemprop="datePublished">11 一 2016</time> <span class="comments-link entry-meta-element"><a href="http://www.zhoupengyu.cn/wordpress/?p=1324#respond" title="Comments: 0"><span class="comments-title">Comments: </span><span class="comments-count">0</span></a></span> </div></div>
+</article>
+<article id="post-1323" class="post-1323 post type-post status-publish format-standard hentry category-uncategorized" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+
+	<div class="entry-inner"><header class="entry-header"><h1 class="entry-title" itemprop="name"><a href="http://www.zhoupengyu.cn/wordpress/?p=1323" rel="bookmark">派杰：苹果今年将再回购500亿美元股票</a></h1></header><div class="entry-content" itemprop="description"><p class="post-excerpt">　　新浪科技讯 北京时间3月4日晚间消息&hellip;</p>
+<div class="link-more"><a href="http://www.zhoupengyu.cn/wordpress/?p=1323">Continue reading<span class="screen-reader-text"> "派杰：苹果今年将再回购500亿美元股票"</span>&hellip;</a></div></div><div class="entry-meta"><time datetime="2016-01-09T06:17:45+00:00" class="entry-date entry-meta-element published" title="2016年1月9日 | 上午6:17" itemprop="datePublished">9 一 2016</time> <span class="comments-link entry-meta-element"><a href="http://www.zhoupengyu.cn/wordpress/?p=1323#respond" title="Comments: 0"><span class="comments-title">Comments: </span><span class="comments-count">0</span></a></span> </div></div>
+</article>
+<article id="post-1322" class="post-1322 post type-post status-publish format-standard hentry category-uncategorized" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+
+	<div class="entry-inner"><header class="entry-header"><h1 class="entry-title" itemprop="name"><a href="http://www.zhoupengyu.cn/wordpress/?p=1322" rel="bookmark">Apple Pay、微信、支付宝，支付专利哪家强？</a></h1></header><div class="entry-content" itemprop="description"><p class="post-excerpt">　　欢迎关注“创事记”的微信订阅号：si&hellip;</p>
+<div class="link-more"><a href="http://www.zhoupengyu.cn/wordpress/?p=1322">Continue reading<span class="screen-reader-text"> "Apple Pay、微信、支付宝，支付专利哪家强？"</span>&hellip;</a></div></div><div class="entry-meta"><time datetime="2016-01-07T00:50:41+00:00" class="entry-date entry-meta-element published" title="2016年1月7日 | 上午12:50" itemprop="datePublished">7 一 2016</time> <span class="comments-link entry-meta-element"><a href="http://www.zhoupengyu.cn/wordpress/?p=1322#respond" title="Comments: 0"><span class="comments-title">Comments: </span><span class="comments-count">0</span></a></span> </div></div>
+</article>
+<article id="post-1321" class="post-1321 post type-post status-publish format-standard hentry category-uncategorized" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+
+	<div class="entry-inner"><header class="entry-header"><h1 class="entry-title" itemprop="name"><a href="http://www.zhoupengyu.cn/wordpress/?p=1321" rel="bookmark">面对雅虎的四大危机，梅耶尔还能怎么应对</a></h1></header><div class="entry-content" itemprop="description"><p class="post-excerpt">　　欢迎关注“创事记”的微信订阅号：si&hellip;</p>
+<div class="link-more"><a href="http://www.zhoupengyu.cn/wordpress/?p=1321">Continue reading<span class="screen-reader-text"> "面对雅虎的四大危机，梅耶尔还能怎么应对"</span>&hellip;</a></div></div><div class="entry-meta"><time datetime="2015-12-05T14:03:19+00:00" class="entry-date entry-meta-element published" title="2015年12月5日 | 下午2:03" itemprop="datePublished">5 十二 2015</time> <span class="comments-link entry-meta-element"><a href="http://www.zhoupengyu.cn/wordpress/?p=1321#respond" title="Comments: 0"><span class="comments-title">Comments: </span><span class="comments-count">0</span></a></span> </div></div>
+</article>
+<article id="post-1320" class="post-1320 post type-post status-publish format-standard hentry category-uncategorized" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+
+	<div class="entry-inner"><header class="entry-header"><h1 class="entry-title" itemprop="name"><a href="http://www.zhoupengyu.cn/wordpress/?p=1320" rel="bookmark">2016年，哪些独角兽将面临危机？</a></h1></header><div class="entry-content" itemprop="description"><p class="post-excerpt">　　欢迎关注“创事记”的微信订阅号：si&hellip;</p>
+<div class="link-more"><a href="http://www.zhoupengyu.cn/wordpress/?p=1320">Continue reading<span class="screen-reader-text"> "2016年，哪些独角兽将面临危机？"</span>&hellip;</a></div></div><div class="entry-meta"><time datetime="2015-12-03T19:32:43+00:00" class="entry-date entry-meta-element published" title="2015年12月3日 | 下午7:32" itemprop="datePublished">3 十二 2015</time> <span class="comments-link entry-meta-element"><a href="http://www.zhoupengyu.cn/wordpress/?p=1320#respond" title="Comments: 0"><span class="comments-title">Comments: </span><span class="comments-count">0</span></a></span> </div></div>
+</article>
+<article id="post-1315" class="post-1315 post type-post status-publish format-standard hentry category-uncategorized" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+
+	<div class="entry-inner"><header class="entry-header"><h1 class="entry-title" itemprop="name"><a href="http://www.zhoupengyu.cn/wordpress/?p=1315" rel="bookmark">互联网将如何改变人类的婚姻制度</a></h1></header><div class="entry-content" itemprop="description"><p class="post-excerpt">　　欢迎关注“创事记”的微信订阅号：si&hellip;</p>
+<div class="link-more"><a href="http://www.zhoupengyu.cn/wordpress/?p=1315">Continue reading<span class="screen-reader-text"> "互联网将如何改变人类的婚姻制度"</span>&hellip;</a></div></div><div class="entry-meta"><time datetime="2015-12-02T02:47:06+00:00" class="entry-date entry-meta-element published" title="2015年12月2日 | 上午2:47" itemprop="datePublished">2 十二 2015</time> <span class="comments-link entry-meta-element"><a href="http://www.zhoupengyu.cn/wordpress/?p=1315#respond" title="Comments: 0"><span class="comments-title">Comments: </span><span class="comments-count">0</span></a></span> </div></div>
+</article>
+<article id="post-1319" class="post-1319 post type-post status-publish format-standard hentry category-uncategorized" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+
+	<div class="entry-inner"><header class="entry-header"><h1 class="entry-title" itemprop="name"><a href="http://www.zhoupengyu.cn/wordpress/?p=1319" rel="bookmark">维基百科的存在是一个奇迹</a></h1></header><div class="entry-content" itemprop="description"><p class="post-excerpt">　　欢迎关注“创事记”的微信订阅号：si&hellip;</p>
+<div class="link-more"><a href="http://www.zhoupengyu.cn/wordpress/?p=1319">Continue reading<span class="screen-reader-text"> "维基百科的存在是一个奇迹"</span>&hellip;</a></div></div><div class="entry-meta"><time datetime="2015-12-02T00:32:24+00:00" class="entry-date entry-meta-element published" title="2015年12月2日 | 上午12:32" itemprop="datePublished">2 十二 2015</time> <span class="comments-link entry-meta-element"><a href="http://www.zhoupengyu.cn/wordpress/?p=1319#respond" title="Comments: 0"><span class="comments-title">Comments: </span><span class="comments-count">0</span></a></span> </div></div>
+</article>
+<article id="post-1318" class="post-1318 post type-post status-publish format-standard hentry category-uncategorized" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+
+	<div class="entry-inner"><header class="entry-header"><h1 class="entry-title" itemprop="name"><a href="http://www.zhoupengyu.cn/wordpress/?p=1318" rel="bookmark">为何越来越多互联网公司放弃了网页版产品</a></h1></header><div class="entry-content" itemprop="description"><p class="post-excerpt">　　欢迎关注“创事记”的微信订阅号：si&hellip;</p>
+<div class="link-more"><a href="http://www.zhoupengyu.cn/wordpress/?p=1318">Continue reading<span class="screen-reader-text"> "为何越来越多互联网公司放弃了网页版产品"</span>&hellip;</a></div></div><div class="entry-meta"><time datetime="2015-12-02T00:11:20+00:00" class="entry-date entry-meta-element published" title="2015年12月2日 | 上午12:11" itemprop="datePublished">2 十二 2015</time> <span class="comments-link entry-meta-element"><a href="http://www.zhoupengyu.cn/wordpress/?p=1318#respond" title="Comments: 0"><span class="comments-title">Comments: </span><span class="comments-count">0</span></a></span> </div></div>
+</article>
+<article id="post-1316" class="post-1316 post type-post status-publish format-standard hentry category-uncategorized" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+
+	<div class="entry-inner"><header class="entry-header"><h1 class="entry-title" itemprop="name"><a href="http://www.zhoupengyu.cn/wordpress/?p=1316" rel="bookmark">2016：独角兽坠落之年？</a></h1></header><div class="entry-content" itemprop="description"><p class="post-excerpt">　　欢迎关注“创事记”的微信订阅号：si&hellip;</p>
+<div class="link-more"><a href="http://www.zhoupengyu.cn/wordpress/?p=1316">Continue reading<span class="screen-reader-text"> "2016：独角兽坠落之年？"</span>&hellip;</a></div></div><div class="entry-meta"><time datetime="2015-12-02T00:02:37+00:00" class="entry-date entry-meta-element published" title="2015年12月2日 | 上午12:02" itemprop="datePublished">2 十二 2015</time> <span class="comments-link entry-meta-element"><a href="http://www.zhoupengyu.cn/wordpress/?p=1316#respond" title="Comments: 0"><span class="comments-title">Comments: </span><span class="comments-count">0</span></a></span> </div></div>
+</article>
+<article id="post-1317" class="post-1317 post type-post status-publish format-standard hentry category-uncategorized" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+
+	<div class="entry-inner"><header class="entry-header"><h1 class="entry-title" itemprop="name"><a href="http://www.zhoupengyu.cn/wordpress/?p=1317" rel="bookmark">随着科技的发展，人类可能会迎来这五种结局</a></h1></header><div class="entry-content" itemprop="description"><p class="post-excerpt">　　欢迎关注“创事记”的微信订阅号：si&hellip;</p>
+<div class="link-more"><a href="http://www.zhoupengyu.cn/wordpress/?p=1317">Continue reading<span class="screen-reader-text"> "随着科技的发展，人类可能会迎来这五种结局"</span>&hellip;</a></div></div><div class="entry-meta"><time datetime="2015-11-29T22:09:20+00:00" class="entry-date entry-meta-element published" title="2015年11月29日 | 下午10:09" itemprop="datePublished">29 十一 2015</time> <span class="comments-link entry-meta-element"><a href="http://www.zhoupengyu.cn/wordpress/?p=1317#respond" title="Comments: 0"><span class="comments-title">Comments: </span><span class="comments-count">0</span></a></span> </div></div>
+</article>
+<article id="post-1314" class="post-1314 post type-post status-publish format-standard hentry category-uncategorized" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+
+	<div class="entry-inner"><header class="entry-header"><h1 class="entry-title" itemprop="name"><a href="http://www.zhoupengyu.cn/wordpress/?p=1314" rel="bookmark">共享经济就是个临时工的增量市场</a></h1></header><div class="entry-content" itemprop="description"><p class="post-excerpt">　　欢迎关注“创事记”的微信订阅号：si&hellip;</p>
+<div class="link-more"><a href="http://www.zhoupengyu.cn/wordpress/?p=1314">Continue reading<span class="screen-reader-text"> "共享经济就是个临时工的增量市场"</span>&hellip;</a></div></div><div class="entry-meta"><time datetime="2015-11-29T21:06:50+00:00" class="entry-date entry-meta-element published" title="2015年11月29日 | 下午9:06" itemprop="datePublished">29 十一 2015</time> <span class="comments-link entry-meta-element"><a href="http://www.zhoupengyu.cn/wordpress/?p=1314#respond" title="Comments: 0"><span class="comments-title">Comments: </span><span class="comments-count">0</span></a></span> </div></div>
+</article>
+<article id="post-1313" class="post-1313 post type-post status-publish format-standard hentry category-uncategorized" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+
+	<div class="entry-inner"><header class="entry-header"><h1 class="entry-title" itemprop="name"><a href="http://www.zhoupengyu.cn/wordpress/?p=1313" rel="bookmark">反思网秦：关于私有化、借壳上市及集体诉讼</a></h1></header><div class="entry-content" itemprop="description"><p class="post-excerpt">　　欢迎关注“创事记”的微信订阅号：si&hellip;</p>
+<div class="link-more"><a href="http://www.zhoupengyu.cn/wordpress/?p=1313">Continue reading<span class="screen-reader-text"> "反思网秦：关于私有化、借壳上市及集体诉讼"</span>&hellip;</a></div></div><div class="entry-meta"><time datetime="2015-11-27T18:27:05+00:00" class="entry-date entry-meta-element published" title="2015年11月27日 | 下午6:27" itemprop="datePublished">27 十一 2015</time> <span class="comments-link entry-meta-element"><a href="http://www.zhoupengyu.cn/wordpress/?p=1313#respond" title="Comments: 0"><span class="comments-title">Comments: </span><span class="comments-count">0</span></a></span> </div></div>
+</article></div><div class="pagination"><span class='page-numbers current'>1</span>
+<a class='page-numbers' href='http://www.zhoupengyu.cn/wordpress/?paged=2'>2</a>
+<a class='page-numbers' href='http://www.zhoupengyu.cn/wordpress/?paged=3'>3</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class='page-numbers' href='http://www.zhoupengyu.cn/wordpress/?paged=80'>80</a>
+<a class="next page-numbers" href="http://www.zhoupengyu.cn/wordpress/?paged=2">&raquo;</a></div>
+
+		</main><!-- /#main -->
+	</div><!-- /#primary -->
+</div><!-- /#content -->
+
+
+	</div><!-- /.site-inner -->
+</div><!-- /#page -->
+
+
+
+<footer id="colophon" class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
+
+<div class="site-footer-area footer-area-footer-widgets"><div id="footer-widgets" class="footer-widgets clearfix columns-3" data-columns="3">
+
+<div id="footer-widgets-container" class="widget-area footer-widgets-container widgets-count-3" data-widgets-count="3">
+<div id="tag_cloud-2" class="widget widget_tag_cloud"><h3 class="widget-title">标签</h3><div class="tagcloud"><a href='http://www.zhoupengyu.cn/wordpress/?tag=dj' class='tag-link-22' title='1个话题' style='font-size: 8pt;'>DJ</a>
+<a href='http://www.zhoupengyu.cn/wordpress/?tag=%e4%b8%ad%e6%96%87' class='tag-link-15' title='2个话题' style='font-size: 22pt;'>中文</a>
+<a href='http://www.zhoupengyu.cn/wordpress/?tag=%e6%b1%9f%e5%8d%97' class='tag-link-16' title='1个话题' style='font-size: 8pt;'>江南</a>
+<a href='http://www.zhoupengyu.cn/wordpress/?tag=%e6%b8%85%e6%96%b0' class='tag-link-17' title='1个话题' style='font-size: 8pt;'>清新</a>
+<a href='http://www.zhoupengyu.cn/wordpress/?tag=%e8%8b%b1%e6%96%87' class='tag-link-21' title='2个话题' style='font-size: 22pt;'>英文</a>
+<a href='http://www.zhoupengyu.cn/wordpress/?tag=%e9%9f%b3%e4%b9%90' class='tag-link-18' title='2个话题' style='font-size: 22pt;'>音乐</a></div>
+</div><div id="categories-2" class="widget widget_categories"><h3 class="widget-title">文章分类</h3>		<ul>
+	<li class="cat-item cat-item-1"><a href="http://www.zhoupengyu.cn/wordpress/?cat=1" >新鲜事</a> (950)
+</li>
+	<li class="cat-item cat-item-10"><a href="http://www.zhoupengyu.cn/wordpress/?cat=10" >音乐</a> (6)
+<ul class='children'>
+	<li class="cat-item cat-item-13"><a href="http://www.zhoupengyu.cn/wordpress/?cat=13" >中文</a> (3)
+</li>
+	<li class="cat-item cat-item-12"><a href="http://www.zhoupengyu.cn/wordpress/?cat=12" >英文</a> (3)
+	<ul class='children'>
+	<li class="cat-item cat-item-20"><a href="http://www.zhoupengyu.cn/wordpress/?cat=20" >DJ</a> (2)
+</li>
+	</ul>
+</li>
+</ul>
+</li>
+		</ul>
+</div><div id="ds-top-threads-2" class="widget ds-widget-top-threads"><h3 class="widget-title">热评文章</h3><ul class="ds-top-threads" data-num-items="5" data-range="weekly"></ul></div><script>
+if (typeof DUOSHUO !== 'undefined')
+	DUOSHUO.TopThreads && DUOSHUO.TopThreads('.ds-top-threads');
+</script><script type="text/javascript">
+var duoshuoQuery = {"short_name":"zhoupengyu","sso":{"login":"http:\/\/www.zhoupengyu.cn\/wordpress\/wp-login.php?action=duoshuo_login","logout":"http:\/\/www.zhoupengyu.cn\/wordpress\/wp-login.php?action=logout&_wpnonce=9c961f2ae1"},"theme":"bluebox","stylePatch":"wordpress\/Modern"};
+duoshuoQuery.sso.login += '&redirect_to=' + encodeURIComponent(window.location.href);
+duoshuoQuery.sso.logout += '&redirect_to=' + encodeURIComponent(window.location.href);
+(function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';
+    ds.async = true;
+    ds.charset = 'UTF-8';
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+</script>
+</div>
+
+</div></div><div class="site-footer-area footer-area-site-info" ><div class="site-info-container"><div class="site-info" role="contentinfo" ><div style="float:left;line-height: 52px;">&copy; 2016 <a href="http://www.zhoupengyu.cn/wordpress/" title="周鹏禹">周鹏禹</a>.   作者 :  <a href="https://wordpress.org">Zpy</a>    QQ : <a target="_blank" href="http://sighttp.qq.com/authd?IDKEY=fadf5fe644177234dcbed7cb436e2baf146897cf10b47d4a">295051185</a>  邮箱 : <a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=H2hoaDEtJiovKi4uJypfbm4xfHBy" style="text-decoration:none;">295051185@qq.com</a> <a href="#top" id="back-to-top" class="back-to-top">Back to top &uarr;</a></div> </div></div></div>
+
+</footer>
+
+<script type='text/javascript' src='http://www.zhoupengyu.cn/wordpress/wp-content/plugins/wp-player/js/soundmanager2.js?ver=2.5.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wp_player_params = {"swf":"http:\/\/www.zhoupengyu.cn\/wordpress\/wp-content\/plugins\/wp-player\/js\/","url":"http:\/\/www.zhoupengyu.cn\/wordpress\/wp-admin\/admin-ajax.php","nonce":"1d40d4cba1","single":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.zhoupengyu.cn/wordpress/wp-content/plugins/wp-player/js/wp-player.js?ver=2.5.1'></script>
+<script type='text/javascript' src='http://www.zhoupengyu.cn/wordpress/wp-content/themes/modern/js/imagesloaded.pkgd.min.js?ver=1.4.5'></script>
+<script type='text/javascript' src='http://www.zhoupengyu.cn/wordpress/wp-content/themes/modern/js/slick.min.js?ver=1.4.5'></script>
+<script type='text/javascript' src='http://www.zhoupengyu.cn/wordpress/wp-content/themes/modern/js/scripts-navigation.js?ver=1.4.5'></script>
+<script type='text/javascript' src='http://www.zhoupengyu.cn/wordpress/wp-content/themes/modern/js/scripts-global.js?ver=1.4.5'></script>
+<script type='text/javascript' src='http://www.zhoupengyu.cn/wordpress/wp-content/themes/modern/js/skip-link-focus-fix.js?ver=1.4.5'></script>
+<!-- Generated in 1.453 seconds. Made 12 queries to database and 18 cached queries. Memory used - 38.22MB -->
+<!-- Cached by DB Cache Reloaded Fix -->
+
+</body>
+
+</html><!-- hyper cache 2016-03-11 09:45:30 -->
