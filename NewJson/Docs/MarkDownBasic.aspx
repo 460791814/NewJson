@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="MarkDownBasic.aspx.cs" Inherits="NewJson.Docs.MarkDownBasic" %>
+﻿<%@ Page Title="Markdown 快速入门 语法说明(简体中文版)" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="MarkDownBasic.aspx.cs" Inherits="NewJson.Docs.MarkDownBasic" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">

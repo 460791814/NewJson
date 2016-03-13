@@ -1,4 +1,4 @@
-﻿<%@ Page Title="MD5在线加密-MD5加密-MD5加密工具" Language="C#" MasterPageFile="~/Main.Master"
+﻿<%@ Page Title="MD5在线加密_MD5加密_MD5加密工具" Language="C#" MasterPageFile="~/Main.Master"
     AutoEventWireup="true" CodeBehind="MD5.aspx.cs" Inherits="NewJson.EncDec.MD5" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">

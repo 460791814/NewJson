@@ -1,4 +1,4 @@
-﻿<%@ Page Title="XML格式化 压缩" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true"
+﻿<%@ Page Title="XML格式化,压缩" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true"
     CodeBehind="XmlFormat.aspx.cs" Inherits="NewJson.Format.XmlFormat" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
@@ -11,7 +11,7 @@
             <div class="media">
                 <div class="media-body">
                     <h4 class="media-heading">
-                        XML格式化 压缩</h4>
+                        XML格式化,压缩</h4>
                 </div>
             </div>
         </div>

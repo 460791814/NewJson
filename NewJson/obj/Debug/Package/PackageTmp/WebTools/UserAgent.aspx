@@ -12,8 +12,7 @@
                 <div class="media-body">
                     <h4 class="media-heading">
                         常用浏览器(PC,移动) user-agent</h4>
-                    <div id="desc1">
-                        整理时下流行的浏览器User-Agent大全</div>
+                
                 </div>
             </div>
         </div>

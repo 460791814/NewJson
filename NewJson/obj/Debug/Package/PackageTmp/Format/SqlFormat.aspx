@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Sql格式化 压缩" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="SqlFormat.aspx.cs" Inherits="NewJson.Format.SqlFormat" %>
+﻿<%@ Page Title="Sql格式化,压缩" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="SqlFormat.aspx.cs" Inherits="NewJson.Format.SqlFormat" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <meta name="keywords" content="sql格式化,sql美化,sql压缩,sql整理,sql加密"/>
@@ -11,7 +11,7 @@
                                 <div class="media">
                                     <div class="media-body">
                                         <h4 class="media-heading">
-                                            Sql格式化 压缩</h4>
+                                            Sql格式化,压缩</h4>
                                     </div>
                                 </div>
                             </div>

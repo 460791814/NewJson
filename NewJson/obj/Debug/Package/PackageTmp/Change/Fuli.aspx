@@ -1,4 +1,4 @@
-﻿<%@ Page Title="复利计算器-在线复利计算器" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true"
+﻿<%@ Page Title="复利计算器,在线复利计算器" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true"
     CodeBehind="Fuli.aspx.cs" Inherits="NewJson.Change.Fuli" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
@@ -11,7 +11,7 @@
             <div class="media">
                 <div class="media-body">
                     <h4 class="media-heading">
-                        复利计算器-在线复利计算器</h4>
+                        复利计算器,在线复利计算器</h4>
                 </div>
             </div>
         </div>

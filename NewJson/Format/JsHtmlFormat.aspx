@@ -1,4 +1,4 @@
-﻿<%@ Page Title="js/html格式化 解压缩 加密"  Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="JsHtmlFormat.aspx.cs"
+﻿<%@ Page Title="js/html格式化,解压缩,加密"  Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="JsHtmlFormat.aspx.cs"
     Inherits="NewJson.Format.JsHtmlFormat" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
@@ -11,7 +11,7 @@
             <div class="media">
                 <div class="media-body">
                     <h4 class="media-heading">
-                        js/html格式化 解压缩 加密</h4>
+                        js/html格式化,解压缩,加密</h4>
                 </div>
             </div>
         </div>

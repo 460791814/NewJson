@@ -177,7 +177,6 @@
     <Content Include="EncDec\Base64.aspx" />
     <Content Include="EncDec\Escape.aspx" />
     <Content Include="EncDec\Htpasswd.aspx" />
-    <Content Include="EncDec\JsConfusion.aspx" />
     <Content Include="EncDec\JsEval.aspx" />
     <Content Include="EncDec\MD5.aspx" />
     <Content Include="EncDec\Morse.aspx" />
@@ -539,7 +538,6 @@
     <Content Include="Json\JsonLint.aspx" />
     <Content Include="Json\jsonlint.html" />
     <Content Include="Json\JsonCheck.aspx" />
-    <Content Include="Json\Jsoncn.aspx" />
     <Content Include="Json\JsonCode.aspx" />
     <Content Include="Json\JsonComponent.aspx" />
     <Content Include="Json\JsonEditor.aspx" />
@@ -1240,13 +1238,6 @@
     <Compile Include="EncDec\Htpasswd.aspx.designer.cs">
       <DependentUpon>Htpasswd.aspx</DependentUpon>
     </Compile>
-    <Compile Include="EncDec\JsConfusion.aspx.cs">
-      <DependentUpon>JsConfusion.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="EncDec\JsConfusion.aspx.designer.cs">
-      <DependentUpon>JsConfusion.aspx</DependentUpon>
-    </Compile>
     <Compile Include="EncDec\JsEval.aspx.cs">
       <DependentUpon>JsEval.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1351,13 +1342,6 @@
     </Compile>
     <Compile Include="Json\JsonCheck.aspx.designer.cs">
       <DependentUpon>JsonCheck.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Json\Jsoncn.aspx.cs">
-      <DependentUpon>Jsoncn.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Json\Jsoncn.aspx.designer.cs">
-      <DependentUpon>Jsoncn.aspx</DependentUpon>
     </Compile>
     <Compile Include="Json\JsonCode.aspx.cs">
       <DependentUpon>JsonCode.aspx</DependentUpon>

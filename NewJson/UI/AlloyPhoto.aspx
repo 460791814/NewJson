@@ -4,7 +4,7 @@
 
 <html>
 <head>
-  <title>AlloyPhoto 简约版--Tencent AlloyTeam</title>
+  <title>AlloyPhoto简约版 - newjson.com</title>
       <meta name="keywords" content="AlloyPhoto,美肤,素描,自然增强,紫调,柔焦,复古,黑白,仿lomo,亮白增强,灰白,灰色,暖秋,木雕,粗糙">
     <meta name="description" content="在线工具,美肤,素描,自然增强,紫调,柔焦,复古,黑白,仿lomo,亮白增强,灰白,灰色,暖秋,木雕,粗糙">
       <link href="/Css/mobile.css" rel="stylesheet" type="text/css" />

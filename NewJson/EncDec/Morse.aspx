@@ -1,4 +1,4 @@
-﻿<%@ Page Title="在线摩斯密码加密 摩斯密码解密" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true"
+﻿<%@ Page Title="在线摩斯密码加密,摩斯密码解密" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true"
     CodeBehind="Morse.aspx.cs" Inherits="NewJson.EncDec.Morse" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
@@ -11,7 +11,7 @@
             <div class="media">
                 <div class="media-body">
                     <h4 class="media-heading">
-                        在线摩斯密码加密 摩斯密码解密</h4>
+                        在线摩斯密码加密,摩斯密码解密</h4>
                 </div>
             </div>
         </div>

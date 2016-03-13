@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Json格式化校验 Json在线解析" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="JsonCheck.aspx.cs"
+﻿<%@ Page Title="Json格式化校验,Json在线解析" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="JsonCheck.aspx.cs"
     Inherits="NewJson.Json.JsonCheck" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
@@ -21,7 +21,7 @@
             <div class="media">
                 <div class="media-body">
                     <h4 class="media-heading" style=" float:left" >
-                        Json格式化校验 Json在线解析</h4> <div>
+                        Json格式化校验,Json在线解析</h4> <div>
                             <a href="/json/aboutjson/" style=" margin:20px">什么是json?</a><a href="/json/jsoncode/">json解析</a></div>
                 </div>
             </div>
