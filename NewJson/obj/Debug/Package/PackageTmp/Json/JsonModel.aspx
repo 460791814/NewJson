@@ -1,4 +1,4 @@
-﻿<%@ Page Title="在线Josn生成器,Json生成实体类,支持Java,C#,VB.net,TypeScript" Language="C#" MasterPageFile="~/Main.Master"
+﻿<%@ Page Title="在线Json生成器,Json生成实体类,支持Java,C#,VB.net,TypeScript" Language="C#" MasterPageFile="~/Main.Master"
     AutoEventWireup="true" CodeBehind="JsonModel.aspx.cs" Inherits="NewJson.Json.JsonModel" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
