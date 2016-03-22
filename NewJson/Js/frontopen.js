@@ -353,6 +353,7 @@ function rollNav(){
 			'width':TnavWidth,
 			}
 		)
+       
 		TnavBot.after('<div id="navbei" style="height:55px;"></div>')
 		doNow3 = 1;
 		

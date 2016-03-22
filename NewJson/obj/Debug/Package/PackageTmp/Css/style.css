@@ -112,7 +112,7 @@ a.more-link:hover{color:#FFF}
 .side .sideul{margin-top:15px;padding-left:20px}
 .side li ul{overflow:hidden}
 .side ul li{line-height:28px;font-size:14px;margin-top:0px;color:#555;padding-left:3%;background:url(../Images/li-pic.gif) left 13px no-repeat}
-.sub-menu{position:absolute;z-index:10;background:#999}
+.sub-menu{position:absolute;z-index:10000;background:#999}
 .sub-menu .menu-item{background:#999;border-right:none;font-size:14px;line-height:30px;float:none;position:relative;height:30px;vertical-align:top;display:none;width:100% !important}
 .sub-menu .sub-menu{top:0}
 .nav_button{filter:alpha(opacity=70);opacity:0.7}
@@ -461,4 +461,5 @@ text-decoration:none;
 a:active{
 text-decoration:none;
 }
+.remark{padding:30px;line-height:30px;border-left:solid 1px #ddd;border:solid 1px #ddd;border-radius:5px;}
 /*自定义结束*/
