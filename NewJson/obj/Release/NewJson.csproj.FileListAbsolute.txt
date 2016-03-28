@@ -1,0 +1,14 @@
+D:\Code\Web\NewJson\NewJson\obj\Release\NewJson.csprojResolveAssemblyReference.cache
+D:\Code\Web\NewJson\NewJson\bin\NewJson.dll.config
+D:\Code\Web\NewJson\NewJson\bin\NewJson.dll
+D:\Code\Web\NewJson\NewJson\bin\NewJson.pdb
+D:\Code\Web\NewJson\NewJson\bin\CommonTool.dll
+D:\Code\Web\NewJson\NewJson\bin\Newtonsoft.Json.dll
+D:\Code\Web\NewJson\NewJson\bin\URLRewriter.dll
+D:\Code\Web\NewJson\NewJson\bin\Xamasoft.JsonClassGenerator.dll
+D:\Code\Web\NewJson\NewJson\bin\System.Data.Entity.Design.PluralizationServices.dll
+D:\Code\Web\NewJson\NewJson\bin\CommonTool.pdb
+D:\Code\Web\NewJson\NewJson\bin\Xamasoft.JsonClassGenerator.pdb
+D:\Code\Web\NewJson\NewJson\bin\URLRewriter.pdb
+D:\Code\Web\NewJson\NewJson\obj\Release\NewJson.dll
+D:\Code\Web\NewJson\NewJson\obj\Release\NewJson.pdb
