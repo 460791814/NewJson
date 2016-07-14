@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Json在线编辑器" MasterPageFile="~/Main.Master" Language="C#" AutoEventWireup="true" 
+﻿<%@ Page Title="Json在线编辑器,Json" MasterPageFile="~/Main.Master" Language="C#" AutoEventWireup="true" 
     CodeBehind="JsonEditor.aspx.cs" Inherits="NewJson.Json.JsonEditor" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">

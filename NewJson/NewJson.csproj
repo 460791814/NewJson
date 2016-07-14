@@ -107,6 +107,9 @@
     <Content Include="Css\json\jsonlint\screen.css" />
     <Content Include="Css\math\9me.css" />
     <Content Include="Css\math\9mime.css" />
+    <Content Include="Css\math\base.css" />
+    <Content Include="Css\math\site.min.css" />
+    <Content Include="Css\math\toolstyle.css" />
     <Content Include="Css\toolstyle.css" />
     <Content Include="Css\tools\diff\2345d7812e114320a2d2d823782cc6b4.css" />
     <Content Include="Css\tools\diff\codemirror.css" />
@@ -142,6 +145,7 @@
     <Content Include="Docs\HTTPContentType.aspx" />
     <Content Include="Docs\HttpStatus.aspx" />
     <Content Include="Docs\Json\array.gif" />
+    <Content Include="Docs\Json\Index.html" />
     <Content Include="Docs\Json\json-ar.html" />
     <Content Include="Docs\Json\json-bg.html" />
     <Content Include="Docs\Json\json-cz.html" />
@@ -544,6 +548,7 @@
     <Content Include="Json\AboutJson.aspx" />
     <Content Include="Json\Excel2Json.aspx" />
     <Content Include="Json\GetPostJson.aspx" />
+    <Content Include="Json\Json2Csharp.aspx" />
     <Content Include="Json\jsonlint留底.html" />
     <Content Include="Json\JsonLint.aspx" />
     <Content Include="Json\jsonlint.html" />
@@ -629,10 +634,14 @@
     <Content Include="Js\change\numeral.min.js" />
     <Content Include="Js\change\unix_time.js" />
     <Content Include="Js\commoncheck.js" />
+    <Content Include="Js\json\json2csharp\jsontocsharp.js" />
     <Content Include="Js\json\jsonlint\jsl.format.js" />
     <Content Include="Js\json\jsonlint\jsl.parser.js" />
     <Content Include="Js\json\jsonlint\json2.js" />
     <Content Include="Js\json\jsonlint\main.js" />
+    <Content Include="Js\math\ipcalc.js" />
+    <Content Include="Js\tools\calculator\jq-calculator.js" />
+    <Content Include="Js\tools\calculator\jq-tools.js" />
     <Content Include="Js\tools\fuhao\main.js" />
     <Content Include="Css\tools\fuhao\fuhao.css" />
     <Content Include="Js\tools\fuhao\symbol.js" />
@@ -1118,8 +1127,21 @@
     <Content Include="Lib\Newtonsoft.Json.dll" />
     <Content Include="Lib\System.Data.Entity.Design.PluralizationServices.dll" />
     <Content Include="Lib\Xamasoft.JsonClassGenerator.dll" />
-    <Content Include="Math\SSO.aspx" />
+    <Content Include="Math\Angle.aspx" />
+    <Content Include="Math\Area.aspx" />
+    <Content Include="Math\DataStore.aspx" />
+    <Content Include="Math\Density.aspx" />
+    <Content Include="Math\Force.aspx" />
+    <Content Include="Math\Heat.aspx" />
+    <Content Include="Math\Length.aspx" />
+    <Content Include="Math\Power.aspx" />
+    <Content Include="Math\Pressure.aspx" />
+    <Content Include="Math\Speed.aspx" />
+    <Content Include="Math\SubNetMask.aspx" />
     <Content Include="Math\TaxTool.aspx" />
+    <Content Include="Math\Temperature.aspx" />
+    <Content Include="Math\Time.aspx" />
+    <Content Include="Math\Volume.aspx" />
     <Content Include="Picture\1443430414000418.jpg" />
     <Content Include="Picture\360.png" />
     <Content Include="Picture\AlloyPhoto\big.jpg" />
@@ -1198,8 +1220,10 @@
     <Content Include="Picture\spacer.gif" />
     <Content Include="Template\footer.htm" />
     <Content Include="Template\header.htm" />
+    <Content Include="Template\map.html" />
     <Content Include="Template\menu.htm" />
     <Content Include="Test.aspx" />
+    <Content Include="Tools\Calculator.aspx" />
     <Content Include="Tools\Diff.aspx" />
     <Content Include="Tools\ewm.htm" />
     <Content Include="Tools\FuHao.aspx" />
@@ -1622,6 +1646,13 @@
     <Compile Include="Json\GetPostJson.aspx.designer.cs">
       <DependentUpon>GetPostJson.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Json\Json2Csharp.aspx.cs">
+      <DependentUpon>Json2Csharp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Json\Json2Csharp.aspx.designer.cs">
+      <DependentUpon>Json2Csharp.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Json\JsonCheck.aspx.cs">
       <DependentUpon>JsonCheck.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1699,12 +1730,82 @@
     <Compile Include="Main.Master.designer.cs">
       <DependentUpon>Main.Master</DependentUpon>
     </Compile>
-    <Compile Include="Math\SSO.aspx.cs">
-      <DependentUpon>SSO.aspx</DependentUpon>
+    <Compile Include="Math\Angle.aspx.cs">
+      <DependentUpon>Angle.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Math\SSO.aspx.designer.cs">
-      <DependentUpon>SSO.aspx</DependentUpon>
+    <Compile Include="Math\Angle.aspx.designer.cs">
+      <DependentUpon>Angle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Math\Area.aspx.cs">
+      <DependentUpon>Area.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Math\Area.aspx.designer.cs">
+      <DependentUpon>Area.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Math\DataStore.aspx.cs">
+      <DependentUpon>DataStore.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Math\DataStore.aspx.designer.cs">
+      <DependentUpon>DataStore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Math\Density.aspx.cs">
+      <DependentUpon>Density.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Math\Density.aspx.designer.cs">
+      <DependentUpon>Density.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Math\Force.aspx.cs">
+      <DependentUpon>Force.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Math\Force.aspx.designer.cs">
+      <DependentUpon>Force.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Math\Heat.aspx.cs">
+      <DependentUpon>Heat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Math\Heat.aspx.designer.cs">
+      <DependentUpon>Heat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Math\Length.aspx.cs">
+      <DependentUpon>Length.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Math\Length.aspx.designer.cs">
+      <DependentUpon>Length.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Math\Power.aspx.cs">
+      <DependentUpon>Power.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Math\Power.aspx.designer.cs">
+      <DependentUpon>Power.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Math\Pressure.aspx.cs">
+      <DependentUpon>Pressure.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Math\Pressure.aspx.designer.cs">
+      <DependentUpon>Pressure.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Math\Speed.aspx.cs">
+      <DependentUpon>Speed.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Math\Speed.aspx.designer.cs">
+      <DependentUpon>Speed.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Math\SubNetMask.aspx.cs">
+      <DependentUpon>SubNetMask.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Math\SubNetMask.aspx.designer.cs">
+      <DependentUpon>SubNetMask.aspx</DependentUpon>
     </Compile>
     <Compile Include="Math\TaxTool.aspx.cs">
       <DependentUpon>TaxTool.aspx</DependentUpon>
@@ -1713,6 +1814,27 @@
     <Compile Include="Math\TaxTool.aspx.designer.cs">
       <DependentUpon>TaxTool.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Math\Temperature.aspx.cs">
+      <DependentUpon>Temperature.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Math\Temperature.aspx.designer.cs">
+      <DependentUpon>Temperature.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Math\Time.aspx.cs">
+      <DependentUpon>Time.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Math\Time.aspx.designer.cs">
+      <DependentUpon>Time.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Math\Volume.aspx.cs">
+      <DependentUpon>Volume.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Math\Volume.aspx.designer.cs">
+      <DependentUpon>Volume.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test.aspx.cs">
       <DependentUpon>Test.aspx</DependentUpon>
@@ -1720,6 +1842,13 @@
     </Compile>
     <Compile Include="Test.aspx.designer.cs">
       <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\Calculator.aspx.cs">
+      <DependentUpon>Calculator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tools\Calculator.aspx.designer.cs">
+      <DependentUpon>Calculator.aspx</DependentUpon>
     </Compile>
     <Compile Include="Tools\Diff.aspx.cs">
       <DependentUpon>Diff.aspx</DependentUpon>

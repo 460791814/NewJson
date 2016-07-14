@@ -29,6 +29,30 @@ var CrayonSyntaxStrings = {"copy":"\u4f7f\u7528 %s \u590d\u5236\uff0c\u4f7f\u752
 </script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <style>
+         .map_topul>li {
+          clear:both;
+        }
+          .sub-map li{
+              display:block;
+        float:left;
+        padding:5px 10px;
+        }
+        .sub-map {
+         
+         margin-left:125px;
+        }
+        .map_topulli > a { float: left;  
+                           width:125px;
+                           text-align:right;
+          padding:5px 10px;
+          color:#000;
+         font-weight:bold;
+        }
+        .map_topulli{
+            float: left;    
+          border-bottom:1px solid #ddd;}
+    </style>
 </head>
 <body class="archive category category-unity category-195">
    <div class="loading">
@@ -55,7 +79,7 @@ var CrayonSyntaxStrings = {"copy":"\u4f7f\u7528 %s \u590d\u5236\uff0c\u4f7f\u752
                             <asp:ContentPlaceHolder ID="Content" runat="server">
         
                             </asp:ContentPlaceHolder>
-           
+             <!-- #include file="/Template/map.html" -->
                       </div>
                 </div>
             </div>

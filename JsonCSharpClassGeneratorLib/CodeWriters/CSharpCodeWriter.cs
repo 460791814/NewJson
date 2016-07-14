@@ -64,24 +64,24 @@ namespace Xamasoft.JsonClassGenerator.CodeWriters
         {
             if (config.UseNamespaces)
             {
-                foreach (var line in JsonClassGenerator.FileHeader)
-                {
-                    sw.WriteLine("// " + line);
-                }
-                sw.WriteLine();
-                sw.WriteLine("using System;");
-                sw.WriteLine("using System.Collections.Generic;");
-                if (ShouldApplyNoPruneAttribute(config) || ShouldApplyNoRenamingAttribute(config))
-                    sw.WriteLine("using System.Reflection;");
-                if (!config.ExplicitDeserialization && config.UsePascalCase)
-                    sw.WriteLine("using Newtonsoft.Json;");
-                sw.WriteLine("using Newtonsoft.Json.Linq;");
-                if (config.ExplicitDeserialization)
-                    sw.WriteLine("using JsonCSharpClassGenerator;");
-                if (config.SecondaryNamespace != null && config.HasSecondaryClasses && !config.UseNestedClasses)
-                {
-                    sw.WriteLine("using {0};", config.SecondaryNamespace);
-                }
+                //foreach (var line in JsonClassGenerator.FileHeader)
+                //{
+                //    sw.WriteLine("// " + line);
+                //}
+                //sw.WriteLine();
+                //sw.WriteLine("using System;");
+                //sw.WriteLine("using System.Collections.Generic;");
+                //if (ShouldApplyNoPruneAttribute(config) || ShouldApplyNoRenamingAttribute(config))
+                //    sw.WriteLine("using System.Reflection;");
+                //if (!config.ExplicitDeserialization && config.UsePascalCase)
+                //    sw.WriteLine("using Newtonsoft.Json;");
+                //sw.WriteLine("using Newtonsoft.Json.Linq;");
+                //if (config.ExplicitDeserialization)
+                //    sw.WriteLine("using JsonCSharpClassGenerator;");
+                //if (config.SecondaryNamespace != null && config.HasSecondaryClasses && !config.UseNestedClasses)
+                //{
+                //    sw.WriteLine("using {0};", config.SecondaryNamespace);
+                //}
             }
 
             if (config.UseNestedClasses)
@@ -102,7 +102,7 @@ namespace Xamasoft.JsonClassGenerator.CodeWriters
 
         public void WriteNamespaceStart(IJsonClassGeneratorConfig config, TextWriter sw, bool root)
         {
-            sw.WriteLine();
+            //sw.WriteLine();
             sw.WriteLine("namespace {0}", root && !config.UseNestedClasses ? config.Namespace : (config.SecondaryNamespace ?? config.Namespace));
             sw.WriteLine("{");
             sw.WriteLine();
@@ -182,6 +182,7 @@ namespace Xamasoft.JsonClassGenerator.CodeWriters
 
         private void WriteClassMembers(IJsonClassGeneratorConfig config, TextWriter sw, JsonType type, string prefix)
         {
+            if (false) { 
             foreach (var field in type.Fields)
             {
                 if (config.UsePascalCase || config.ExamplesInDocumentation) sw.WriteLine();
@@ -195,6 +196,7 @@ namespace Xamasoft.JsonClassGenerator.CodeWriters
 
                 sw.WriteLine(prefix + "private {0} {1};", field.Type.GetTypeName(), field.MemberName.Substring(0, 1).ToLower() + field.MemberName.Substring(1));
 
+            }
             }
 
             foreach (var field in type.Fields)
@@ -216,14 +218,14 @@ namespace Xamasoft.JsonClassGenerator.CodeWriters
 
                 if (config.UseProperties)
                 {
-                   // sw.WriteLine(prefix + "public {0} {1} {{ get; set; }}", field.Type.GetTypeName(), field.MemberName);
+                    sw.WriteLine(prefix + "public {0} {1} {{ get; set; }}", field.Type.GetTypeName(), field.MemberName);
 
-                    sw.WriteLine(prefix + "public {0} {1} ", field.Type.GetTypeName(), field.MemberName);
-                    sw.WriteLine(prefix + "{");
-                    string privateName=field.MemberName.Substring(0, 1).ToLower() + field.MemberName.Substring(1);
-                    sw.WriteLine(prefix + "    get { return this."+privateName+"; }");
-                    sw.WriteLine(prefix + "    set { this." + privateName + " = value; }");
-                    sw.WriteLine(prefix + "}");
+                    //sw.WriteLine(prefix + "public {0} {1} ", field.Type.GetTypeName(), field.MemberName);
+                    //sw.WriteLine(prefix + "{");
+                    //string privateName=field.MemberName.Substring(0, 1).ToLower() + field.MemberName.Substring(1);
+                    //sw.WriteLine(prefix + "    get { return this."+privateName+"; }");
+                    //sw.WriteLine(prefix + "    set { this." + privateName + " = value; }");
+                    //sw.WriteLine(prefix + "}");
                 }
                 else
                 {

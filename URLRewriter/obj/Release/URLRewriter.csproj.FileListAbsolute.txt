@@ -19,3 +19,7 @@ C:\Users\carl110\Desktop\code\JZHQ\URLRewriter\bin\Release\URLRewriter.pdb
 C:\Users\carl110\Desktop\code\JZHQ\URLRewriter\obj\Release\URLRewriter.dll
 C:\Users\carl110\Desktop\code\JZHQ\URLRewriter\obj\Release\URLRewriter.pdb
 C:\Users\carl110\Desktop\code\JZHQ\URLRewriter\obj\Release\URLRewriter.csprojResolveAssemblyReference.cache
+D:\Code\Web\NewJson\URLRewriter\bin\Release\URLRewriter.dll
+D:\Code\Web\NewJson\URLRewriter\bin\Release\URLRewriter.pdb
+D:\Code\Web\NewJson\URLRewriter\obj\Release\URLRewriter.dll
+D:\Code\Web\NewJson\URLRewriter\obj\Release\URLRewriter.pdb

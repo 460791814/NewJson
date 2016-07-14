@@ -63,7 +63,7 @@ namespace NewJson.Json
 
             int internalVis = Utils.GetInt(Request["xsf"]);
             int useField = Utils.GetInt(Request["pf"]);
-            int usePascalCase = Utils.GetInt(Request["mm"]);
+            int usePascalCase = 1;// Utils.GetInt(Request["mm"]);
             var gen = new JsonClassGenerator();
             //json字符串
             gen.Example = jsonstr;
@@ -109,6 +109,7 @@ namespace NewJson.Json
             gen.SingleFile = true;
             //生成文档范例
             gen.ExamplesInDocumentation = false;
+            
             return gen;
         }
     }

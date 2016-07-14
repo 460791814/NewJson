@@ -168,7 +168,7 @@
             param += "&xsf=" + $("#hid_xsf").val();
             param += "&pf=" + $("#hid_pf").val();
             param += "&mm=" + $("#hid_mm").val();
-            param += "&jsonstr=" + $("#text_input").val();
+            param += "&jsonstr=" +encodeURIComponent( $("#text_input").val());
             $.ajax({
                 type: 'POST',
                 url: "/Json/JsonModel.aspx",

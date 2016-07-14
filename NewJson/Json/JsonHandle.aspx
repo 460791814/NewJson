@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Json压缩转义" MasterPageFile="~/Main.Master" Language="C#" AutoEventWireup="true"
+﻿<%@ Page Title="Json压缩转义,Json" MasterPageFile="~/Main.Master" Language="C#" AutoEventWireup="true"
     CodeBehind="JsonHandle.aspx.cs" Inherits="NewJson.Json.JsonHandle" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">

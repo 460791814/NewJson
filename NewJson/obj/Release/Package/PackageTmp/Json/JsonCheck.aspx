@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Json格式化校验,Json在线解析" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="JsonCheck.aspx.cs"
+﻿<%@ Page Title="Json格式化校验,Json在线解析,Json" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="JsonCheck.aspx.cs"
     Inherits="NewJson.Json.JsonCheck" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
@@ -21,7 +21,7 @@
             <div class="media">
                 <div class="media-body">
                     <h2 class="media-heading" style=" float:left" >
-                        Json格式化校验,Json在线解析</h2> <div>
+                        Json格式化校验,Json在线解析,Json</h2> <div>
                             <a href="/json/aboutjson/" style=" margin:20px">什么是json?</a><a href="/json/jsoncode/">json解析</a></div>
                 </div>
             </div>
@@ -31,17 +31,8 @@
           
             <input type="hidden" id="reformat" value="1" />
             <input type="hidden" id="compress" value="0" />
-            <div   style="border: 1px solid #ddd;border-radius: 4px;-webkit-box-shadow: none;box-shadow: none;margin-bottom:10px">
-                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- newjson -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2074038887353115"
-     data-ad-slot="3245773784"
-     data-ad-format="auto"></ins>
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+            <div   style="display:none; border: 1px solid #ddd;border-radius: 4px;-webkit-box-shadow: none;box-shadow: none;margin-bottom:10px">
+                   
 
                 </div>
             <div>

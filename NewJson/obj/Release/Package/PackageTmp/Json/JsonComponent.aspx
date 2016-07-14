@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Json常用组件" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="JsonComponent.aspx.cs" Inherits="NewJson.Json.JsonComponent" %>
+﻿<%@ Page Title="Json常用组件,Json" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="JsonComponent.aspx.cs" Inherits="NewJson.Json.JsonComponent" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <meta name="keywords" content="在线,Json常用组件">
     <meta name="description" content="在线,Json常用组件">  

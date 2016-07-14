@@ -62,11 +62,11 @@ namespace Xamasoft.JsonClassGenerator.CodeWriters
         {
             if (config.UseNamespaces)
             {
-                foreach (var line in JsonClassGenerator.FileHeader)
-                {
-                    sw.WriteLine("// " + line);
-                }
-                sw.WriteLine();
+                //foreach (var line in JsonClassGenerator.FileHeader)
+                //{
+                //    sw.WriteLine("// " + line);
+                //}
+                //sw.WriteLine();
 
             
                 
@@ -102,7 +102,7 @@ namespace Xamasoft.JsonClassGenerator.CodeWriters
         {
             var visibility = "public";
 
-            sw.WriteLine("--------------------------------------");
+            sw.WriteLine();
             sw.WriteLine("package {0};",config.Namespace );
             if (config.UseNestedClasses)
             {
@@ -167,19 +167,22 @@ namespace Xamasoft.JsonClassGenerator.CodeWriters
 
         private void WriteClassMembers(IJsonClassGeneratorConfig config, TextWriter sw, JsonType type, string prefix)
         {
-            foreach (var field in type.Fields)
+            if (config.UseProperties)
             {
-                if (config.UsePascalCase || config.ExamplesInDocumentation) sw.WriteLine();
-
-                if (config.UsePascalCase)
+                foreach (var field in type.Fields)
                 {
+                    if (config.UsePascalCase || config.ExamplesInDocumentation) sw.WriteLine();
 
-                    // sw.WriteLine(prefix + "[JsonProperty(\"{0}\")]", field.JsonMemberName);
+                    if (config.UsePascalCase)
+                    {
+
+                        // sw.WriteLine(prefix + "[JsonProperty(\"{0}\")]", field.JsonMemberName);
+                    }
+
+
+                    sw.WriteLine(prefix + "private {0} {1};", field.Type.GetTypeName(), field.MemberName.Substring(0, 1).ToUpper() + field.MemberName.Substring(1));
+
                 }
-
-
-                sw.WriteLine(prefix + "private {0} {1};", field.Type.GetTypeName(), field.MemberName.Substring(0, 1).ToUpper() + field.MemberName.Substring(1));
-                
             }
             foreach (var field in type.Fields)
             {
